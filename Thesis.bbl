@@ -1,3 +1,59 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Coulson2004}
+M.~Coulson.
+\newblock {Attributing emotion to static body postures: recongition accuracy,
+  confusion and view point dependence}.
+\newblock {\em Journal of Nonverbal Behavior}, 28(2):117--139, 2004.
+
+\bibitem{Ekman1969}
+P.~Ekman, E.~R. Sorenson, and W.~V. Friesen.
+\newblock {Pan-Cultural Elements in Facial Displays of Emotion}, 1969.
+
+\bibitem{Gao2012}
+Y.~Gao, N.~Bianchi-Berthouze, and H.~Meng.
+\newblock {What Does Touch Tell Us about Emotions in Touchscreen-Based
+  Gameplay?}
+\newblock {\em ACM Transactions on Computer-Human Interaction}, 19(4):1--30,
+  2012.
+
+\bibitem{Picard1995}
+R.~W. Picard.
+\newblock {Affective Computing}.
+\newblock {\em MIT press}, (321):1--16, 1995.
+
+\bibitem{Picard1997}
+R.~W. Picard.
+\newblock {\em Affective computing}, volume 252.
+\newblock MIT press Cambridge, 1997.
+
+\bibitem{Silva1997}
+L.~C. D.~E. Silva and I.~T. Miyasato.
+\newblock {Facial Emotion Recognition Using}.
+\newblock (September):9--12, 1997.
+
+\bibitem{Soleymani2015}
+M.~Soleymani, M.~Pantic, and T.~Pun.
+\newblock {Multimodal emotion recognition in response to videos (Extended
+  abstract)}.
+\newblock {\em 2015 International Conference on Affective Computing and
+  Intelligent Interaction, ACII 2015}, 3(2):491--497, 2015.
+
+\bibitem{Ververidis2004}
+D.~Ververidis, C.~Kotropoulos, and P.~Ioannis.
+\newblock {Automatic Emotional Speech Classification}.
+\newblock {\em Artificial Intelligence and Information Analysis Laboratory},
+  pages 593-- 596, 2004.
+
+\bibitem{Wallbott1998}
+H.~G. Wallbott.
+\newblock {Bodily Expression of Emotion}.
+\newblock {\em European Journal of Social Psychology}, 28(6):879--896, 1998.
+
+\bibitem{Wioleta2013}
+S.~Wioleta.
+\newblock {Using physiological signals for emotion recognition}.
+\newblock {\em Human System Interaction (HSI), 2013 The 6th {\ldots}}, pages
+  556--561, 2013.
 
 \end{thebibliography}
