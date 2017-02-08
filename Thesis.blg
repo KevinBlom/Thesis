@@ -4,48 +4,49 @@ The top-level auxiliary file: Thesis.aux
 The style file: abbrv.bst
 Database file #1: library.bib
 Database file #2: Alternative.bib
+Warning--there's a number but no volume in Likamwa2013
 Warning--there's a number but no volume in Picard1995
 Warning--empty journal in Silva1997
 Warning--there's a number but no volume in Silva1997
-You've used 10 entries,
+You've used 16 entries,
             2118 wiz_defined-function locations,
-            572 strings with 5270 characters,
-and the built_in function-call counts, 3238 in all, are:
-= -- 331
-> -- 120
-< -- 3
-+ -- 48
-- -- 38
-* -- 223
-:= -- 531
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 48
+            612 strings with 6540 characters,
+and the built_in function-call counts, 5396 in all, are:
+= -- 550
+> -- 216
+< -- 5
++ -- 86
+- -- 70
+* -- 372
+:= -- 875
+add.period$ -- 46
+call.type$ -- 16
+change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 125
-empty$ -- 263
-format.name$ -- 38
-if$ -- 676
+cite$ -- 20
+duplicate$ -- 207
+empty$ -- 426
+format.name$ -- 70
+if$ -- 1134
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 52
-num.names$ -- 20
-pop$ -- 49
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 81
+num.names$ -- 32
+pop$ -- 83
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 67
 quote$ -- 0
-skip$ -- 91
+skip$ -- 159
 stack$ -- 0
-substring$ -- 240
-swap$ -- 28
-text.length$ -- 3
+substring$ -- 392
+swap$ -- 54
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
-warning$ -- 3
-while$ -- 38
-width$ -- 12
-write$ -- 108
-(There were 3 warnings)
+type$ -- 62
+warning$ -- 4
+while$ -- 61
+width$ -- 18
+write$ -- 171
+(There were 4 warnings)

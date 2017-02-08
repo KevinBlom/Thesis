@@ -6,6 +6,10 @@ M.~Coulson.
   confusion and view point dependence}.
 \newblock {\em Journal of Nonverbal Behavior}, 28(2):117--139, 2004.
 
+\bibitem{Ekman1992}
+P.~Ekman.
+\newblock {An argument for basic emotions}, 1992.
+
 \bibitem{Ekman1969}
 P.~Ekman, E.~R. Sorenson, and W.~V. Friesen.
 \newblock {Pan-Cultural Elements in Facial Displays of Emotion}, 1969.
@@ -17,6 +21,26 @@ Y.~Gao, N.~Bianchi-Berthouze, and H.~Meng.
 \newblock {\em ACM Transactions on Computer-Human Interaction}, 19(4):1--30,
   2012.
 
+\bibitem{H.R.LvZ.L.LinW.J.Yin2008}
+J.~D. {H. R. Lv, Z. L. Lin, W. J. Yin}.
+\newblock {Emotion recognition based on pressure sensor keyboards}.
+\newblock {\em 2008 IEEE International Conference on Multimedia and Expo},
+  pages 1089--1092, 2008.
+
+\bibitem{Lee2012}
+H.~Lee, Y.~S. Choi, S.~Lee, and I.~P. Park.
+\newblock {Towards unobtrusive emotion recognition for affective social
+  communication}.
+\newblock {\em 2012 IEEE Consumer Communications and Networking Conference,
+  CCNC'2012}, pages 260--264, 2012.
+
+\bibitem{Likamwa2013}
+R.~Likamwa, Y.~Liu, N.~D. Lane, and L.~Zhong.
+\newblock {MoodScope: Building a Mood Sensor from Smartphone Usage Patterns}.
+\newblock {\em MobiSys '13 Proceeding of the 11th annual international
+  conference on Mobile systems, applications, and services}, (April):389--402,
+  2013.
+
 \bibitem{Picard1995}
 R.~W. Picard.
 \newblock {Affective Computing}.
@@ -26,6 +50,18 @@ R.~W. Picard.
 R.~W. Picard.
 \newblock {\em Affective computing}, volume 252.
 \newblock MIT press Cambridge, 1997.
+
+\bibitem{Posner2005}
+J.~Posner, J.~A. Russell, and B.~S. Peterson.
+\newblock {The circumplex model of affect: an integrative approach to affective
+  neuroscience, cognitive development, and psychopathology.}
+\newblock {\em Development and psychopathology}, 17(3):715--34, 2005.
+
+\bibitem{Shah2015}
+S.~Shah, J.~N. Teja, and S.~Bhattacharya.
+\newblock {Towards affective touch interaction: predicting mobile user emotion
+  from finger strokes}.
+\newblock {\em Journal of Interaction Science}, 3(1):6, 2015.
 
 \bibitem{Silva1997}
 L.~C. D.~E. Silva and I.~T. Miyasato.
