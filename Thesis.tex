@@ -129,7 +129,22 @@ From the related work can be concluded that most types of detection of emotions 
 
 \section{Methods} % (fold)
 \label{sec:methods}
-In order to test whether pressure of taps on a touchscreen are correlated with emotion, 
+In order to test for correlation between touchscreen taps and emotion, a device specific application was written for gathering pressure data when an emotional response was elicited using \textbf{FOTOSET?} photo set.
+
+\subsection{Emotional elicitation} % (fold)
+\label{sub:emotional_elicitation}
+Using a standardized photo set that has been thoroughly research for emotional response when showed to participants, a ground truth for emotion can be set. The \textbf{FOTOSET?} photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. Every participant was shown 40 pictures that were randomly selected from the complete database.
+% subsection emotional_elicitation (end)
+
+\subsection{Tap detection} % (fold)
+\label{sub:tap_detection}
+Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.2.1. The pressure of taps can be registered on a floating point scale from 0.0 to 6.67. Every tap returns on average 6 registrations of force in chronological order, creating a graph of pressure-over-time for every tap. For every picture that was shown to participants, five taps were registered in order to capture more data specific on the elicted emotion.
+% subsection tap_detection (end)
+
+\begin{enumerate}
+	\item 
+\end{enumerate}
+
 
 \begin{itemize}
 	\item Overview of the research.

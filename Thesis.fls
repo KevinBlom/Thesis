@@ -160,12 +160,20 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aeti9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aebx9.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aebx9.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
