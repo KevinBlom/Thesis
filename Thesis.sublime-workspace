@@ -43,7 +43,7 @@
 			"file": "Thesis.tex",
 			"settings":
 			{
-				"buffer_size": 11021,
+				"buffer_size": 12241,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -265,15 +265,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11021,
+						"buffer_size": 12241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3462,
-								3465
+								10868,
+								10868
 							]
 						],
 						"settings":
@@ -281,7 +281,7 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2666.0,
+						"translation.y": 2706.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
