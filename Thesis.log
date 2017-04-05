@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.11)  22 MAR 2017 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.11)  28 MAR 2017 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,8 +401,8 @@ nation with the same identifier (name{page.}) has been already used, duplicate
 ignored
 <to be read again> 
                    \relax 
-l.94 \bibitem{Wioleta2013}
-                           [2])
+l.90 \bibitem{Ververidis2004}
+                              [2])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -421,10 +421,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 6885 strings out of 493014
- 96689 string characters out of 6133351
- 194683 words of memory out of 5000000
- 10288 multiletter control sequences out of 15000+600000
+ 6887 strings out of 493014
+ 96728 string characters out of 6133351
+ 194722 words of memory out of 5000000
+ 10289 multiletter control sequences out of 15000+600000
  48469 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,35p,1525b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -437,10 +437,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb>
 Output written on "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" (3 pages
-, 98665 bytes).
+, 99082 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

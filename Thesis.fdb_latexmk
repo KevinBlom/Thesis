@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex Thesis"] 1490173866 "Thesis.aux" "Thesis.bbl" "Thesis" 1490173867
+["bibtex Thesis"] 1490702818 "Thesis.aux" "Thesis.bbl" "Thesis" 1490702819
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
   "Alternative.bib" 1484144109 146 58f06b98373c8a66b6cc204d5941cdc5 ""
-  "Thesis.aux" 1490173867 3468 641ab23c710df1ca6708c9ca504bcccd ""
+  "Thesis.aux" 1490702819 3527 717f5562775e0603cdf8e39bc1f1920c ""
   "Thesis.bcf" 0 -1 0 ""
-  "library.bib" 1486545128 26631 4a47d8786b57fc69f3f376c9aea28e9d ""
+  "library.bib" 1490178945 27144 efe49085b9b8b95a618ec89a150798b5 ""
   (generated)
-  "Thesis.blg"
   "Thesis.bbl"
-["pdflatex"] 1490173866 "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" "Thesis" 1490173867
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux" 1490173867 3468 641ab23c710df1ca6708c9ca504bcccd ""
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" 1489745122 12429 314c274aebb277a54b69f57e1d53a356 ""
+  "Thesis.blg"
+["pdflatex"] 1490702818 "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" "Thesis" 1490702819
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux" 1490702819 3527 717f5562775e0603cdf8e39bc1f1920c ""
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" 1490702815 12535 aaa404f5658869add1825eebc98781d8 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -112,16 +112,16 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1484130659 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1484130716 3873397 0383bd858b29844f20a41f940ec9d22f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Thesis.aux" 1490173867 3468 641ab23c710df1ca6708c9ca504bcccd ""
-  "Thesis.bbl" 1490173866 3443 a78425636f27d88d776a42bd94f197ed "bibtex Thesis"
-  "Thesis.out" 1490173867 713 2b38645278685f14abf44079561c7af6 ""
-  "Thesis.tex" 1489745122 12429 314c274aebb277a54b69f57e1d53a356 ""
+  "Thesis.aux" 1490702819 3527 717f5562775e0603cdf8e39bc1f1920c ""
+  "Thesis.bbl" 1490702818 3701 e7681333eb0b03760f935eebcf5dfee3 "bibtex Thesis"
+  "Thesis.out" 1490702819 713 2b38645278685f14abf44079561c7af6 ""
+  "Thesis.tex" 1490702815 12535 aaa404f5658869add1825eebc98781d8 ""
   "sig-alternate.cls" 1484127562 58093 0be6dc8ba70460b684617a297099ac71 ""
   (generated)
   "Thesis.aux"
-  "Thesis.pdf"
-  "Planning_Table.aux"
   "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf"
   "Thesis.out"
   "Thesis.log"
+  "Planning_Table.aux"
   "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.log"
+  "Thesis.pdf"

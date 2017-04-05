@@ -43,7 +43,7 @@
 			"file": "Thesis.tex",
 			"settings":
 			{
-				"buffer_size": 12241,
+				"buffer_size": 12493,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -210,6 +210,8 @@
 	],
 	"file_history":
 	[
+		"/Users/Kevin/Downloads/thesis-a7f36-export.json",
+		"/Users/Kevin/stack/Master Thesis/GAPED/readme.txt",
 		"/Users/Kevin/stack/Master Thesis/Thesis Design/Planning_Table.tex",
 		"/Users/Kevin/stack/Master Thesis/Thesis Design/Alternative.bib",
 		"/Users/Kevin/stack/Master Thesis/Thesis Design/Planning_Table.aux",
@@ -265,15 +267,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12241,
+						"buffer_size": 12493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10868,
-								10868
+								11197,
+								11197
 							]
 						],
 						"settings":
@@ -281,7 +283,7 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2706.0,
+						"translation.y": 2006.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
