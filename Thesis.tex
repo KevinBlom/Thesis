@@ -57,6 +57,17 @@
 % Packages
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{hyperref}
+\usepackage{enumitem}
+
+% Creating a custom itemize
+\setlistdepth{5}
+
+\newlist{longitem}{itemize}{5}
+\setlist[longitem,1]{label={--}}
+\setlist[longitem,2]{label={--}}
+\setlist[longitem,3]{label={--}}
+\setlist[longitem,4]{label={--}}
+\setlist[longitem,5]{label={--}}
 
 \begin{document}
 
@@ -129,18 +140,52 @@ From the related work can be concluded that most types of detection of emotions 
 
 \section{Methods} % (fold)
 \label{sec:methods}
-In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, the University of Florida has a photo set that has been thoroughly tested for emotional response on a two dimensional scale. Utilizing this photo set as a baseline, touch screen taps and their force can be compared to the emotional response.
+In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response.
 
 \subsection{Emotional elicitation} % (fold)
 \label{sub:emotional_elicitation}
-Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion can be set. The \textbf{FOTOSET?} photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. Every participant was shown 40 pictures that were randomly selected from the complete database. According to Brown et al.\cite{Neuroscience2012}, a 5 second exposure time for an IAPS photo is often used.
+Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion was set. The GAPED photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. The photo set counts 730 pictures and is divided into 6 categories: Animal, Human, Neutral, Positive, Snakes, Spiders. From each of the categories, 10 pictures were randomly selected, resulting in a set of 60 pictures used for the experiment. Each participant was presented with the same 60 pictures, but in random order.
+Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures is often used for the International Affective Picture System photos. The GAPED photo set has been created because of two issues with the IAPS; extensive use decreases impact of the stimuli, and the limited number of pictures for specific themes. Both these issues are not exposure time related, so the choice of exposure time of the photo to the participant is 5 seconds.
+
 % subsection emotional_elicitation (end)
 
-\subsection{Tap detection} % (fold)
-\label{sub:tap_detection}
-Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3. The pressure of taps can be registered on a floating point scale from 0.0 to 6.67. Every tap returns on average 6 registrations of force in chronological order, creating a graph of pressure-over-time for every tap. For every picture that was shown to participants, 4 taps were registered in order to capture more data specific to the elicted emotion.
-% subsection tap_detection (end)
+\subsection{Pressure detection} % (fold)
+\label{sub:pressure_detection}
+Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap was registered in order to create pressure-over-time graphs for every tap.
+% subsection pressure_detection (end)
 
+\subsection{Data collection} % (fold)
+\label{sub:data_collection}
+In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/Grid.png}
+    \caption{Three examples of the grid as presented over a picture.}
+    \label{fig:grid}
+\end{figure}
+
+All the data that was collected was anonymously and securely sent realtime to a Firebase\footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
+    \caption{Database structure in simplified form.}
+    \label{fig:datastructure}
+\end{figure}
+
+% subsection data_collection (end)
+
+\subsection{Experiment setup} % (fold)
+\label{sub:experiment_setup}
+Firstly, participants were told what the expirement entailed and were presented with a consent form. Subsequently, the participants continued the experiment on the smart device with test application. The test application is structured as follows:
+\begin{enumerate}
+	\item Participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
+	\item The participant is shown a picture.
+	\item After 5 seconds, the overlay 4 by 4 grid, with 4 buttons active is shown.
+	\item When the participant pressed all the 4 buttons, the next picture is shown.
+	\item This process repeats untill al 60 pictures have been shown.
+	\item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
+\end{enumerate}
+% subsection experiment_setup (end)
 
 
 \begin{itemize}
