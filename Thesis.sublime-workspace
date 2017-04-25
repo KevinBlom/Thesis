@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"usepack",
+				"usepackage{package}\tlatex-document"
+			],
+			[
+				"foot",
+				"footnote\ttex"
+			],
+			[
+				"inc",
+				"includegraphics{name}\tlatex-document"
+			],
+			[
 				"end",
 				"end{samepage}\tThesis Design.tex"
 			],
@@ -43,7 +55,7 @@
 			"file": "Thesis.tex",
 			"settings":
 			{
-				"buffer_size": 12493,
+				"buffer_size": 15526,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -206,7 +218,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Kevin/stack/Master Thesis/Thesis"
+		"/Users/Kevin/stack/Master Thesis/Thesis",
+		"/Users/Kevin/stack/Master Thesis/Thesis/images",
+		"/Users/Kevin/stack/Master Thesis/Thesis/resources"
 	],
 	"file_history":
 	[
@@ -226,7 +240,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -236,6 +250,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"itemize",
+			"longitemize",
+			"longenum",
+			"itemize",
+			"this",
+			"Subsequently",
+			"force",
+			"pressure",
+			"force",
+			"IAPS",
+			"time",
 			"force",
 			"section name",
 			"clearpage",
@@ -267,15 +292,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12493,
+						"buffer_size": 15526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11197,
-								11197
+								13516,
+								13516
 							]
 						],
 						"settings":
@@ -283,7 +308,7 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2006.0,
+						"translation.y": 979.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
