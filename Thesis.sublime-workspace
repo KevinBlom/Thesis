@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ref",
+				"ref{key}\tlatex-document"
+			],
+			[
 				"usepack",
 				"usepackage{package}\tlatex-document"
 			],
@@ -55,7 +59,7 @@
 			"file": "Thesis.tex",
 			"settings":
 			{
-				"buffer_size": 15526,
+				"buffer_size": 16032,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -224,6 +228,7 @@
 	],
 	"file_history":
 	[
+		"/Users/Kevin/Desktop/Test.json",
 		"/Users/Kevin/Downloads/thesis-a7f36-export.json",
 		"/Users/Kevin/stack/Master Thesis/GAPED/readme.txt",
 		"/Users/Kevin/stack/Master Thesis/Thesis Design/Planning_Table.tex",
@@ -292,15 +297,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15526,
+						"buffer_size": 16032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13516,
-								13516
+								15170,
+								15170
 							]
 						],
 						"settings":
@@ -308,7 +313,7 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 979.0,
+						"translation.y": 4136.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

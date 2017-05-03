@@ -58,6 +58,9 @@
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{booktabs,caption}
+\usepackage{tabularx}
+\usepackage[flushleft]{threeparttable}
 
 % Creating a custom itemize
 \setlistdepth{5}
@@ -68,6 +71,9 @@
 \setlist[longitem,3]{label={--}}
 \setlist[longitem,4]{label={--}}
 \setlist[longitem,5]{label={--}}
+
+% Custom column type for tabularx environment. Centers and fills
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 \begin{document}
 
@@ -152,7 +158,7 @@ Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures i
 
 \subsection{Pressure detection} % (fold)
 \label{sub:pressure_detection}
-Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap was registered in order to create pressure-over-time graphs for every tap.
+Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 (Corresponding with 0 to $\pm$350 grams) and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap was registered in order to create pressure-over-time graphs for every tap.
 % subsection pressure_detection (end)
 
 \subsection{Data collection} % (fold)
@@ -166,12 +172,12 @@ In order to collect a larger data set, 4 taps per photo were required to advance
 \end{figure}
 
 All the data that was collected was anonymously and securely sent realtime to a Firebase\footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
-    \caption{Database structure in simplified form.}
-    \label{fig:datastructure}
-\end{figure}
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
+%     \caption{Database structure in simplified form.}
+%     \label{fig:datastructure}
+% \end{figure}
 
 % subsection data_collection (end)
 
@@ -189,6 +195,11 @@ Firstly, participants were told what the expirement entailed and were presented 
 % subsection experiment_setup (end)
 
 \subsection{Data analysis}
+The collected data was interpreted in several ways.
+
+\subsubsection{Maximum tap pressure}
+The first interpretation regards maximum tap pressure. For every tap, only the maximum pressure value was extracted and subsequently averaged for every photo. This resulted in two independent variables (valence, arousal) and one dependent  variable (average maximum tap force) per photo. A multiple regression was run to predict tap pressure from valence and arousal. 
+
 What statistical methods were used, based on what principles and data..
 
 \begin{itemize}
@@ -207,6 +218,27 @@ What statistical methods were used, based on what principles and data..
 	\item Report of findings.
 	\item Reference to any diagrams used.
 \end{itemize}
+
+\subsection{Maximum tap pressure}
+There was linearity as assessed by partial regression plots and a plot of studentized residuals against the predicted values. There was independence of residuals, as assessed by a Durbin-Watson statistic of 1.718. There was homoscedasticity, as assessed by visual inspection of a plot of studentized residuals versus unstandardized predicted values. There was no evidence of multicollinearity, as assessed by tolerance values greater than 0.1. There were no studentized deleted residuals greater than $\pm$3 standard deviations, no leverage values greater than 0.2, and values for Cook's distance above 1. The assumption of normality was met, as assessed by Q-Q Plot. The multiple regression model did not statistically significantly predicted tap pressure, $F(2, 57) = 2.033$, $p > 0.05$, adj. $R^2$ = 0.034. Non of the variables added statistically significantly to the prediction(i.e. $p > 0.05$), with $p_{valence} = 0.35$ and $p_{arousal} = 0.079$. Regression coefficients and standard errors can be found in Table \ref{tab:summary_multiple_regression_max_pressure_avg}.
+
+\begin{table}[ht]
+\centering
+	\begin{threeparttable}
+		\caption{Summary of multiple regression analysis for maximum pressure average.\label{tab:summary_multiple_regression_max_pressure_avg}}
+		\begin{tabularx}{0.9\linewidth}{@{}lYYY@{}}
+			\toprule
+			Variable  & \textit{B} & \textit{$SE_{B}$} & \textit{$\beta$} \\ \midrule
+			Intercept & .375       & .024              &                  \\
+			Valence   & .000       & .000              & .213             \\
+			Arousal   & .001       & .000              & .403             \\ \bottomrule
+		\end{tabularx}
+	\begin{tablenotes}
+		\small
+		\item Note: \textit{B} = unstandardized regression coefficient. \textit{$SE_B$} = Standard error of the coefficient. $\beta$ = standardized coefficient.
+	\end{tablenotes}
+	\end{threeparttable}
+\end{table}
 % section results (end)
 
 \section{Discussion} % (fold)
