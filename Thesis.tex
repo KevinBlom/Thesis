@@ -67,21 +67,20 @@
 
 % Packages
 \usepackage[table,xcdraw]{xcolor}
-\usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage{booktabs,caption}
+%\usepackage{booktabs,caption}
 \usepackage{tabularx}
 \usepackage[flushleft]{threeparttable}
 
-% Creating a custom itemize
-\setlistdepth{5}
+% % Creating a custom itemize
+% \setlistdepth{5}
 
-\newlist{longitem}{itemize}{5}
-\setlist[longitem,1]{label={--}}
-\setlist[longitem,2]{label={--}}
-\setlist[longitem,3]{label={--}}
-\setlist[longitem,4]{label={--}}
-\setlist[longitem,5]{label={--}}
+% \newlist{longitem}{itemize}{5}
+% \setlist[longitem,1]{label={--}}
+% \setlist[longitem,2]{label={--}}
+% \setlist[longitem,3]{label={--}}
+% \setlist[longitem,4]{label={--}}
+% \setlist[longitem,5]{label={--}}
 
 % Custom column type for tabularx environment. Centers and fills
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
@@ -89,7 +88,7 @@
 % Paper metadata (use plain text, for PDF inclusion and later
 % re-using, if desired).  Use \emtpyauthor when submitting for review
 % so you remain anonymous.
-\def\plaintitle{SIGCHI Conference Proceedings Format}
+\def\plaintitle{Tap pressure on touchscreens and the relationship to detection of emotion}
 \def\plainauthor{First Author, Second Author, Third Author,
   Fourth Author, Fifth Author, Sixth Author}
 \def\emptyauthor{}
@@ -227,7 +226,7 @@ In order to collect a larger data set, 4 taps per photo were required to advance
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{images/Grid.png}
-    \caption{Three examples of the grid as presented over a picture.}
+    \caption{Three examples of the grid as presented over a picture.}~
     \label{fig:grid}
 \end{figure}
 
@@ -247,7 +246,7 @@ Firstly, participants were told what the expirement entailed and were presented 
 \begin{enumerate}
   \item Participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
   \item The participant is shown a picture.
-  \item After 5 seconds, 4 gray buttons are shown, overlaid on the picture in a random pattern (Figure \ref{fig:grid}).
+  \item After five seconds, four gray buttons are shown, overlaid on the picture in a random pattern (Figure \ref{fig:grid}).
   \item When the participant pressed all the 4 buttons, the next picture is presented.
   \item This process repeats untill al 60 pictures have been shown.
   \item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
@@ -281,7 +280,7 @@ Before proceeding to the results, several assumptions needed to be considered be
   \item \textbf{Unusual data points} - There should be no outliers, high leverage points or highly influential points.
   \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic.
 \end{enumerate}
-All these assumptions will be considered and results of any tests that come with it a presented in the next section.
+All these assumptions will be considered and results of any tests that come with it are presented in the next section.
 
 % \subsubsection{Maximum tap pressure}
 % \label{subsub:maximum_tap_pressure}
