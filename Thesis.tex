@@ -158,7 +158,7 @@ Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures i
 
 \subsection{Pressure detection} % (fold)
 \label{sub:pressure_detection}
-Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 (Corresponding with 0 to $\pm$350 grams) and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap was registered in order to create pressure-over-time graphs for every tap.
+Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 (Corresponding with 0 to $\pm$350 grams) and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap (in nanoseconds) was also registered.
 % subsection pressure_detection (end)
 
 \subsection{Data collection} % (fold)
@@ -196,16 +196,40 @@ Firstly, participants were told what the expirement entailed and were presented 
 
 \subsection{Data analysis}
 \label{sub:data_analysis}
-The collected data was interpreted in several ways. Firstly, The maximum tap pressure was investigated. Secondly, average tap pressure was used as dependent variable.
+The collected data was exported as JSON from Firebase and subsequently mutated using Python\footnote{\url{https://www.python.org}} 2.7 on macOS\footnote{\url{https://www.apple.com/lae/macos/sierra/}} 10.12.4 in order to create an \textit{.csv} file that was readable by SPSS 20.0\footnote{\url{https://www.ibm.com/analytics/us/en/technology/spss/}}. Because of a suspiscion that either maximum exerted pressure or average exerted pressure of a tap might be of influence, these two variables were manually added using averaging. For maximum pressure, the maximum pressure value of each tap was extracted, and for each photo this was averaged. Regarding average tap pressure, the average pressure of a tap was calculated and subsequently all the average tap pressures were averaged again per photo. These averages make it possible to compare means. The result is six variables in SPSS; 
+\begin{enumerate}
+	\item \textbf{Photo filename} - String, containing the photo filename for identification purposes.
+	\item \textbf{Valence} - Numeric, decimal value on a scale from 0.0-100.0.
+	\item \textbf{Arousal} - Numeric, decimal value on a scale from 0.0-100.0.
+	\item \textbf{Maximum tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
+	\item \textbf{Average tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
+	\item \textbf{Duration} - Numeric, decimal value in nanoseconds.
+\end{enumerate}
 
+In other words, for every photo there is a value for valence, arousal, maximum tap pressure average, average tap pressure average and duration.
 
-\subsubsection{Maximum tap pressure}
-\label{subsub:maximum_tap_pressure}
-The first interpretation regards maximum tap pressure. For every tap, only the maximum pressure value was extracted and subsequently averaged for every photo. This resulted in two independent variables (valence, arousal) and one dependent  variable (average maximum tap force) per photo. A multiple regression was run to predict tap pressure from valence and arousal. An advantage of using the multiple regression for prediction is that during the process, any significant relationships arise.
+\subsubsection{Multiple linear regression}
+\label{subsub:multiple_linear_regression}
+Testing for any correlation was completed with a multiple linear regression method. The advantage of this method is that both \textit{duration} and \textit{pressure} can be used as independent variables to check if there indeed is a relation to \textit{valence} or \textit{arousal} as dependent variables and that if there is a relationship, it also immediately produces a model to predict the dependent variables. A disadvantage of is that the relationship can not be checked for \textit{valence} and \textit{arousal} simultaneously, only for the seperate variables.
 
-\subsubsection{Average tap pressure}
-\label{subsub:average_tap_pressure}
-The procedure for average tap pressure resembled the procedure of maximum tap pressure (Section \ref{subsub:maximum_tap_pressure}), with the only difference being the use of average tap pressure rather than maximum tap pressure, i.e. all pressure measurements of one tap were averaged.
+Before proceeding to the results, several assumptions needed to be considered before concluding that the data could be analysed using multiple linear regression;
+\begin{enumerate}
+	\item \textbf{Independence of observation} - Using Durbin-Watson to test for 1st-order autocorrelation.
+	\item \textbf{Linear relationships} - Visually inspecting a scatterplot of studentitized residuals and unstandardized predicted values, and partial regression plots can indicate a (non)linear relationship.
+	\item \textbf{Homoscedasticity of residuals} - Visually inspecting a scatter plot of studentitized residuals and unstandardized predicted values.
+	\item \textbf{No multicollinearity} - Inspection of correlation coefficients and Tolerance/VIF values for indication of correlation between independent variables.
+	\item \textbf{Unusual data points} - There should be no outliers, high leverage points or highly influential points.
+	\item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic.
+\end{enumerate}
+All these assumptions will be considered and results of any tests that come with it a presented in the next section.
+
+% \subsubsection{Maximum tap pressure}
+% \label{subsub:maximum_tap_pressure}
+% The first interpretation regards maximum tap pressure. For every tap, only the maximum pressure value was extracted and subsequently averaged for every photo. This resulted in two independent variables (valence, arousal) and one dependent  variable (average maximum tap force) per photo. A multiple regression was run to predict tap pressure from valence and arousal. An advantage of using the multiple regression for prediction is that during the process, any significant relationships arise.
+
+% \subsubsection{Average tap pressure}
+% \label{subsub:average_tap_pressure}
+% The procedure for average tap pressure resembled the procedure of maximum tap pressure (Section \ref{subsub:maximum_tap_pressure}), with the only difference being the use of average tap pressure rather than maximum tap pressure, i.e. all pressure measurements of one tap were averaged.
 
 
 
