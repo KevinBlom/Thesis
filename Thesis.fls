@@ -193,36 +193,18 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti8.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aer8.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aeti8.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb

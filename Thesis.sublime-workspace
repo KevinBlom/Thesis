@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"subsub",
+				"subsubsection{title}\tlatex-document"
+			],
+			[
 				"ref",
 				"ref{key}\tlatex-document"
 			],
@@ -56,11 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Thesis.tex",
+			"file": "/Users/Kevin/stack/Master Thesis/Python scripts/Result mutator/Average tap force/ExperimentDataCleaner.py",
 			"settings":
 			{
-				"buffer_size": 16032,
-				"encoding": "UTF-8",
+				"buffer_size": 734,
 				"line_ending": "Unix"
 			}
 		}
@@ -228,6 +231,7 @@
 	],
 	"file_history":
 	[
+		"/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex",
 		"/Users/Kevin/Desktop/Test.json",
 		"/Users/Kevin/Downloads/thesis-a7f36-export.json",
 		"/Users/Kevin/stack/Master Thesis/GAPED/readme.txt",
@@ -293,27 +297,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Thesis.tex",
+					"file": "/Users/Kevin/stack/Master Thesis/Python scripts/Result mutator/Average tap force/ExperimentDataCleaner.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16032,
+						"buffer_size": 734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15170,
-								15170
+								734,
+								734
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4136.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
