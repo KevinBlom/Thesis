@@ -1,69 +1,58 @@
-\documentclass{sigchi}
+% This is "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with V2.4 of "sig-alternate.cls" April 2009
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.4 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.4) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V1.9 - April 2009
 
-% Use this section to set the ACM copyright statement (e.g. for
-% preprints).  Consult the conference website for the camera-ready
-% copyright statement.
+\documentclass{sig-alternate}
+  \pdfpagewidth=8.5truein
+  \pdfpageheight=11truein
 
-% Copyright
-\CopyrightYear{2016}
-%\setcopyright{acmcopyright}
-\setcopyright{acmlicensed}
-%\setcopyright{rightsretained}
-%\setcopyright{usgov}
-%\setcopyright{usgovmixed}
-%\setcopyright{cagov}
-%\setcopyright{cagovmixed}
-% DOI
-\doi{http://dx.doi.org/10.475/123_4}
-% ISBN
-\isbn{123-4567-24-567/08/06}
-%Conference
-\conferenceinfo{CHI'16,}{May 07--12, 2016, San Jose, CA, USA}
-%Price
-\acmPrice{\$15.00}
-
-% Use this command to override the default ACM copyright statement
-% (e.g. for preprints).  Consult the conference website for the
-% camera-ready copyright statement.
-
-%% HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP --
-%% Please note you need to make sure the copy for your specific
-%% license is used here!
-% \toappear{
-% Permission to make digital or hard copies of all or part of this work
-% for personal or classroom use is granted without fee provided that
-% copies are not made or distributed for profit or commercial advantage
-% and that copies bear this notice and the full citation on the first
-% page. Copyrights for components of this work owned by others than ACM
-% must be honored. Abstracting with credit is permitted. To copy
-% otherwise, or republish, to post on servers or to redistribute to
-% lists, requires prior specific permission and/or a fee. Request
-% permissions from \href{mailto:Permissions@acm.org}{Permissions@acm.org}. \\
-% \emph{CHI '16},  May 07--12, 2016, San Jose, CA, USA \\
-% ACM xxx-x-xxxx-xxxx-x/xx/xx\ldots \$15.00 \\
-% DOI: \url{http://dx.doi.org/xx.xxxx/xxxxxxx.xxxxxxx}
-% }
-
-% Arabic page numbers for submission.  Remove this line to eliminate
-% page numbers for the camera ready copy
-% \pagenumbering{arabic}
-
-% Load basic packages
-\usepackage{balance}       % to better equalize the last page
-\usepackage{graphics}      % for EPS, load graphicx instead 
-\usepackage[T1]{fontenc}   % for umlauts and other diaeresis
-\usepackage{txfonts}
-\usepackage{mathptmx}
-\usepackage[pdflang={en-US},pdftex]{hyperref}
-\usepackage{color}
-\usepackage{booktabs}
-\usepackage{textcomp}
-
-% Some optional stuff you might like/need.
-\usepackage{microtype}        % Improved Tracking and Kerning
-% \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
-\usepackage{ccicons}          % Cite your images correctly!
-% \usepackage[utf8]{inputenc} % for a UTF8 editor only
+% Remove copyright space
+\makeatletter
+\def\@copyrightspace{\relax}
+\makeatother
 
 % Packages
 \usepackage[table,xcdraw]{xcolor}
@@ -86,88 +75,39 @@
 % Custom column type for tabularx environment. Centers and fills
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
-% Paper metadata (use plain text, for PDF inclusion and later
-% re-using, if desired).  Use \emtpyauthor when submitting for review
-% so you remain anonymous.
-\def\plaintitle{SIGCHI Conference Proceedings Format}
-\def\plainauthor{First Author, Second Author, Third Author,
-  Fourth Author, Fifth Author, Sixth Author}
-\def\emptyauthor{}
-\def\plainkeywords{Human centered multimedia; emotion; tap pressure}
-\def\plaingeneralterms{Documentation, Standardization}
-
-% llt: Define a global style for URLs, rather that the default one
-\makeatletter
-\def\url@leostyle{%
-  \@ifundefined{selectfont}{
-    \def\UrlFont{\sf}
-  }{
-    \def\UrlFont{\small\bf\ttfamily}
-  }}
-\makeatother
-\urlstyle{leo}
-
-% To make various LaTeX processors do the right thing with page size.
-\def\pprw{8.5in}
-\def\pprh{11in}
-\special{papersize=\pprw,\pprh}
-\setlength{\paperwidth}{\pprw}
-\setlength{\paperheight}{\pprh}
-\setlength{\pdfpagewidth}{\pprw}
-\setlength{\pdfpageheight}{\pprh}
-
-% Make sure hyperref comes last of your loaded packages, to give it a
-% fighting chance of not being over-written, since its job is to
-% redefine many LaTeX commands.
-\definecolor{linkColor}{RGB}{6,125,233}
-\hypersetup{%
-  pdftitle={\plaintitle},
-% Use \plainauthor for final version.
-%  pdfauthor={\plainauthor},
-  pdfauthor={\emptyauthor},
-  pdfkeywords={\plainkeywords},
-  pdfdisplaydoctitle=true, % For Accessibility
-  bookmarksnumbered,
-  pdfstartview={FitH},
-  colorlinks,
-  citecolor=black,
-  filecolor=black,
-  linkcolor=black,
-  urlcolor=linkColor,
-  breaklinks=true,
-  hypertexnames=false
-}
-
-% create a shortcut to typeset table headings
-% \newcommand\tabhead[1]{\small\textbf{#1}}
-
-% End of preamble. Here it comes the document.
 \begin{document}
 
-\title{\plaintitle}
+\title{Detecting emotion with a pressure sensitive touchscreen}
+\subtitle{[...]}
 
-\numberofauthors{1}
-  \author{
-  \alignauthor Kevin Blom\\
-         \affaddr{University of Amsterdam}\\
-         \affaddr{Science Park 904}\\
-         \email{xxxxxx@xxxxxx.xx}
-  }
+
+\numberofauthors{1} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%{}
+% The command \alignauthor (no curly braces needed) should	
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor Kevin Blom\\
+       \affaddr{University of Amsterdam}\\
+       \affaddr{Science Park 904}\\
+       \email{xxxxxx@xxxxxx.xx}
+}
+
 \maketitle
 
 \begin{abstract}
-  % UPDATED---\today. This sample paper describes the formatting
-  % requirements for SIGCHI conference proceedings, and offers
-  % recommendations on writing for the worldwide SIGCHI
-  % readership. Please review this document even if you have submitted
-  % to SIGCHI conferences before, as some format details have changed
-  % relative to previous years. Abstracts should be about 150 words and
-  % are required.
+	
 \end{abstract}
-
-\category{H.5.2.}{Information Interfaces and Presentation}{User-centered design}
-
-\keywords{\plainkeywords}
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
@@ -197,9 +137,9 @@ From the related work can be concluded that most types of detection of emotions 
 
 \textit{Can pressure sensitive touch screen devices be used to tell more about the mood of the user?}\\
 % \begin{itemize}
-%   \item Description of background.
-%   \item Explanation of why research was necessary.
-%   \item Description of how research will be undertaken.
+% 	\item Description of background.
+% 	\item Explanation of why research was necessary.
+% 	\item Description of how research will be undertaken.
 % \end{itemize}
 
 % section Introduction (end)
@@ -226,18 +166,18 @@ Taps were detected on an Apple iPhone 6s device with a 3D touch screen running i
 In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement. The gray color is used because it is perceived as neutral. The buttons are random for every photo, and for every participant. In other words, no participant received the same grid for the same photo.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.45\textwidth]{images/Grid.png}
+    \includegraphics[width=0.5\textwidth]{images/Grid.png}
     \caption{Three examples of the grid as presented over a picture.}
     \label{fig:grid}
 \end{figure}
 
 All the data that was collected was anonymously and securely sent realtime to a Firebase\footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
-    \caption{Database structure in simplified form.}
-    \label{fig:datastructure}
-\end{figure}
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
+%     \caption{Database structure in simplified form.}
+%     \label{fig:datastructure}
+% \end{figure}
 
 % subsection data_collection (end)
 
@@ -245,12 +185,12 @@ All the data that was collected was anonymously and securely sent realtime to a 
 \label{sub:experiment_setup}
 Firstly, participants were told what the expirement entailed and were presented with a consent form. Subsequently, the participants continued the experiment on the smart device with test application. The test application is structured as follows:
 \begin{enumerate}
-  \item Participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
-  \item The participant is shown a picture.
-  \item After 5 seconds, 4 gray buttons are shown, overlaid on the picture in a random pattern (Figure \ref{fig:grid}).
-  \item When the participant pressed all the 4 buttons, the next picture is presented.
-  \item This process repeats untill al 60 pictures have been shown.
-  \item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
+	\item Participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
+	\item The participant is shown a picture.
+	\item After 5 seconds, 4 gray buttons are shown, overlaid on the picture in a random pattern (Figure \ref{fig:grid}).
+	\item When the participant pressed all the 4 buttons, the next picture is presented.
+	\item This process repeats untill al 60 pictures have been shown.
+	\item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
 \end{enumerate}
 % subsection experiment_setup (end)
 
@@ -258,12 +198,12 @@ Firstly, participants were told what the expirement entailed and were presented 
 \label{sub:data_analysis}
 The collected data was exported as JSON from Firebase and subsequently mutated using Python\footnote{\url{https://www.python.org}} 2.7 on macOS\footnote{\url{https://www.apple.com/lae/macos/sierra/}} 10.12.4 in order to create an \textit{.csv} file that was readable by SPSS 20.0\footnote{\url{https://www.ibm.com/analytics/us/en/technology/spss/}}. Because of a suspiscion that either maximum exerted pressure or average exerted pressure of a tap might be of influence, these two variables were manually added using averaging. For maximum pressure, the maximum pressure value of each tap was extracted, and for each photo this was averaged. Regarding average tap pressure, the average pressure of a tap was calculated and subsequently all the average tap pressures were averaged again per photo. These averages make it possible to compare means. The result is six variables in SPSS; 
 \begin{enumerate}
-  \item \textbf{Photo filename} - String, containing the photo filename for identification purposes.
-  \item \textbf{Valence} - Numeric, decimal value on a scale from 0.0-100.0.
-  \item \textbf{Arousal} - Numeric, decimal value on a scale from 0.0-100.0.
-  \item \textbf{Maximum tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
-  \item \textbf{Average tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
-  \item \textbf{Duration} - Numeric, decimal value in nanoseconds.
+	\item \textbf{Photo filename} - String, containing the photo filename for identification purposes.
+	\item \textbf{Valence} - Numeric, decimal value on a scale from 0.0-100.0.
+	\item \textbf{Arousal} - Numeric, decimal value on a scale from 0.0-100.0.
+	\item \textbf{Maximum tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
+	\item \textbf{Average tap pressure average} - Numeric, decimal value on scale from 0.0-6.67.
+	\item \textbf{Duration} - Numeric, decimal value in nanoseconds.
 \end{enumerate}
 
 In other words, for every photo there is a value for valence, arousal, maximum tap pressure average, average tap pressure average and duration.
@@ -274,12 +214,12 @@ Testing for any correlation was completed with a multiple linear regression meth
 
 Before proceeding to the results, several assumptions needed to be considered before concluding that the data could be analysed using multiple linear regression;
 \begin{enumerate}
-  \item \textbf{Independence of observation} - Using Durbin-Watson to test for 1st-order autocorrelation.
-  \item \textbf{Linear relationships} - Visually inspecting a scatterplot of studentitized residuals and unstandardized predicted values, and partial regression plots can indicate a (non)linear relationship.
-  \item \textbf{Homoscedasticity of residuals} - Visually inspecting a scatter plot of studentitized residuals and unstandardized predicted values.
-  \item \textbf{No multicollinearity} - Inspection of correlation coefficients and Tolerance/VIF values for indication of correlation between independent variables.
-  \item \textbf{Unusual data points} - There should be no outliers, high leverage points or highly influential points.
-  \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic.
+	\item \textbf{Independence of observation} - Using Durbin-Watson to test for 1st-order autocorrelation.
+	\item \textbf{Linear relationships} - Visually inspecting a scatterplot of studentitized residuals and unstandardized predicted values, and partial regression plots can indicate a (non)linear relationship.
+	\item \textbf{Homoscedasticity of residuals} - Visually inspecting a scatter plot of studentitized residuals and unstandardized predicted values.
+	\item \textbf{No multicollinearity} - Inspection of correlation coefficients and Tolerance/VIF values for indication of correlation between independent variables.
+	\item \textbf{Unusual data points} - There should be no outliers, high leverage points or highly influential points.
+	\item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic.
 \end{enumerate}
 All these assumptions will be considered and results of any tests that come with it a presented in the next section.
 
@@ -296,11 +236,11 @@ All these assumptions will be considered and results of any tests that come with
 What statistical methods were used, based on what principles and data..
 
 \begin{itemize}
-  \item Overview of the research.
-  \item Report of who took part and where.
-  \item Report of what procedures were used.
-  \item Report of what materials were used.
-  \item Report of any statistical analysis used.
+	\item Overview of the research.
+	\item Report of who took part and where.
+	\item Report of what procedures were used.
+	\item Report of what materials were used.
+	\item Report of any statistical analysis used.
 \end{itemize}
 
 % section methods (end)
@@ -308,8 +248,8 @@ What statistical methods were used, based on what principles and data..
 \section{Results} % (fold)
 \label{sec:results}
 \begin{itemize}
-  \item Report of findings.
-  \item Reference to any diagrams used.
+	\item Report of findings.
+	\item Reference to any diagrams used.
 \end{itemize}
 
 \subsection{Maximum tap pressure}
@@ -318,45 +258,50 @@ There was linearity as assessed by partial regression plots and a plot of studen
 % Coefficients are not interesting if there is no significance, they are only used for prediction models.
 % \begin{table}[ht]
 % \centering
-%   \begin{threeparttable}
-%     \caption{Summary of multiple regression analysis for maximum pressure average.\label{tab:summary_multiple_regression_max_pressure_avg}}
-%     \begin{tabularx}{0.9\linewidth}{@{}lYYY@{}}
-%       \toprule
-%       Variable  & \textit{B} & \textit{$SE_{B}$} & \textit{$\beta$} \\ \midrule
-%       Intercept & .375       & .024              &                  \\
-%       Valence   & .000       & .000              & .213             \\
-%       Arousal   & .001       & .000              & .403             \\ \bottomrule
-%     \end{tabularx}
-%   \begin{tablenotes}
-%     \small
-%     \item Note: \textit{B} = unstandardized regression coefficient. \textit{$SE_B$} = Standard error of the coefficient. $\beta$ = standardized coefficient.
-%   \end{tablenotes}
-%   \end{threeparttable}
+% 	\begin{threeparttable}
+% 		\caption{Summary of multiple regression analysis for maximum pressure average.\label{tab:summary_multiple_regression_max_pressure_avg}}
+% 		\begin{tabularx}{0.9\linewidth}{@{}lYYY@{}}
+% 			\toprule
+% 			Variable  & \textit{B} & \textit{$SE_{B}$} & \textit{$\beta$} \\ \midrule
+% 			Intercept & .375       & .024              &                  \\
+% 			Valence   & .000       & .000              & .213             \\
+% 			Arousal   & .001       & .000              & .403             \\ \bottomrule
+% 		\end{tabularx}
+% 	\begin{tablenotes}
+% 		\small
+% 		\item Note: \textit{B} = unstandardized regression coefficient. \textit{$SE_B$} = Standard error of the coefficient. $\beta$ = standardized coefficient.
+% 	\end{tablenotes}
+% 	\end{threeparttable}
 % \end{table}
 % section results (end)
 
 \section{Discussion} % (fold)
 \label{sec:discussion}
 \begin{itemize}
-  \item Summary of main purpose of research.
-  \item Review of most important findings.
-  \item Evaluation of findings.
-  \item Explanation of findings.
-  \item Comparison with other researchers findings.
-  \item Description of implications and recommendations.
+	\item Summary of main purpose of research.
+	\item Review of most important findings.
+	\item Evaluation of findings.
+	\item Explanation of findings.
+	\item Comparison with other researchers findings.
+	\item Description of implications and recommendations.
 \end{itemize}
 
 
 % section discussion (end)
 
-% REFERENCES FORMAT
-% References must be the same font size as other body text.
-\bibliographystyle{SIGCHI-Reference-Format}
-\bibliography{library,Alternative}
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{library,Alternative}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
 
 \end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:

@@ -1,113 +1,253 @@
-\begin{thebibliography}{10}
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
 \bibitem{Coulson2004}
-M.~Coulson.
-\newblock {Attributing emotion to static body postures: recongition accuracy,
-  confusion and view point dependence}.
-\newblock {\em Journal of Nonverbal Behavior}, 28(2):117--139, 2004.
+{Mark Coulson}. 2004.
+\newblock \showarticletitle{{Attributing emotion to static body postures:
+  recongition accuracy, confusion and view point dependence}}.
+\newblock {\em Journal of Nonverbal Behavior\/} {28}, 2 (2004), 117--139.
+\newblock
+\showISBNx{0191-5886}
+\showISSN{0191-5886}
+\showDOI{%
+\url{http://dx.doi.org/10.1023/B:JONB.0000023655.25550.be}}
+
 
 \bibitem{Dan-glauser2011}
-E.~S. Dan-glauser and K.~R. Scherer.
-\newblock {The Geneva affective picture database ( GAPED ): a new 730-picture
-  database focusing on valence and normative significance}.
-\newblock pages 468--477, 2011.
+{Elise~S Dan-glauser} {and} {Klaus~R Scherer}. 2011.
+\newblock \showarticletitle{{The Geneva affective picture database ( GAPED ): a
+  new 730-picture database focusing on valence and normative significance}}.
+\newblock  (2011), 468--477.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.3758/s13428-011-0064-1}}
+
 
 \bibitem{Ekman1992}
-P.~Ekman.
-\newblock {An argument for basic emotions}, 1992.
+{Paul Ekman}. 1992.
+\newblock {An argument for basic emotions}.
+\newblock   (1992).
+\newblock
+\showISBNx{0269-9931}
+\showISSN{0269-9931}
+\showDOI{%
+\url{http://dx.doi.org/10.1080/02699939208411068}}
+
 
 \bibitem{Ekman1969}
-P.~Ekman, E.~R. Sorenson, and W.~V. Friesen.
-\newblock {Pan-Cultural Elements in Facial Displays of Emotion}, 1969.
+{Paul Ekman}, {E~Richard Sorenson}, {and} {Wallace~V Friesen}. 1969.
+\newblock {Pan-Cultural Elements in Facial Displays of Emotion}.
+\newblock   (1969).
+\newblock
+\showISBNx{0036-8075 (Print)}
+\showISSN{0036-8075}
+\showDOI{%
+\url{http://dx.doi.org/10.1126/science.164.3875.86}}
+
 
 \bibitem{Gao2012}
-Y.~Gao, N.~Bianchi-Berthouze, and H.~Meng.
-\newblock {What Does Touch Tell Us about Emotions in Touchscreen-Based
-  Gameplay?}
-\newblock {\em ACM Transactions on Computer-Human Interaction}, 19(4):1--30,
-  2012.
+{Yuan Gao}, {Nadia Bianchi-Berthouze}, {and} {Hongying Meng}. 2012.
+\newblock \showarticletitle{{What Does Touch Tell Us about Emotions in
+  Touchscreen-Based Gameplay?}}
+\newblock {\em ACM Transactions on Computer-Human Interaction\/} {19}, 4
+  (2012), 1--30.
+\newblock
+\showISBNx{10730516 (ISSN)}
+\showISSN{10730516}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/2395131.2395138}}
+
 
 \bibitem{H.R.LvZ.L.LinW.J.Yin2008}
-J.~D. {H. R. Lv, Z. L. Lin, W. J. Yin}.
-\newblock {Emotion recognition based on pressure sensor keyboards}.
-\newblock {\em 2008 IEEE International Conference on Multimedia and Expo},
-  pages 1089--1092, 2008.
+{J.~Dong {H. R. Lv, Z. L. Lin, W. J. Yin}}. 2008.
+\newblock \showarticletitle{{Emotion recognition based on pressure sensor
+  keyboards}}.
+\newblock {\em 2008 IEEE International Conference on Multimedia and Expo\/}
+  (2008), 1089--1092.
+\newblock
+\showISBNx{978-1-4244-2570-9}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICME.2008.4607628}}
+
 
 \bibitem{Lee2012}
-H.~Lee, Y.~S. Choi, S.~Lee, and I.~P. Park.
-\newblock {Towards unobtrusive emotion recognition for affective social
-  communication}.
+{Hosub Lee}, {Young~Sang Choi}, {Sunjae Lee}, {and} {I.~P. Park}. 2012.
+\newblock \showarticletitle{{Towards unobtrusive emotion recognition for
+  affective social communication}}.
 \newblock {\em 2012 IEEE Consumer Communications and Networking Conference,
-  CCNC'2012}, pages 260--264, 2012.
+  CCNC'2012\/} (2012), 260--264.
+\newblock
+\showISBNx{9781457720710}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/CCNC.2012.6181098}}
+
 
 \bibitem{Likamwa2013}
-R.~Likamwa, Y.~Liu, N.~D. Lane, and L.~Zhong.
-\newblock {MoodScope: Building a Mood Sensor from Smartphone Usage Patterns}.
+{Robert Likamwa}, {Yunxin Liu}, {Nicholas~D. Lane}, {and} {Lin Zhong}. 2013.
+\newblock \showarticletitle{{MoodScope: Building a Mood Sensor from Smartphone
+  Usage Patterns}}.
 \newblock {\em MobiSys '13 Proceeding of the 11th annual international
-  conference on Mobile systems, applications, and services}, (April):389--402,
-  2013.
+  conference on Mobile systems, applications, and services\/} April (2013),
+  389--402.
+\newblock
+\showISBNx{9781450316729}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/2462456.2464449}}
+
 
 \bibitem{Mauss2009}
-I.~B. Mauss and M.~D. Robinson.
-\newblock {Measures of emotion: A review.}
-\newblock {\em Cognition and Emotion}, 23(2):209--237, 2009.
+{Iris~B Mauss} {and} {Michael~D Robinson}. 2009.
+\newblock \showarticletitle{{Measures of emotion: A review.}}
+\newblock {\em Cognition and Emotion\/} {23}, 2 (2009), 209--237.
+\newblock
+\showISBNx{1464-0600 (Electronic)$\backslash$r0269-9931 (Linking)}
+\showISSN{1464-0600}
+\showDOI{%
+\url{http://dx.doi.org/10.1080/02699930802204677}}
+
 
 \bibitem{Neuroscience2012}
-H.~Neuroscience, S.~B. R.~E. Brown, H.~V. Steenbergen, P.~Guido, H.~Band, M.~D.
-  Rover, and S.~Nieuwenhuis.
-\newblock {Functional significance of the emotion-related late positive
-  potential}.
-\newblock 6(February):1--12, 2012.
+{Human Neuroscience}, {Stephen B R~E Brown}, {Henk~Van Steenbergen}, {P Guido},
+  {H Band}, {Mischa~De Rover}, {and} {Sander Nieuwenhuis}. 2012.
+\newblock \showarticletitle{{Functional significance of the emotion-related
+  late positive potential}}.
+\newblock  {6}, February (2012), 1--12.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.3389/fnhum.2012.00033}}
+
 
 \bibitem{Picard1995}
-R.~W. Picard.
-\newblock {Affective Computing}.
-\newblock {\em MIT press}, (321):1--16, 1995.
+{Rosalind~W. Picard}. 1995.
+\newblock \showarticletitle{{Affective Computing}}.
+\newblock {\em MIT press\/} 321 (1995), 1--16.
+\newblock
+\showISBNx{0262161702}
+\showISSN{09269630}
+\showDOI{%
+\url{http://dx.doi.org/10.1007/BF01238028}}
+
 
 \bibitem{Picard1997}
-R.~W. Picard.
-\newblock {\em Affective computing}, volume 252.
-\newblock MIT press Cambridge, 1997.
+{Rosalind~W Picard}. 1997.
+\newblock {\em Affective computing}. Vol. 252.
+\newblock MIT press Cambridge.
+\newblock
+
 
 \bibitem{Posner2005}
-J.~Posner, J.~A. Russell, and B.~S. Peterson.
-\newblock {The circumplex model of affect: an integrative approach to affective
-  neuroscience, cognitive development, and psychopathology.}
-\newblock {\em Development and psychopathology}, 17(3):715--34, 2005.
+{Jonathan Posner}, {James~A Russell}, {and} {Bradley~S Peterson}. 2005.
+\newblock \showarticletitle{{The circumplex model of affect: an integrative
+  approach to affective neuroscience, cognitive development, and
+  psychopathology.}}
+\newblock {\em Development and psychopathology\/} {17}, 3 (2005), 715--34.
+\newblock
+\showISBNx{0954-5794 (Print) 0954-5794 (Linking)}
+\showISSN{0954-5794}
+\showDOI{%
+\url{http://dx.doi.org/10.1017/S0954579405050340}}
+
 
 \bibitem{Shah2015}
-S.~Shah, J.~N. Teja, and S.~Bhattacharya.
-\newblock {Towards affective touch interaction: predicting mobile user emotion
-  from finger strokes}.
-\newblock {\em Journal of Interaction Science}, 3(1):6, 2015.
+{Sachin Shah}, {J.~Narasimha Teja}, {and} {Samit Bhattacharya}. 2015.
+\newblock \showarticletitle{{Towards affective touch interaction: predicting
+  mobile user emotion from finger strokes}}.
+\newblock {\em Journal of Interaction Science\/} {3}, 1 (2015), 6.
+\newblock
+\showISSN{2194-0827}
+\showDOI{%
+\url{http://dx.doi.org/10.1186/s40166-015-0013-z}}
+
 
 \bibitem{Silva1997}
-L.~C. D.~E. Silva and I.~T. Miyasato.
-\newblock {Facial Emotion Recognition Using}.
-\newblock (September):9--12, 1997.
+{Liyanage C D~E Silva} {and} {I~Tsutomu Miyasato}. 1997.
+\newblock \showarticletitle{{Facial Emotion Recognition Using}}.
+\newblock  September (1997), 9--12.
+\newblock
+\showISBNx{0780336763}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/SMC.2015.387}}
+
 
 \bibitem{Soleymani2015}
-M.~Soleymani, M.~Pantic, and T.~Pun.
-\newblock {Multimodal emotion recognition in response to videos (Extended
-  abstract)}.
+{Mohammad Soleymani}, {Maja Pantic}, {and} {Thierry Pun}. 2015.
+\newblock \showarticletitle{{Multimodal emotion recognition in response to
+  videos (Extended abstract)}}.
 \newblock {\em 2015 International Conference on Affective Computing and
-  Intelligent Interaction, ACII 2015}, 3(2):491--497, 2015.
+  Intelligent Interaction, ACII 2015\/} {3}, 2 (2015), 491--497.
+\newblock
+\showISBNx{9781479999538}
+\showISSN{19493045}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ACII.2015.7344615}}
+
 
 \bibitem{Ververidis2004}
-D.~Ververidis, C.~Kotropoulos, and P.~Ioannis.
-\newblock {Automatic Emotional Speech Classification}.
-\newblock {\em Artificial Intelligence and Information Analysis Laboratory},
-  pages 593-- 596, 2004.
+{Dimitrios Ververidis}, {Constantine Kotropoulos}, {and} {Pitas Ioannis}. 2004.
+\newblock \showarticletitle{{Automatic Emotional Speech Classification}}.
+\newblock {\em Artificial Intelligence and Information Analysis Laboratory\/}
+  (2004), 593-- 596.
+\newblock
+\showISBNx{0-7803-8484-9}
+\showISSN{15206149}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICASSP.2004.1326055}}
+
 
 \bibitem{Wallbott1998}
-H.~G. Wallbott.
-\newblock {Bodily Expression of Emotion}.
-\newblock {\em European Journal of Social Psychology}, 28(6):879--896, 1998.
+{Harald~G. Wallbott}. 1998.
+\newblock \showarticletitle{{Bodily Expression of Emotion}}.
+\newblock {\em European Journal of Social Psychology\/} {28}, 6 (1998),
+  879--896.
+\newblock
+\showISBNx{0046-2772}
+\showISSN{0046-2772}
+\showDOI{%
+\url{http://dx.doi.org/10.1002/(SICI)1099-0992(1998110)28:6<879::AID-EJSP901>3.0.CO;2-W}}
+
 
 \bibitem{Wioleta2013}
-S.~Wioleta.
-\newblock {Using physiological signals for emotion recognition}.
-\newblock {\em Human System Interaction (HSI), 2013 The 6th {\ldots}}, pages
-  556--561, 2013.
+{Szwoch Wioleta}. 2013.
+\newblock \showarticletitle{{Using physiological signals for emotion
+  recognition}}.
+\newblock {\em Human System Interaction (HSI), 2013 The 6th {\ldots}\/} (2013),
+  556--561.
+\newblock
+\showISBNx{9781467356374}
+\showISSN{2158-2246}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/HSI.2013.6577880}}
+
 
 \end{thebibliography}
