@@ -103,6 +103,10 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
@@ -132,12 +136,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
@@ -460,6 +460,8 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/unusualdatapoints-values.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/unusualdatapoints-values.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out

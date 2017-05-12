@@ -17,10 +17,12 @@
 \BOOKMARK [3][-]{subsubsection.64}{Linear relationships}{subsection.59}% 17
 \BOOKMARK [3][-]{subsubsection.66}{Homoscedasticity}{subsection.59}% 18
 \BOOKMARK [3][-]{subsubsection.68}{Multicollinearity}{subsection.59}% 19
-\BOOKMARK [2][-]{subsection.71}{Maximum tap pressure}{section.57}% 20
-\BOOKMARK [1][-]{section.73}{Discussion}{}% 21
-\BOOKMARK [1][-]{section.75}{References }{}% 22
-\BOOKMARK [1][-]{appendix.78}{Linear relationships and homoscedasticity}{}% 23
-\BOOKMARK [2][-]{subsection.80}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.78}% 24
-\BOOKMARK [2][-]{subsection.83}{Partial regression plots}{appendix.78}% 25
-\BOOKMARK [1][-]{appendix.89}{Multicollinearity}{}% 26
+\BOOKMARK [2][-]{subsection.71}{Unusual data points}{section.57}% 20
+\BOOKMARK [2][-]{subsection.73}{Maximum tap pressure}{section.57}% 21
+\BOOKMARK [1][-]{section.75}{Discussion}{}% 22
+\BOOKMARK [1][-]{section.77}{References }{}% 23
+\BOOKMARK [1][-]{appendix.80}{Linear relationships and homoscedasticity}{}% 24
+\BOOKMARK [2][-]{subsection.82}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.80}% 25
+\BOOKMARK [2][-]{subsection.85}{Partial regression plots}{appendix.80}% 26
+\BOOKMARK [1][-]{appendix.91}{Multicollinearity}{}% 27
+\BOOKMARK [1][-]{appendix.97}{Unusual data points}{}% 28

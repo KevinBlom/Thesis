@@ -1,0 +1,16 @@
+%!TEX root=../Thesis.tex
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{@{}llZZZZZZ@{}}
+\textbf{Dependent variable} & \textbf{Independent variables} & \multicolumn{2}{c}{\textbf{Studentized residuals}}  & \multicolumn{2}{c}{\textbf{Cook's Distance}}        & \multicolumn{2}{c}{\textbf{Leverage values}}        \\ \midrule
+                            &                                & \multicolumn{1}{r}{Min} & \multicolumn{1}{r}{Max} & \multicolumn{1}{r}{Min} & \multicolumn{1}{r}{Max} & \multicolumn{1}{r}{Min} & \multicolumn{1}{r}{Max} \\ \cmidrule(l){3-8} 
+Valence                     & Max. tap pressure, duration    & -1.7                     & 2.06                     & .0                       & .09                      & .0                       & .14                      \\
+                            & Avg. tap pressure, duration    & -1.72                    & 2.09                     & .0                       & .09                      & .0                       & .1                       \\ \midrule
+Arousal                     & Max. tap pressure, duration    & -2.1                     & 1.83                     & .0                       & .08                      & .0                       & .14                      \\
+                            & Avg. tap pressure, duration    & -2.15                    & 1.84                     & .0                       & .11                      & .0                       & .1                      
+\end{tabularx}
+\caption{Studentized residuals, Cook's values and leverage values. Studentized residuals should are between -3 and +3 SDs. Cook's Distance values should be < 1. Leverage values should be < .2.}
+\label{tab:unusual_data_points}
+\end{table}

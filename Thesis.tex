@@ -56,7 +56,7 @@
 \usepackage{mathptmx}
 \usepackage[pdflang={en-US},pdftex]{hyperref}
 \usepackage{color}
-\usepackage{booktabs}
+\usepackage{tabularx, booktabs}
 \usepackage{textcomp}
 \usepackage{subcaption}
 \usepackage{graphicx}
@@ -89,6 +89,7 @@
 
 % Custom column type for tabularx environment. Centers and fills
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}X}
 
 % Paper metadata (use plain text, for PDF inclusion and later
 % re-using, if desired).  Use \emtpyauthor when submitting for review
@@ -341,8 +342,13 @@ Inspection of correlation coefficients (Appendix Multicollinearity for full tabl
 
 \subsection{Unusual data points} % (fold)
 \label{sub:unusual_data_points}
-
+For each seperate test, \textit{studentized residuals}, \textit{Cook's Distances} and \textit{Leverage values} were checked. There were no cases outside 3 Standard Deviations (SDs), no distances $> 1.0$ and no values $> 0.2$ respectively (Appendix Unusual Data Points for minimum and maximum values for each).
 % subsection unusual_data_points (end)
+
+\subsection{Normal distribution of errors} % (fold)
+\label{sub:normal_distribution_of_errors}
+
+% subsection normal_distribution_of_errors (end)
 
 \subsection{Maximum tap pressure}
 There was linearity as assessed by partial regression plots and a plot of studentized residuals against the predicted values. There was independence of residuals, as assessed by a Durbin-Watson statistic of 1.718. There was homoscedasticity, as assessed by visual inspection of a plot of studentized residuals versus unstandardized predicted values. There was no evidence of multicollinearity, as assessed by tolerance values greater than 0.1. There were no studentized deleted residuals greater than $\pm$3 standard deviations, no leverage values greater than 0.2, and values for Cook's distance above 1. The assumption of normality was met, as assessed by Q-Q Plot. The multiple regression model did not statistically significantly predicted tap pressure, $F(2, 57) = 2.033$, $p > 0.05$, adj. $R^2$ = 0.034. Non of the variables added statistically significantly to the prediction(i.e. $p > 0.05$), with $p_{valence} = 0.35$ and $p_{arousal} = 0.079$. %Regression coefficients and standard errors can be found in Table \ref{tab:summary_multiple_regression_max_pressure_avg}.
@@ -411,6 +417,12 @@ There was linearity as assessed by partial regression plots and a plot of studen
 \input{tables/Collinearity-correlations}
 \clearpage
 % section multicollinearity (end)
+
+\section{Unusual data points} % (fold)
+\label{sec:unusual_data_points}
+\hfill \break
+\input{tables/unusualdatapoints-values}
+% section unusual_data_points (end)
 
 
 \end{document}
