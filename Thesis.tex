@@ -58,6 +58,11 @@
 \usepackage{color}
 \usepackage{booktabs}
 \usepackage{textcomp}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[toc,page]{appendix}
+% \usepackage{tikz}
+%\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 % Some optional stuff you might like/need.
 \usepackage{microtype}        % Improved Tracking and Kerning
@@ -217,7 +222,7 @@ Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures i
 
 \subsection{Pressure detection} % (fold)
 \label{sub:pressure_detection}
-Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 (Corresponding with 0 to $\pm$350 grams) and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap (in nanoseconds) was also registered.
+Taps were detected on an Apple iPhone 6s device with a 3D touch screen running iOS 10.3.1. The pressure of taps was registered on a floating point scale from 0.0 to 6.67 (Corresponding with 0 to $\pm$350 grams) and for every tap, several pressure measurements were registered in chronological order. Furthermore, the duration of a tap (in nanoseconds) was registered.
 % subsection pressure_detection (end)
 
 \subsection{Data collection} % (fold)
@@ -271,16 +276,18 @@ In other words, for every photo there is a value for valence, arousal, maximum t
 \label{subsub:multiple_linear_regression}
 Testing for any correlation was completed with a multiple linear regression method. The advantage of this method is that both \textit{duration} and \textit{pressure} can be used as independent variables to check if there indeed is a relation to \textit{valence} or \textit{arousal} as dependent variables and that if there is a relationship, it also immediately produces a model to predict the dependent variables. A disadvantage of is that the relationship can not be checked for \textit{valence} and \textit{arousal} simultaneously, only for the seperate variables.
 
+What follows is four seperate multiple linear regression tests, two with \textit{valence} as dependent variable, and two with \textit{arousal} as dependent variable. Both dependent variables were tested for any relation ship with either \textit{maximum tap pressure \& duration} or \textit{average tap pressure \& duration}.
+
 Before proceeding to the results, several assumptions needed to be considered before concluding that the data could be analysed using multiple linear regression;
 \begin{enumerate}
-  \item \textbf{Independence of observation} - Using Durbin-Watson to test for 1st-order autocorrelation.
+  \item \textbf{Independence of observation} - Using Durbin-Watson to test for 1st-order autocorrelation. Value should be 2 $\pm$0.5.
   \item \textbf{Linear relationships} - Visually inspecting a scatterplot of studentitized residuals and unstandardized predicted values, and partial regression plots can indicate a (non)linear relationship.
   \item \textbf{Homoscedasticity of residuals} - Visually inspecting a scatter plot of studentitized residuals and unstandardized predicted values.
   \item \textbf{No multicollinearity} - Inspection of correlation coefficients and Tolerance/VIF values for indication of correlation between independent variables.
-  \item \textbf{Unusual data points} - There should be no outliers, high leverage points or highly influential points.
-  \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic.
+  \item \textbf{No unusual data points} - There should be no outliers, high leverage points or highly influential points.
+  \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic. By visually inspecting the histogram, Q-Q and P-P plots.
 \end{enumerate}
-All these assumptions will be considered and results of any tests that come with it are presented in the next section.
+All these assumptions are considered and results of any tests that came with it are presented in the next section.
 
 % \subsubsection{Maximum tap pressure}
 % \label{subsub:maximum_tap_pressure}
@@ -310,6 +317,32 @@ What statistical methods were used, based on what principles and data..
   \item Report of findings.
   \item Reference to any diagrams used.
 \end{itemize}
+
+In this section, results of the measurements are presented. It starts with 
+
+First, the results of \textit{maximum tap pressure} and \textit{duration} are presented. Secondly, \textit{average tap pressure} and \textit{duration}. Subsequently,
+
+\subsection{Assumptions}
+\label{sub:assumptions}
+
+\subsubsection{Independence of observation}
+As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values exceed acceptable limits for each seperate test, indicating a strong positive autocorrelation. However, Durbin-Watson is used for time-series data. Since the collected data is not a time-series, the positive autocorrelation can be safely ignored.
+\input{tables/Durbin-Watson.tex}
+
+\subsubsection{Linear relationships}
+By visually inspecting scatter plots of the \textit{unstandardized predicted value} against \textit{studentized residuals} it can be assumed there is linearity. Furthermore, by looking at partial regression plots of each of the independent variables for every dependent variable, it is again apparent that there is an approximate linear relationship. See Appendix Linear Relationships and Homoscedasticity for the graphs used for inspection.
+
+\subsubsection{Homoscedasticity}
+Using the scatter plots of \textit{unstandardized predicted value} against \textit{studentized residuals} for inspection, the random spread of values indicate homoscedasticity of values. See Appendix Linear Relationships and Homoscedasticity for the graphs used for inspection.
+
+\subsubsection{Multicollinearity}
+Inspection of correlation coefficients (Appendix Multicollinearity for full tables) show none of the correlations $> 0.7$. In Table \ref{tab:collinearity_tolerance}, tolerance values are found. None of the tolerance values fall below the limit of $0.1$
+\input{tables/Collinearity-statistics}
+
+\subsection{Unusual data points} % (fold)
+\label{sub:unusual_data_points}
+
+% subsection unusual_data_points (end)
 
 \subsection{Maximum tap pressure}
 There was linearity as assessed by partial regression plots and a plot of studentized residuals against the predicted values. There was independence of residuals, as assessed by a Durbin-Watson statistic of 1.718. There was homoscedasticity, as assessed by visual inspection of a plot of studentized residuals versus unstandardized predicted values. There was no evidence of multicollinearity, as assessed by tolerance values greater than 0.1. There were no studentized deleted residuals greater than $\pm$3 standard deviations, no leverage values greater than 0.2, and values for Cook's distance above 1. The assumption of normality was met, as assessed by Q-Q Plot. The multiple regression model did not statistically significantly predicted tap pressure, $F(2, 57) = 2.033$, $p > 0.05$, adj. $R^2$ = 0.034. Non of the variables added statistically significantly to the prediction(i.e. $p > 0.05$), with $p_{valence} = 0.35$ and $p_{arousal} = 0.079$. %Regression coefficients and standard errors can be found in Table \ref{tab:summary_multiple_regression_max_pressure_avg}.
@@ -348,10 +381,37 @@ There was linearity as assessed by partial regression plots and a plot of studen
 
 % section discussion (end)
 
+
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
 \bibliographystyle{SIGCHI-Reference-Format}
 \bibliography{library,Alternative}
+\clearpage
+\onecolumn
+
+% Start of appendices
+\appendix
+\section{Linear relationships and homoscedasticity}
+\label{app:linear_relationships}
+
+\subsection{Scatter plot: unstandardized predicted value vs. studentized residuals}
+\hfill \break
+\input{complexfigures/linearrelationships-scatterplot}
+\clearpage
+
+\subsection{Partial regression plots}
+\hfill \break
+\input{complexfigures/partialregression-valence}
+\input{complexfigures/partialregression-arousal}
+\clearpage
+
+\section{Multicollinearity} % (fold)
+\label{app:multicollinearity}
+\hfill \break
+\input{tables/Collinearity-correlations}
+\clearpage
+% section multicollinearity (end)
+
 
 \end{document}
 

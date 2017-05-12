@@ -109,6 +109,14 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
@@ -310,8 +318,6 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
@@ -319,12 +325,16 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -332,6 +342,124 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valence.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valence.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-arousal.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-arousal.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
