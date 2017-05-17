@@ -90,6 +90,7 @@
 % Custom column type for tabularx environment. Centers and fills
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \newcolumntype{Z}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{W}{>{\raggedright\arraybackslash}X}
 
 % Paper metadata (use plain text, for PDF inclusion and later
 % re-using, if desired).  Use \emtpyauthor when submitting for review
@@ -201,6 +202,8 @@ Looking at a more practical and applied side of emotion detection, Gao et al. \c
 From the related work can be concluded that most types of detection of emotions are invasive, either requiring constant monitoring, possibly with sensors attached to the body, or by constant recording of audio and visual data. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions. Using touch screen presses as indicators for emotional state could be an unobtrusive way of detecting emotion without the need for constant monitoring. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available. Subsequently, this leads to the following research question:\\
 
 \textit{Can pressure sensitive touch screen devices be used to tell more about the mood of the user?}\\
+
+The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state or mood of the user that performs the taps.
 % \begin{itemize}
 %   \item Description of background.
 %   \item Explanation of why research was necessary.
@@ -228,7 +231,7 @@ Taps were detected on an Apple iPhone 6s device with a 3D touch screen running i
 
 \subsection{Data collection} % (fold)
 \label{sub:data_collection}
-In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement. The gray color is used because it is perceived as neutral. The buttons are random for every photo, and for every participant. In other words, no participant received the same grid for the same photo.
+In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement. It uses a gray color because it is perceived as neutral. The buttons are random for every photo, and for every participant. In other words, no participant received the same grid for the same photo.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{images/Grid.png}
@@ -236,7 +239,7 @@ In order to collect a larger data set, 4 taps per photo were required to advance
     \label{fig:grid}
 \end{figure}
 
-All the data that was collected was anonymously and securely sent realtime to a Firebase\footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
+All the data that was collected was anonymously and securely sent realtime to a Firebase \footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
@@ -288,7 +291,7 @@ Before proceeding to the results, several assumptions needed to be considered be
   \item \textbf{No unusual data points} - There should be no outliers, high leverage points or highly influential points.
   \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic. By visually inspecting the histogram, Q-Q and P-P plots.
 \end{enumerate}
-All these assumptions are considered and results of any tests that came with it are presented in the next section.
+All these assumptions are considered and results of any tests that are associated are presented in the next section.
 
 % \subsubsection{Maximum tap pressure}
 % \label{subsub:maximum_tap_pressure}
@@ -327,7 +330,7 @@ First, the results of \textit{maximum tap pressure} and \textit{duration} are pr
 \label{sub:assumptions}
 
 \subsubsection{Independence of observation}
-As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values exceed acceptable limits for each seperate test, indicating a strong positive autocorrelation. However, Durbin-Watson is used for time-series data. Since the collected data is not a time-series, the positive autocorrelation can be safely ignored.
+As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values do not violate acceptable limits for each seperate test, indicating no autocorrelation.
 \input{tables/Durbin-Watson.tex}
 
 \subsubsection{Linear relationships}
@@ -340,38 +343,21 @@ Using the scatter plots of \textit{unstandardized predicted value} against \text
 Inspection of correlation coefficients (Appendix Multicollinearity for full tables) show none of the correlations $> 0.7$. In Table \ref{tab:collinearity_tolerance}, tolerance values are found. None of the tolerance values fall below the limit of $0.1$
 \input{tables/Collinearity-statistics}
 
-\subsection{Unusual data points} % (fold)
-\label{sub:unusual_data_points}
+\subsubsection{Unusual data points} % (fold)
+\label{subsub:unusual_data_points}
 For each seperate test, \textit{studentized residuals}, \textit{Cook's Distances} and \textit{Leverage values} were checked. There were no cases outside 3 Standard Deviations (SDs), no distances $> 1.0$ and no values $> 0.2$ respectively (Appendix Unusual Data Points for minimum and maximum values for each).
 % subsection unusual_data_points (end)
 
-\subsection{Normal distribution of errors} % (fold)
-\label{sub:normal_distribution_of_errors}
-
+\subsubsection{Normal distribution of errors} % (fold)
+\label{subsub:normal_distribution_of_errors}
+Visual inspection of histograms and P-P plots for each seperate test show no signs of significant violation of normality. (Appendix Normality for the inspected graphs and diagrams)
 % subsection normal_distribution_of_errors (end)
 
-\subsection{Maximum tap pressure}
-There was linearity as assessed by partial regression plots and a plot of studentized residuals against the predicted values. There was independence of residuals, as assessed by a Durbin-Watson statistic of 1.718. There was homoscedasticity, as assessed by visual inspection of a plot of studentized residuals versus unstandardized predicted values. There was no evidence of multicollinearity, as assessed by tolerance values greater than 0.1. There were no studentized deleted residuals greater than $\pm$3 standard deviations, no leverage values greater than 0.2, and values for Cook's distance above 1. The assumption of normality was met, as assessed by Q-Q Plot. The multiple regression model did not statistically significantly predicted tap pressure, $F(2, 57) = 2.033$, $p > 0.05$, adj. $R^2$ = 0.034. Non of the variables added statistically significantly to the prediction(i.e. $p > 0.05$), with $p_{valence} = 0.35$ and $p_{arousal} = 0.079$. %Regression coefficients and standard errors can be found in Table \ref{tab:summary_multiple_regression_max_pressure_avg}.
-
-% Coefficients are not interesting if there is no significance, they are only used for prediction models.
-% \begin{table}[ht]
-% \centering
-%   \begin{threeparttable}
-%     \caption{Summary of multiple regression analysis for maximum pressure average.\label{tab:summary_multiple_regression_max_pressure_avg}}
-%     \begin{tabularx}{0.9\linewidth}{@{}lYYY@{}}
-%       \toprule
-%       Variable  & \textit{B} & \textit{$SE_{B}$} & \textit{$\beta$} \\ \midrule
-%       Intercept & .375       & .024              &                  \\
-%       Valence   & .000       & .000              & .213             \\
-%       Arousal   & .001       & .000              & .403             \\ \bottomrule
-%     \end{tabularx}
-%   \begin{tablenotes}
-%     \small
-%     \item Note: \textit{B} = unstandardized regression coefficient. \textit{$SE_B$} = Standard error of the coefficient. $\beta$ = standardized coefficient.
-%   \end{tablenotes}
-%   \end{threeparttable}
-% \end{table}
-% section results (end)
+\subsection{Findings} % (fold)
+\label{sub:findings}
+A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary. In each seperate case, none of the independent variables significantly predicted valence nor arousal, $p > .05$. (See Appendix Regression Coefficients)
+\input{tables/findings}
+% subsection findings (end)
 
 \section{Discussion} % (fold)
 \label{sec:discussion}
@@ -422,7 +408,21 @@ There was linearity as assessed by partial regression plots and a plot of studen
 \label{sec:unusual_data_points}
 \hfill \break
 \input{tables/unusualdatapoints-values}
+\clearpage
 % section unusual_data_points (end)
+
+\section{Normality} % (fold)
+\label{app:normality}
+\hfill \break
+\input{complexfigures/normality}
+\clearpage
+% section normality (end)
+
+\section{Regression coefficients} % (fold)
+\label{sec:regression_coefficients}
+\hfill \break
+\input{tables/regression-coefficients}
+% section regression_coefficients (end)
 
 
 \end{document}

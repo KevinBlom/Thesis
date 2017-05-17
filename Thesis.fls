@@ -329,6 +329,8 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
@@ -338,10 +340,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
@@ -462,17 +460,100 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.t
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/unusualdatapoints-values.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/unusualdatapoints-values.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/normality.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/normality.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/PPValMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/HistValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/PPArMax-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/HistArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients.tex
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb

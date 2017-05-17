@@ -1,0 +1,21 @@
+%!TEX root=../Thesis.tex
+\begin{table}[ht]
+\centering
+\begin{tabularx}{\textwidth}{@{}llZZZZ@{}}
+\textbf{Dependent variable} & \textbf{Independent variable*} & B              & $SE_b$  & $\beta$ & \textit{Significance} \\ \midrule
+Valence                     & Intercept                      & 53.722         & 139.848 & n.a.    & .702                  \\
+                            & Max. tap pressure              & -136.476       & 145.694 & -.144   & .353                  \\
+                            & Duration                       & $5.566e^{-7}$  & .000    & .047    & .761                  \\ \cmidrule(l){2-6} 
+                            & Intercept                      & 59.459         & 138.468 & n.a.    & .669                  \\
+                            & Avg. tap pressure              & -211.353       & 204.722 & -.156   & .306                  \\
+                            & Duration                       & $5.698e^{-7}$  & .000    & .048    & .750                  \\ \midrule
+Arousal                     & Intercept                      & 10.397         & 109.668 & n.a.    & .925                  \\
+                            & Max. tap pressure              & 193.809        & 114.182 & .256    & .095                  \\
+                            & Duration                       & $-5.1e^{-7}$   & .000    & -.054   & .722                  \\ \cmidrule(l){2-6} 
+                            & Intercept                      & -2.076         & 109.254 & n.a.    & .985                  \\
+                            & Avg. tap pressure              & 247.231        & 161.530 & .227    & .131                  \\
+                            & Duration                       & $-3.027e^{-7}$ & .000    & -.032   & .830                 
+\end{tabularx}
+\caption{Regression coefficients table with significance. \textit{B} = Unstandardized coefficient. \textit{$SE_b$} = Std. Error. \textit{$\beta$} = Standardized coefficients. Significance = p-value. *\textit{Note}: Intercept should not be regarded as independent variable.}
+\label{tab:regression_coefficients}
+\end{table}
