@@ -180,7 +180,14 @@
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users\cite{Picard1997}.  According to Shah et al.\cite{Shah2015} there are two general models to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992} The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005}. Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. Since, the measuring of emotion has been a subject of research and several different angles have been discovered to approach it.
+Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users\cite{Picard1997}.  According to Shah et al.\cite{Shah2015} there are two general models to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992} The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. Since, the measuring of emotion has been a subject of research and several different angles have been discovered to approach it.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/CircumplexModel.jpg}
+    \caption{The two dimensional model as explained by Posner et al. Valence is expressed on the x-axis, arousal on the y-axis.}
+    \label{fig:circumplex_model}
+\end{figure}
 
 \subsection{Physiological detection} % (fold)
 \label{sub:physiology}
@@ -230,8 +237,7 @@ Participants were selected using a convience sampling process at an office. The 
 
 \subsection{Emotional elicitation} % (fold)
 \label{sub:emotional_elicitation}
-Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion was set. The GAPED photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. The photo set counts 730 pictures and is divided into 6 categories: Animal, Human, Neutral, Positive, Snakes, Spiders. From each of the categories, 10 pictures were randomly selected, resulting in a set of 60 pictures used for the experiment. Each participant was presented with the same 60 pictures, but in random order.
-Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures is often used for the International Affective Picture System photos. The GAPED photo set has been created because of two issues with the IAPS; extensive use decreases impact of the stimuli, and the limited number of pictures for specific themes. Both these issues are not exposure time related, so the choice of exposure time of the photo to the participant is 5 seconds.
+Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion was set. The GAPED photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. The photo set counts 730 pictures and is divided into 6 categories: Animal, Human, Neutral, Positive, Snakes, Spiders. From each of the categories, 10 pictures were randomly selected, resulting in a set of 60 pictures used for the experiment. Each participant was presented with the same 60 pictures, but in random order in order to mitigate any side effects that might occur from presenting pictures in a particular order. Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures is often used for the International Affective Picture System photos. The GAPED photo set has been created because of two issues with the IAPS; extensive use decreases impact of the stimuli, and the limited number of pictures for specific themes. Both these issues are not exposure time related, so the choice of exposure time of the photo to the participant is 5 seconds.
 
 % subsection emotional_elicitation (end)
 
@@ -271,6 +277,8 @@ Firstly, participants were told what the expirement entailed and were presented 
   \item This process repeats untill al 60 pictures have been shown.
   \item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
 \end{enumerate}
+
+The entirety of the experiment was completed in a room that  contained no screens, speakers or other distractions and ensured the participants would fully focus on the experiment.
 % subsection experiment_setup (end)
 
 \subsection{Data analysis}
@@ -302,7 +310,7 @@ Before proceeding to the results, several assumptions needed to be considered be
   \item \textbf{No unusual data points} - There should be no outliers, high leverage points or highly influential points.
   \item \textbf{Normal distribution of errors} - Errors in prediction need to be normally distributed, otherwise determining significance can become problematic. By visually inspecting the histogram, Q-Q and P-P plots.
 \end{enumerate}
-All these assumptions are considered and results of any tests that are associated are presented in the next section.
+All these assumptions are considered for every of the four seperate multiple linear regression tests mentioned. Results of testing the assumptions are also presented in the next section.
 
 % \subsubsection{Maximum tap pressure}
 % \label{subsub:maximum_tap_pressure}
@@ -314,28 +322,25 @@ All these assumptions are considered and results of any tests that are associate
 
 
 
-What statistical methods were used, based on what principles and data..
+% What statistical methods were used, based on what principles and data..
 
-\begin{itemize}
-  \item Overview of the research.
-  \item Report of who took part and where.
-  \item Report of what procedures were used.
-  \item Report of what materials were used.
-  \item Report of any statistical analysis used.
-\end{itemize}
+% \begin{itemize}
+%   \item Overview of the research.
+%   \item Report of who took part and where.
+%   \item Report of what procedures were used.
+%   \item Report of what materials were used.
+%   \item Report of any statistical analysis used.
+% \end{itemize}
 
 % section methods (end)
 
 \section{Results} % (fold)
-\label{sec:results}
-\begin{itemize}
-  \item Report of findings.
-  \item Reference to any diagrams used.
-\end{itemize}
-
-In this section, results of the measurements are presented. It starts with 
-
-First, the results of \textit{maximum tap pressure} and \textit{duration} are presented. Secondly, \textit{average tap pressure} and \textit{duration}. Subsequently,
+\label{sec:results}{}
+% \begin{itemize}
+%   \item Report of findings.
+%   \item Reference to any diagrams used.
+% \end{itemize}
+This section starts with presenting the results of testing the assumptions. Subsequently, the model of the multiple linear regression is presented.
 
 \subsection{Assumptions}
 \label{sub:assumptions}
@@ -366,8 +371,10 @@ Visual inspection of histograms and P-P plots for each seperate test show no sig
 
 \subsection{Findings} % (fold)
 \label{sub:findings}
-A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. (See Appendix Regression Coefficients for more detailed significance on individual independent variables)
 \input{tables/findings}
+A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary of each of the four multiple linear regression tests, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. Moreover, taking a look at Table \ref{tab:regression_significance}, it can be seen that none of the seperate independent variables significantly add to the prediction model. (See Appendix Regression Coefficients for detailed coefficient information)
+
+\input{tables/regression-coefficients-short}
 % subsection findings (end)
 
 \section{Discussion} % (fold)
@@ -376,19 +383,28 @@ The main purpose of this research is to discover a meaningful and significant re
 
 \subsection{Evaluation of findings} % (fold)
 \label{sub:evaluation_of_findings}
-Taking into regard hypothesis $H_0$, Table \ref{tab:findings} show us that none of the tests reach significance, $p < .05$. This means that hypothesis $H_0$ is accepted, and conversely hypothesis $H_1$ is rejected. One of the indicators why lies with the adjusted $R^2$. For valence tests $R^2$ values are negative, -.019 and -.015. This occurs when the model contains independent variables (\textit{tap pressure}, \textit{duration}) that do not contribute to a prediction of the dependent variable (\textit{valence}). For arousal tests $R^2$ is barely positive, .021 and .012. While this indicates that the independent values do contribute to a prediction (in contrast with negative $R^2$), it only does so very slightly. The values show that the independent variables (\textit{tap pressure}, \textit{duration}) only explain 2.1\% and 1.2\% of the variability of the dependent variable (\textit{arousal}).
+Taking into regard hypothesis $H_0$, Table \ref{tab:findings} show us that none of the tests create a significant model, $p < .05$. This means that hypothesis $H_0$ is accepted, and conversely hypothesis $H_1$ is rejected. One of the indicators why the null hypothesis is accepted lies with the adjusted $R^2$. For valence tests $R^2$ values are negative, -.019 and -.015. This occurs when the model contains independent variables (\textit{tap pressure}, \textit{duration}) that do not contribute to a prediction of the dependent variable (\textit{valence}). For arousal tests $R^2$ is barely positive, .021 and .012. While this indicates that the independent values do contribute to a prediction (in contrast with negative $R^2$), it only does so very slightly. The values show that the independent variables (\textit{tap pressure}, \textit{duration}) only explain 2.1\% and 1.2\% of the variability of the dependent variable (\textit{arousal}). Interestingly, these findings are in direct opposition with the findings of Lv et al. \cite{H.R.LvZ.L.LinW.J.Yin2008} , where there is a a direct correlation between pressure and emotion. This leads to believe that there are some factors in the experiment set up are not taken into account or applied erroneously.
 
-Interestingly, these findings completely are in direct opposition with the findings of Lv et al. \cite{H.R.LvZ.L.LinW.J.Yin2008} 
+\subsection{Weaknesses}
+One weakness in the experiment design that could influence the result is the random order of presentation of pictures. Every participant was shown 60 pictures in random order and the rationale behind that was to eliminate any unintentional side effect of several pictures eliciting the same emotion and in their turn strenghten or weaken the emotional response. However, this also means that none of the executed experiments were fully the same. Another possible weakness is again related to implementing randomness into the design. the grid overlay that was shown on every picture was also randomly generated in order to negate the effects of the position of the tap on the screen. This was decided for because with enough measurements the position of the tap starts to have less impact if the position is random. However, giving participants the same grids for the same photo might produce results that are signficant.
+
+Furthermore, this research assumes that every individual has the same physical response to emotional elicitation. In other words, it assumes that every individual will exert a specifc amount of pressure on a touch screen. 
 % subsection evaluation_of_findings (end)
 
-\begin{itemize}
-  \item Summary of main purpose of research.
-  \item Review of most important findings.
-  \item Evaluation of findings.
-  \item Explanation of findings.
-  \item Comparison with other researchers findings.
-  \item Description of implications and recommendations.
-\end{itemize}
+\subsection{Recommendations} % (fold)
+\label{sub:recommendations}
+If one is to venture into further research for this topic, it would be a wise decision to first try and repeat this experiment without the randomization that has been in place. Furthermore, rather than assuming every individual to respond the same to emotional elicitation and expecting a linear correlation, underlying patterns can be discovered. Especially looking for patterns specific to the participant rather than trying to find a pattern for the population. A suggestion to discover such patterns is the use of self-assessment as a methodology. Self-assessment by participants makes it possible to link tap pressure data to how the participant is feeling, rather then assuming a baseline set by visual stimuli.
+
+% subsection recommendations (end)
+
+% \begin{itemize}
+%   \item Summary of main purpose of research.
+%   \item Review of most important findings.
+%   \item Evaluation of findings.
+%   \item Explanation of findings.
+%   \item Comparison with other researchers findings.
+%   \item Description of implications and recommendations.
+% \end{itemize}
 
 
 % section discussion (end)
@@ -397,7 +413,7 @@ Interestingly, these findings completely are in direct opposition with the findi
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
 \bibliographystyle{SIGCHI-Reference-Format}
-\bibliography{library, Alternative}
+\bibliography{library,Alternative}
 \clearpage
 \onecolumn
 

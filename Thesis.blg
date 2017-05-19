@@ -5,7 +5,7 @@ The style file: SIGCHI-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Picard1997"
+Database file #2: Alternative.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no journal in Dan-glauser2011
 Warning--no number and no volume in Dan-glauser2011
@@ -14,49 +14,50 @@ Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
 Warning--no journal in Neuroscience2012
 Warning--unusual to have number, but no volume, for Picard1995
+Warning--empty address in Picard1997
 Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 18 entries,
+You've used 19 entries,
             5283 wiz_defined-function locations,
-            1397 strings with 18811 characters,
-and the built_in function-call counts, 17256 in all, are:
-= -- 2765
-> -- 492
-< -- 0
-+ -- 144
-- -- 171
-* -- 1073
-:= -- 1682
-add.period$ -- 90
-call.type$ -- 18
-change.case$ -- 117
-chr.to.int$ -- 18
-cite$ -- 29
-duplicate$ -- 1351
-empty$ -- 976
-format.name$ -- 207
-if$ -- 4504
+            1402 strings with 18881 characters,
+and the built_in function-call counts, 17807 in all, are:
+= -- 2819
+> -- 507
+< -- 1
++ -- 147
+- -- 177
+* -- 1101
+:= -- 1756
+add.period$ -- 97
+call.type$ -- 19
+change.case$ -- 122
+chr.to.int$ -- 19
+cite$ -- 31
+duplicate$ -- 1406
+empty$ -- 1016
+format.name$ -- 213
+if$ -- 4627
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 223
-num.names$ -- 108
-pop$ -- 404
+missing$ -- 66
+newline$ -- 230
+num.names$ -- 114
+pop$ -- 429
 preamble$ -- 1
-purify$ -- 189
+purify$ -- 198
 quote$ -- 0
-skip$ -- 400
+skip$ -- 413
 stack$ -- 0
-substring$ -- 1450
-swap$ -- 149
-text.length$ -- 0
+substring$ -- 1488
+swap$ -- 152
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 11
-while$ -- 127
+type$ -- 167
+warning$ -- 12
+while$ -- 133
 width$ -- 0
-write$ -- 330
+write$ -- 344
 (There were 12 warnings)
