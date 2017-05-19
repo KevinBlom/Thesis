@@ -87,6 +87,9 @@
 % \setlist[longitem,4]{label={--}}
 % \setlist[longitem,5]{label={--}}
 
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{nullhypothesis}{Null Hypothesis}
+
 % Custom column type for tabularx environment. Centers and fills
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \newcolumntype{Z}{>{\raggedleft\arraybackslash}X}
@@ -198,12 +201,20 @@ Looking at a more practical and applied side of emotion detection, Gao et al. \c
 
 % subsection practical_applications (end)
 
-\subsection{Research Question}
+\subsection{Research question and hypotheses}
 From the related work can be concluded that most types of detection of emotions are invasive, either requiring constant monitoring, possibly with sensors attached to the body, or by constant recording of audio and visual data. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions. Using touch screen presses as indicators for emotional state could be an unobtrusive way of detecting emotion without the need for constant monitoring. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available. Subsequently, this leads to the following research question:\\
 
 \textit{Can pressure sensitive touch screen devices be used to tell more about the mood of the user?}\\
 
-The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state or mood of the user that performs the taps.
+The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state or mood of the user that performs the taps. The null hypothesis that springs from the  research question is:
+
+$H_0$: \textit{Pressure of taps on touch screens exhibit no correlation with mood.}
+\\\\and the alternative hypothesis:\\\\
+$H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with mood.}
+
+
+
+
 % \begin{itemize}
 %   \item Description of background.
 %   \item Explanation of why research was necessary.
@@ -355,12 +366,21 @@ Visual inspection of histograms and P-P plots for each seperate test show no sig
 
 \subsection{Findings} % (fold)
 \label{sub:findings}
-A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary. In each seperate case, none of the independent variables significantly predicted valence nor arousal, $p > .05$. (See Appendix Regression Coefficients)
+A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. (See Appendix Regression Coefficients for more detailed significance on individual independent variables)
 \input{tables/findings}
 % subsection findings (end)
 
 \section{Discussion} % (fold)
 \label{sec:discussion}
+The main purpose of this research is to discover a meaningful and significant relationship between tap pressure on a touch screen and emotion. Using a quantitative approach with a sample size of 51 and multiple linear regression to explore this possible relationship, first results interestingly indicate no significant relationship.
+
+\subsection{Evaluation of findings} % (fold)
+\label{sub:evaluation_of_findings}
+Taking into regard hypothesis $H_0$, Table \ref{tab:findings} show us that none of the tests reach significance, $p < .05$. This means that hypothesis $H_0$ is accepted, and conversely hypothesis $H_1$ is rejected. One of the indicators why lies with the adjusted $R^2$. For valence tests $R^2$ values are negative, -.019 and -.015. This occurs when the model contains independent variables (\textit{tap pressure}, \textit{duration}) that do not contribute to a prediction of the dependent variable (\textit{valence}). For arousal tests $R^2$ is barely positive, .021 and .012. While this indicates that the independent values do contribute to a prediction (in contrast with negative $R^2$), it only does so very slightly. The values show that the independent variables (\textit{tap pressure}, \textit{duration}) only explain 2.1\% and 1.2\% of the variability of the dependent variable (\textit{arousal}).
+
+Interestingly, these findings completely are in direct opposition with the findings of Lv et al. \cite{H.R.LvZ.L.LinW.J.Yin2008} 
+% subsection evaluation_of_findings (end)
+
 \begin{itemize}
   \item Summary of main purpose of research.
   \item Review of most important findings.
@@ -377,7 +397,7 @@ A multiple regression was run to predict either valence or arousal from maximum 
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
 \bibliographystyle{SIGCHI-Reference-Format}
-\bibliography{library,Alternative}
+\bibliography{library, Alternative}
 \clearpage
 \onecolumn
 

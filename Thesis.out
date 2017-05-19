@@ -3,7 +3,7 @@
 \BOOKMARK [2][-]{subsection.10}{Facial detection}{section.6}% 3
 \BOOKMARK [2][-]{subsection.12}{Posture/gestures emotion detection}{section.6}% 4
 \BOOKMARK [2][-]{subsection.14}{Practical applications}{section.6}% 5
-\BOOKMARK [2][-]{subsection.16}{Research Question}{section.6}% 6
+\BOOKMARK [2][-]{subsection.16}{Research question and hypotheses}{section.6}% 6
 \BOOKMARK [1][-]{section.18}{Methods}{}% 7
 \BOOKMARK [2][-]{subsection.20}{Emotional elicitation}{section.18}% 8
 \BOOKMARK [2][-]{subsection.22}{Pressure detection}{section.18}% 9
@@ -21,11 +21,12 @@
 \BOOKMARK [3][-]{subsubsection.73}{Normal distribution of errors}{subsection.59}% 21
 \BOOKMARK [2][-]{subsection.75}{Findings}{section.57}% 22
 \BOOKMARK [1][-]{section.78}{Discussion}{}% 23
-\BOOKMARK [1][-]{section.80}{References }{}% 24
-\BOOKMARK [1][-]{appendix.83}{Linear relationships and homoscedasticity}{}% 25
-\BOOKMARK [2][-]{subsection.85}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.83}% 26
-\BOOKMARK [2][-]{subsection.88}{Partial regression plots}{appendix.83}% 27
-\BOOKMARK [1][-]{appendix.94}{Multicollinearity}{}% 28
-\BOOKMARK [1][-]{appendix.100}{Unusual data points}{}% 29
-\BOOKMARK [1][-]{appendix.103}{Normality}{}% 30
-\BOOKMARK [1][-]{appendix.109}{Regression coefficients}{}% 31
+\BOOKMARK [2][-]{subsection.80}{Evaluation of findings}{section.78}% 24
+\BOOKMARK [1][-]{section.82}{References }{}% 25
+\BOOKMARK [1][-]{appendix.85}{Linear relationships and homoscedasticity}{}% 26
+\BOOKMARK [2][-]{subsection.87}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.85}% 27
+\BOOKMARK [2][-]{subsection.90}{Partial regression plots}{appendix.85}% 28
+\BOOKMARK [1][-]{appendix.96}{Multicollinearity}{}% 29
+\BOOKMARK [1][-]{appendix.102}{Unusual data points}{}% 30
+\BOOKMARK [1][-]{appendix.105}{Normality}{}% 31
+\BOOKMARK [1][-]{appendix.111}{Regression coefficients}{}% 32

@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex Thesis"] 1495022990 "Thesis.aux" "Thesis.bbl" "Thesis" 1495022991
+["bibtex Thesis"] 1495103149 "Thesis.aux" "Thesis.bbl" "Thesis" 1495103150
+  " Alternative.bib" 0 -1 0 ""
   "./SIGCHI-Reference-Format.bst" 1484700188 94555 5415fad3411fceb9e67a35e073eed7c1 ""
-  "Alternative.bib" 1494667345 309 246d902306c5051d81548ed01254f379 ""
-  "Thesis.aux" 1495022991 16827 d9a713a1bb8ea21aefc7d872092e052f ""
+  "Thesis.aux" 1495103150 17048 0c7633c1ddd08289c62f7be23710a56c ""
   "Thesis.bcf" 0 -1 0 ""
   "library.bib" 1491382102 27648 3c397256b53222c75300f2664cfd8b3f ""
   (generated)
-  "Thesis.blg"
   "Thesis.bbl"
-["pdflatex"] 1495022990 "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" "Thesis" 1495022991
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux" 1495022991 16827 d9a713a1bb8ea21aefc7d872092e052f ""
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" 1495022982 27063 bd41601c495ee69dbd140f7b6fdb5348 ""
+  "Thesis.blg"
+["pdflatex"] 1495103149 "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" "Thesis" 1495103150
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux" 1495103150 17048 0c7633c1ddd08289c62f7be23710a56c ""
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex" 1495103142 28986 9259809d1ed57e03296829bb86949845 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -158,10 +158,10 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1484130659 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1484130716 3873397 0383bd858b29844f20a41f940ec9d22f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Thesis.aux" 1495022991 16827 d9a713a1bb8ea21aefc7d872092e052f ""
-  "Thesis.bbl" 1495022990 8281 bb979d1ddfad1111db4893b8bdf25201 "bibtex Thesis"
-  "Thesis.out" 1495022991 2074 0bc679cdfa130ae0c604de8560b7aeac ""
-  "Thesis.tex" 1495022982 27063 bd41601c495ee69dbd140f7b6fdb5348 ""
+  "Thesis.aux" 1495103150 17048 0c7633c1ddd08289c62f7be23710a56c ""
+  "Thesis.bbl" 1495103125 8143 742975cb40b81f00aabb48b2074cd260 "bibtex Thesis"
+  "Thesis.out" 1495103150 2161 a60f9f6f96fb72254fc0b2aff7746b03 ""
+  "Thesis.tex" 1495103142 28986 9259809d1ed57e03296829bb86949845 ""
   "acmcopyright.sty" 1484700188 9626 03a22ffcc9f51aaef67ac6ed43847230 ""
   "complexfigures/linearrelationships-scatterplot.tex" 1494582116 1205 9af4374709328c8ced07c76a6da0ba75 ""
   "complexfigures/normality.tex" 1495022414 2150 041744c36637e31b6ff77a39f174bde7 ""
@@ -197,9 +197,9 @@
   "tables/regression-coefficients.tex" 1495022866 2111 63971e6e2b9fdfcb9ef27db9a809d914 ""
   "tables/unusualdatapoints-values.tex" 1494666709 1815 156b674314a2406db0c18dd4b06208e4 ""
   (generated)
-  "Thesis.pdf"
-  "Thesis.aux"
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.log"
   "Thesis.out"
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.log"
+  "Thesis.aux"
+  "Thesis.pdf"
   "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf"
   "Thesis.log"
