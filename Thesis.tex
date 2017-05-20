@@ -61,6 +61,7 @@
 \usepackage{subcaption}
 \usepackage{graphicx}
 \usepackage[toc,page]{appendix}
+\usepackage[inline]{enumitem}
 % \usepackage{tikz}
 %\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
@@ -172,6 +173,8 @@
   % to SIGCHI conferences before, as some format details have changed
   % relative to previous years. Abstracts should be about 150 words and
   % are required.
+
+
 \end{abstract}
 
 \category{H.5.2.}{Information Interfaces and Presentation}{User-centered design}
@@ -180,7 +183,27 @@
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users\cite{Picard1997}.  According to Shah et al.\cite{Shah2015} there are two general models to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992} The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. Since, the measuring of emotion has been a subject of research and several different angles have been discovered to approach it.
+Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users\cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add another method to the field of emotion detection with smart devices.
+
+\subsection{Models of emotion} % (fold)
+\label{sub:models_of_emotion}
+There exist several different models that try to classify emotions in their own ways. In 2000, Scherer\cite{scherer2000} presents four models to represent emotion:
+\begin{enumerate*}[label=(\alph*)]
+  \item dimensional,
+  \item discrete emotion,
+  \item meaning, and
+  \item componential.
+\end{enumerate*}
+Their focus lies respectively with subjective feeling, motor expression and adaptive behavior patterns, verbal descriptions of subjective feelings, and the link between emotion-antecedent evaluation and differentiated reaction patterns. The study tries to name often used elicitation mechanisms, however it fails to find specific mechanisms for all but the compenenetial model, where an appraisal mechanism is often used. Appraisal is one of the six components that Fontaine et al. \cite{Fontaine2007} incorporate in their model of emotions. The complete model consists of six components:
+\begin{enumerate*}[label=(\alph*)]
+  \item appraisals of events
+  \item psychophysiological changes,
+  \item motor expressions,
+  \item action tendencies,
+  \item subjective experiences, and
+  \item emotion regulation.
+\end{enumerate*}
+More recently, Shah et al.\cite{Shah2015} prompt that in general there are two to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992} The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. 
 
 \begin{figure}[h]
     \centering
@@ -188,19 +211,32 @@ Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foun
     \caption{The two dimensional model as explained by Posner et al. Valence is expressed on the x-axis, arousal on the y-axis.}
     \label{fig:circumplex_model}
 \end{figure}
+% subsection models_of_emotion (end)
 
-\subsection{Physiological detection} % (fold)
+\subsection{Measuring emotion} % (fold)
+\label{sub:measuring_emotion}
+Since, the measuring of emotion has been a subject of research and several different angles have been discovered to approach it.
+
+The measuring of emotion is a broad field. In general it can be classified into three domains:
+\begin{enumerate*}[label=(\alph*)]
+  \item physiological detection,
+  \item facial detection, and
+  \item posture/gesture detection.
+\end{enumerate*}
+
+\subsubsection{Physiological detection} % (fold)
 \label{sub:physiology}
 One angle uses physiological signals of the human body to measure and detect emotion. In a review by Wioleta\cite{Wioleta2013}, eight studies were collected that measure emotion using one or more physiological signals combined. These signals are \textit{EEG, skin conductance, blood volume pulse, temperature, heart rate, blood pressure, respiration, EMG,} and \textit{ECG}. Most of these physiological signals have the drawback that they need specialized sensors attached to the body, making unobtrusive measurements difficult. With the recent rise of smart wearables, heart rate is one of the signals that is more readily available to use in applications on smart devices.
 % subsection physiology (end)
 
-\subsection{Facial detection} % (fold)
+\subsubsection{Facial detection} % (fold)
 \label{sub:facial_detection}
-Facial detection of emotion incorporates the measurement of facial muscle movement, voice or speech \cite{Ververidis2004}, and also includes the eye as point of detection, i.e. movement, blinking, and pupil dilation \cite{Soleymani2015}. By connecting facial muscle movement to visual display of emotions, Ekman et al. \cite{Ekman1969} conclude with a basic set of six mutually exclusive emotions that could be recognized. Expanding, De Silva et al. \cite{Silva1997} found that several emotions are expressed by either visual or auditory cues, or both, meaning that some emotions can be recognized by visual cues alone, auditory cues alone, or need a combination of both to be detected accurately.
+Facial detection of emotion incorporates the measurement of facial muscle movement, voice or speech \cite{Ververidis2004}, and furthermore includes the eye as point of detection, i.e. movement, blinking, and pupil dilation \cite{Soleymani2015}. While one can argue that these methods are also physiological, they are research to such detail and extent that they can be classifed seperately. By connecting facial muscle movement to visual display of emotions, Ekman et al. \cite{Ekman1969} conclude with a basic set of six mutually exclusive emotions that could be recognized. Expanding, De Silva et al. \cite{Silva1997} found that several emotions are expressed by either visual or auditory cues, or both, meaning that some emotions can be recognized by visual cues alone, auditory cues alone, or need a combination of both to be detected accurately.
 % subsection facial_emotion_detection (end)
 
-\subsection{Posture/gestures emotion detection}
+\subsubsection{Posture/gestures emotion detection}
 Other means of detection emotions involve the tracking and interpretation of posture and gesture. Wallbott et al. \cite{Wallbott1998} concluded in 1998 that there are, in some cases, distinctive patterns of movement and postural behavior that have a strong correlation to emotions. In other cases, they mention that in absence of patterns there are still distinctive features from which emotion could be inferred. Coulson et al. \cite{Coulson2004} researched static body postures and the recognition of emotions from these body postures by participants. It showed that disgust is a tough emotion to recognize but anger and sadness had over 90\% correct detection rates. Furthermore, happiness and surprise were two emotions that were often confused. 
+% subsection measuring_emotion (end)
 
 \subsection{Practical applications} % (fold)
 \label{sub:practical_applications}

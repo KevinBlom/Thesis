@@ -76,6 +76,17 @@
 \url{http://dx.doi.org/10.1126/science.164.3875.86}}
 
 
+\bibitem{Fontaine2007}
+{Johnny R~J Fontaine}, {Klaus~R Scherer}, {Etienne~B Roesch}, {C Phoebe},
+  {Johnny R~J Fontaine}, {Klaus~R Scherer}, {Etienne~B Roesch}, {and} {Phoebe~C
+  Ellsworth}. 2007.
+\newblock \showarticletitle{{The World of Emotions Is Not Two-Dimensional}}.
+\newblock  {18}, 12 (2007), 1050--1057.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1111/j.1467-9280.2007.02024.x}}
+
+
 \bibitem{Gao2012}
 {Yuan Gao}, {Nadia Bianchi-Berthouze}, {and} {Hongying Meng}. 2012.
 \newblock \showarticletitle{{What Does Touch Tell Us about Emotions in
@@ -99,6 +110,19 @@
 \showISBNx{978-1-4244-2570-9}
 \showDOI{%
 \url{http://dx.doi.org/10.1109/ICME.2008.4607628}}
+
+
+\bibitem{Heni2015}
+{Nazih Heni} {and} {Habib Hamam}. 2015.
+\newblock \showarticletitle{{Facial emotion detection of smartphone games
+  users}}.
+\newblock {\em Canadian Conference on Electrical and Computer Engineering\/}
+  {2015-June}, June (2015), 1243--1247.
+\newblock
+\showISBNx{9781479958290}
+\showISSN{08407789}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/CCECE.2015.7129456}}
 
 
 \bibitem{Lee2012}
@@ -177,6 +201,17 @@
 \showISSN{0954-5794}
 \showDOI{%
 \url{http://dx.doi.org/10.1017/S0954579405050340}}
+
+
+\bibitem{scherer2000}
+{Klaus~R. Scherer}. 2000.
+\newblock {\em {Psychological models of emotion}}.
+\newblock 137--162 pages.
+\newblock
+\showISBNx{0-19-511464-7 (Hardcover)}
+\showISSN{0951-7367}
+\showDOI{%
+\url{http://dx.doi.org/10.1097/00001504-198811000-00012}}
 
 
 \bibitem{Shah2015}
