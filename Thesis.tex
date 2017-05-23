@@ -183,11 +183,19 @@ The detection of emotion has been subject to research for a long time and is key
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-Affective computing as introduced by Picard \cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users \cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add a new method to the field of emotion detection with smart devices.
+I believe that emotion aware smart devices can provides users with a better experience, where better can be classified as an experience inline with how the user is feeling. Screens and information that present themselves in different ways, where the differences originate from current feelings of the user. This type of adaptation of user interfaces can tighten the social bond between user and smart devices making the devices feel more alive. Furthermore I believe the current state of technology, and in particular machine learning, capable of using the emotion of users in product designs that dynamically change. Picard \cite{Picard1995} states that computers that are emotion aware not only possess the ability to be of the users' assistance, but also let that computer make decisions that are influenced by those emotions that are expressed by the user. Reeves et al. \cite{Reeves1998} have shown that humans have the unconscious and undeliberate response to computers to act in a natural and social way. Why not make computers, and smart devices, respond in natural, social way as well?
+
+However, as Zimmerman et al. \cite{Zimmermann2003} rightfully write in their conclusion: What are adequate emotional reactions of a system that knows how the user feel? One posibility could be that your telecom provider app or website can contact customer support in the background already when it notices the user is upset about their bill. Another interesting case would be music applications promoting new and exciting songs when the user is happy, but slowed down and calm songs when the user is relaxed. Or how about games that have characters that can be helpful and friendly when progression is stalling, but can also respond to aggresion and anger in a suitable way, mitigating frustration or escalation. As a final example, educational systems that can detect if the user is confused can provide extra examples, or when it notices boredom can provide more challenging excercises.
+
+Interestingly, most initiatives to measure emotion for use with computers either require intrusive sensors, or deliberate and willful interaction, as will be described in detail later. This study explores the use of pressure sensitive touch screens of smart devices as means for a less intrusive, more ubiquitous way of detecting emotion.
+
+Key to affective computing, i.e. computers that have the means to detect, respond, and express emotion is the detection of emotion. Further explanation will be divided into two parts; models of emotion, and measuring of emotion. Models of emotion will help to grasp the different ways to approach and classify emotions, where as measuring of emotion will help understand how measuring is currently executed and how it can be improved. Subsequently, some practical applications are discussed and finally a research question and an hypothesis is presented.
+
+% Affective computing as introduced by Picard \cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users \cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add a new method to the field of emotion detection with smart devices.
 
 \subsection{Models of emotion} % (fold)
 \label{sub:models_of_emotion}
-There exist several different models that try to classify emotions in their own ways. In 2000, Scherer \cite{scherer2000} presents four models to represent emotion:
+There exist several different models of emotion that attempt to classify them in varying ways. In 2000, Scherer \cite{scherer2000} presents four models to represent emotion:
 \begin{enumerate*}[label=(\alph*)]
   \item dimensional,
   \item discrete emotion,
@@ -207,16 +215,16 @@ Their focus lies respectively with subjective feeling, motor expression and adap
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.45\textwidth]{images/PlutchikWheelOfEmotions.eps}
-    \caption{The discrete three dimensional model that R. Plutchik \protect\cite{Plutchik1980} introduced in 1980.}
+    \caption{The discrete three dimensional model that R. Plutchik \protect\cite{Plutchik1980} introduced in 1980. It shows human emotions on a discrete scale, where the most intense emotion is displayed in the middle, and intensity drops when going outwards.}
     \label{fig:wheel_of_emotions}
 \end{figure}
 
-More recently, Shah et al. \cite{Shah2015} state that there are in general two directions to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992}. A more detailed discrete model is the one proposed byPlutchik \cite{Plutchik1980}. The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. 
+More recently, Shah et al. \cite{Shah2015} state that there are in general two directions to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992}. A more detailed discrete model is the one proposed by Plutchik \cite{Plutchik1980}. The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional, continuous framework is a better option when capturing emotion, relative to discrete frameworks. 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.45\textwidth]{images/CircumplexModel.jpg}
-    \caption{The two dimensional model as explained by Posner et al. Valence is expressed on the x-axis, arousal on the y-axis.}
+    \caption{The two dimensional model as explained by Posner et al. \protect\cite{Posner2005}. Valence is expressed on the x-axis, arousal on the y-axis. Rather than classifying each emotion discretely, it can put emotion anywhere on the two axes}
     \label{fig:circumplex_model}
 \end{figure}
 % subsection models_of_emotion (end)
@@ -264,17 +272,17 @@ Looking at a more practical and applied side of emotion detection, Gao et al. \c
 % subsection practical_applications (end)
 
 \subsection{Research question and hypotheses}
-From the related work can be concluded that most types of detection of emotions are invasive, either requiring constant monitoring, possibly with sensors attached to the body, or by constant recording of audio and visual data. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions. Using touch screen presses as indicators for emotional state could be an unobtrusive way of detecting emotion without the need for constant monitoring. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available. Subsequently, this leads to the following research question:\\
+From the related work can be concluded that most types of detection of emotions are invasive, either requiring constant monitoring, possibly with sensors attached to the body, or by constant recording of audio and visual data. The practical applications show that measuring is often usecase dependent. However, the practical applications have on thing in common: a touch screen. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions and is independent of a usecase. Using touch screen presses as indicators for emotional state could be an unintrusive way of detecting emotion without the need for constant monitoring through other sensors. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available. Subsequently, this leads to the following research question:\\
 
-\textit{Can pressure sensitive touch screen devices be used to tell more about the mood of the user?}\\
+\textit{Can pressure sensitive touch screen devices be used to tell more about the emotional state of the user?}\\
 
-The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state or mood of the user that performs the taps. The null hypothesis that springs from the  research question is:
+The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state of the user that performs the taps. The null hypothesis that springs from the research question is:
 
 $H_0$: \textit{Pressure of taps on touch screens exhibit no correlation with mood.}
 \\\\and the alternative hypothesis:\\\\
 $H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with mood.}
 
-The next section will present how the study was conducted and before continuing to results.
+The next section will present how the study was conducted before continuing to results.
 
 
 % \begin{itemize}
@@ -306,7 +314,7 @@ In order to collect a larger data set, 4 taps per photo were required to advance
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{images/Grid.png}
-    \caption{Three examples of the grid as presented over a picture.}~
+    \caption{Three examples of the grid as presented over a picture. When a participant has pressed each of the grey squares (which disappear when pressed upon) the next picture is shown. After five seconds a new randomly generated grid is displayed on top of the picture. This process repeats 60 times.}~
     \label{fig:grid}
 \end{figure}
 
@@ -314,7 +322,7 @@ All the data that was collected was anonymously and securely sent realtime to a 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
-    \caption{Database structure in simplified form.}
+    \caption{The database structure shows that for every experiment entry, there are 60 photo entries. Each photo entry contains four tap entries, that contain zero to \textit{n} pressure measurements and a duration measurement}
     \label{fig:datastructure}
 \end{figure}
 

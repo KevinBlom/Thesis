@@ -112,19 +112,6 @@
 \url{http://dx.doi.org/10.1109/ICME.2008.4607628}}
 
 
-\bibitem{Heni2015}
-{Nazih Heni} {and} {Habib Hamam}. 2015.
-\newblock \showarticletitle{{Facial emotion detection of smartphone games
-  users}}.
-\newblock {\em Canadian Conference on Electrical and Computer Engineering\/}
-  {2015-June}, June (2015), 1243--1247.
-\newblock
-\showISBNx{9781479958290}
-\showISSN{08407789}
-\showDOI{%
-\url{http://dx.doi.org/10.1109/CCECE.2015.7129456}}
-
-
 \bibitem{Lee2012}
 {Hosub Lee}, {Young~Sang Choi}, {Sunjae Lee}, {and} {I.~P. Park}. 2012.
 \newblock \showarticletitle{{Towards unobtrusive emotion recognition for
@@ -183,13 +170,6 @@
 \url{http://dx.doi.org/10.1007/BF01238028}}
 
 
-\bibitem{Picard1997}
-{Rosalind~W Picard}. 1997.
-\newblock {\em Affective computing}. Vol. 252.
-\newblock MIT press Cambridge.
-\newblock
-
-
 \bibitem{Plutchik1980}
 {Robert Plutchik}. 1980.
 \newblock \showarticletitle{{Psychoevolutionary Theory of Basic Emotions}}.
@@ -210,6 +190,18 @@
 \showISSN{0954-5794}
 \showDOI{%
 \url{http://dx.doi.org/10.1017/S0954579405050340}}
+
+
+\bibitem{Reeves1998}
+{Byron Reeves} {and} {Clifford Nass}. 1998.
+\newblock \showarticletitle{{The media equation}}.
+\newblock {\em The Media Equation: How People Treat Computers, Television, and
+  New Media Like Real People and Places\/}  {34} (1998), 19--36.
+\newblock
+\showISBNx{1575860538}
+\showISSN{0018-9235}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/MSPEC.1997.576013}}
 
 
 \bibitem{scherer2000}
@@ -292,6 +284,20 @@
 \showISSN{2158-2246}
 \showDOI{%
 \url{http://dx.doi.org/10.1109/HSI.2013.6577880}}
+
+
+\bibitem{Zimmermann2003}
+{Philippe Zimmermann}, {Sissel Guttormsen}, {Brigitta Danuser}, {and} {Patrick
+  Gomez}. 2003.
+\newblock \showarticletitle{{Affective computing—a rationale for measuring
+  mood with mouse and keyboard}}.
+\newblock {\em International Journal of Occupational Safety and Ergonomics\/}
+  {9}, 4 (2003), 539--551.
+\newblock
+\showISBNx{1080-3548 (Print)$\backslash$r1080-3548 (Linking)}
+\showISSN{10803548}
+\showDOI{%
+\url{http://dx.doi.org/10.1080/10803548.2003.11076589}}
 
 
 \end{thebibliography}
