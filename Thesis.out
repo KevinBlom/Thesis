@@ -1,36 +1,36 @@
 \BOOKMARK [1][-]{section.6}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.8}{Models of emotion}{section.6}% 2
-\BOOKMARK [2][-]{subsection.21}{Measuring emotion}{section.6}% 3
-\BOOKMARK [3][-]{subsubsection.26}{Physiological detection}{subsection.21}% 4
-\BOOKMARK [3][-]{subsubsection.28}{Facial detection}{subsection.21}% 5
-\BOOKMARK [3][-]{subsubsection.30}{Posture/gestures emotion detection}{subsection.21}% 6
-\BOOKMARK [2][-]{subsection.32}{Practical applications}{section.6}% 7
-\BOOKMARK [2][-]{subsection.34}{Research question and hypotheses}{section.6}% 8
-\BOOKMARK [1][-]{section.36}{Methods}{}% 9
-\BOOKMARK [2][-]{subsection.38}{Emotional elicitation}{section.36}% 10
-\BOOKMARK [2][-]{subsection.40}{Pressure detection}{section.36}% 11
-\BOOKMARK [2][-]{subsection.42}{Data collection}{section.36}% 12
-\BOOKMARK [2][-]{subsection.48}{Experiment setup}{section.36}% 13
-\BOOKMARK [2][-]{subsection.56}{Data analysis}{section.36}% 14
-\BOOKMARK [3][-]{subsubsection.67}{Multiple linear regression}{subsection.56}% 15
-\BOOKMARK [1][-]{section.75}{Results}{}% 16
-\BOOKMARK [2][-]{subsection.77}{Assumptions}{section.75}% 17
-\BOOKMARK [3][-]{subsubsection.79}{Independence of observation}{subsection.77}% 18
-\BOOKMARK [3][-]{subsubsection.82}{Linear relationships}{subsection.77}% 19
-\BOOKMARK [3][-]{subsubsection.84}{Homoscedasticity}{subsection.77}% 20
-\BOOKMARK [3][-]{subsubsection.86}{Multicollinearity}{subsection.77}% 21
-\BOOKMARK [3][-]{subsubsection.89}{Unusual data points}{subsection.77}% 22
-\BOOKMARK [3][-]{subsubsection.91}{Normal distribution of errors}{subsection.77}% 23
-\BOOKMARK [2][-]{subsection.93}{Findings}{section.75}% 24
-\BOOKMARK [1][-]{section.97}{Discussion}{}% 25
-\BOOKMARK [2][-]{subsection.99}{Evaluation of findings}{section.97}% 26
-\BOOKMARK [2][-]{subsection.101}{Weaknesses}{section.97}% 27
-\BOOKMARK [2][-]{subsection.103}{Recommendations}{section.97}% 28
-\BOOKMARK [1][-]{section.105}{References }{}% 29
-\BOOKMARK [1][-]{appendix.108}{Linear relationships and homoscedasticity}{}% 30
-\BOOKMARK [2][-]{subsection.110}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.108}% 31
-\BOOKMARK [2][-]{subsection.113}{Partial regression plots}{appendix.108}% 32
-\BOOKMARK [1][-]{appendix.119}{Multicollinearity}{}% 33
-\BOOKMARK [1][-]{appendix.125}{Unusual data points}{}% 34
-\BOOKMARK [1][-]{appendix.128}{Normality}{}% 35
-\BOOKMARK [1][-]{appendix.134}{Regression coefficients}{}% 36
+\BOOKMARK [2][-]{subsection.22}{Measuring emotion}{section.6}% 3
+\BOOKMARK [3][-]{subsubsection.27}{Physiological detection}{subsection.22}% 4
+\BOOKMARK [3][-]{subsubsection.38}{Facial detection}{subsection.22}% 5
+\BOOKMARK [3][-]{subsubsection.40}{Posture/gestures emotion detection}{subsection.22}% 6
+\BOOKMARK [2][-]{subsection.42}{Practical applications}{section.6}% 7
+\BOOKMARK [2][-]{subsection.44}{Research question and hypotheses}{section.6}% 8
+\BOOKMARK [1][-]{section.46}{Methods}{}% 9
+\BOOKMARK [2][-]{subsection.48}{Emotional elicitation}{section.46}% 10
+\BOOKMARK [2][-]{subsection.50}{Pressure detection}{section.46}% 11
+\BOOKMARK [2][-]{subsection.52}{Data collection}{section.46}% 12
+\BOOKMARK [2][-]{subsection.58}{Experiment setup}{section.46}% 13
+\BOOKMARK [2][-]{subsection.66}{Data analysis}{section.46}% 14
+\BOOKMARK [3][-]{subsubsection.77}{Multiple linear regression}{subsection.66}% 15
+\BOOKMARK [1][-]{section.85}{Results}{}% 16
+\BOOKMARK [2][-]{subsection.87}{Assumptions}{section.85}% 17
+\BOOKMARK [3][-]{subsubsection.89}{Independence of observation}{subsection.87}% 18
+\BOOKMARK [3][-]{subsubsection.92}{Linear relationships}{subsection.87}% 19
+\BOOKMARK [3][-]{subsubsection.94}{Homoscedasticity}{subsection.87}% 20
+\BOOKMARK [3][-]{subsubsection.96}{Multicollinearity}{subsection.87}% 21
+\BOOKMARK [3][-]{subsubsection.99}{Unusual data points}{subsection.87}% 22
+\BOOKMARK [3][-]{subsubsection.101}{Normal distribution of errors}{subsection.87}% 23
+\BOOKMARK [2][-]{subsection.103}{Findings}{section.85}% 24
+\BOOKMARK [1][-]{section.107}{Discussion}{}% 25
+\BOOKMARK [2][-]{subsection.109}{Evaluation of findings}{section.107}% 26
+\BOOKMARK [2][-]{subsection.111}{Weaknesses}{section.107}% 27
+\BOOKMARK [2][-]{subsection.113}{Recommendations}{section.107}% 28
+\BOOKMARK [1][-]{section.115}{References }{}% 29
+\BOOKMARK [1][-]{appendix.118}{Linear relationships and homoscedasticity}{}% 30
+\BOOKMARK [2][-]{subsection.120}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.118}% 31
+\BOOKMARK [2][-]{subsection.123}{Partial regression plots}{appendix.118}% 32
+\BOOKMARK [1][-]{appendix.129}{Multicollinearity}{}% 33
+\BOOKMARK [1][-]{appendix.135}{Unusual data points}{}% 34
+\BOOKMARK [1][-]{appendix.138}{Normality}{}% 35
+\BOOKMARK [1][-]{appendix.144}{Regression coefficients}{}% 36

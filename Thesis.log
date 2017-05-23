@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.11)  20 MAY 2017 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.11)  22 MAY 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,14 +585,21 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks40
 \enit@inbox=\box29
 \enitdp@description=\count130
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count131
+\float@exts=\toks41
+\float@box=\box30
+\@float@everytoks=\toks42
+\@floatcapt=\box31
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks41
-\MT@count=\count131
+\MT@toks=\toks43
+\MT@count=\count132
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen156
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count132
+\MT@listname@count=\count133
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
@@ -613,11 +620,11 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks42
+\everycr=\toks44
 \minrowclearance=\skip53
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count133
+\rownum=\count134
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -630,77 +637,77 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box30
+\@tempboxb=\box32
 )
-\c@hypothesis=\count134
-\c@nullhypothesis=\count135
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 149
+\c@hypothesis=\count135
+\c@nullhypothesis=\count136
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 150
 .
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 149.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 150.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 149.
-Package hyperref Info: Option `breaklinks' set `true' on input line 149.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 149.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+Package hyperref Info: Option `breaklinks' set `true' on input line 150.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 150.
 (/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 155.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 155
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 156.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 156
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 155.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 155
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 156.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 156
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 155.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 155
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 156.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 156
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 155.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 155.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 156.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 156.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 155.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 156.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 155.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 156.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
+\scratchcounter=\count137
 \scratchdimen=\dimen157
-\scratchbox=\box31
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count139
+\scratchbox=\box33
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count140
 \MPscratchDim=\dimen158
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks46
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -714,27 +721,28 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 155.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 156.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count142
+\c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 155.
-LaTeX Info: Redefining \pageref on input line 155.
-LaTeX Info: Redefining \nameref on input line 155.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
 (/Users/Kevin/stack/Master Thesis/Thesis/Thesis.out) (/Users/Kevin/stack/Master
  Thesis/Thesis/Thesis.out)
 \@outlinefile=\write4
 \openout4 = `Thesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 155.
+LaTeX Info: Redefining \microtypecontext on input line 156.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -748,7 +756,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
-7.
+8.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -757,68 +765,68 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
-7.
+8.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
-7.
+8.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
-7.
+8.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 167.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 167.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 167.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 168.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 167.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 167.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 167.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 
-Overfull \hbox (5.79999pt too wide) in paragraph at lines 167--167
+Overfull \hbox (5.79999pt too wide) in paragraph at lines 168--168
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 167.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 167.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 167.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 168.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -828,85 +836,108 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
-<images/CircumplexModel.jpg, id=161, 385.44pt x 296.7888pt>
-File: images/CircumplexModel.jpg Graphic file (type jpg)
-<use images/CircumplexModel.jpg>
-Package pdftex.def Info: images/CircumplexModel.jpg used on input line 210.
-(pdftex.def)             Requested size: 230.46574pt x 177.45876pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <images/PlutchikWheelOfEmotions.eps>
+(epstopdf)                    date: 2017-05-22 14:19:31
+(epstopdf)                    size: 493234 bytes
+(epstopdf)             Output file: <images/PlutchikWheelOfEmotions-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-05-22 14:21:47
+(epstopdf)                    size: 450583 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/PlutchikWheelOfEmot
+ions-eps-converted-to.pdf images/PlutchikWheelOfEmotions.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/PlutchikWheelOfEmotions-eps-converted-to.pdf, id=156, 499.8675pt x 489.
+83pt>
+File: images/PlutchikWheelOfEmotions-eps-converted-to.pdf Graphic file (type pd
+f)
+<use images/PlutchikWheelOfEmotions-eps-converted-to.pdf>
+Package pdftex.def Info: images/PlutchikWheelOfEmotions-eps-converted-to.pdf us
+ed on input line 209.
+(pdftex.def)             Requested size: 230.46574pt x 225.84024pt.
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 Non-PDF special ignored!
 
- </Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg>]
-Underfull \vbox (badness 3977) has occurred while \output is active []
+ </Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-co
+nverted-to.pdf>] <images/CircumplexModel.jpg, id=206, 385.44pt x 296.7888pt>
+File: images/CircumplexModel.jpg Graphic file (type jpg)
+<use images/CircumplexModel.jpg>
+Package pdftex.def Info: images/CircumplexModel.jpg used on input line 218.
+(pdftex.def)             Requested size: 230.46574pt x 177.45876pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+[2 </Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
+
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 273--276
 \OML/ztmcm/m/it/10 H[]$\T1/ptm/m/n/10 (+20) : \T1/ptm/m/it/10 (+20) Pres-sure o
 f taps on touch screens ex-hibit di-rect
  []
 
-[2] <images/Grid.png, id=241, 1153.30875pt x 673.51625pt>
+<images/Grid.png, id=256, 1153.30875pt x 673.51625pt>
 File: images/Grid.png Graphic file (type png)
 <use images/Grid.png>
-Package pdftex.def Info: images/Grid.png used on input line 290.
+Package pdftex.def Info: images/Grid.png used on input line 308.
 (pdftex.def)             Requested size: 230.46574pt x 134.58781pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
-<images/Datastructure.png, id=248, 456.70625pt x 912.40875pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
+<images/Datastructure.png, id=263, 456.70625pt x 912.40875pt>
 File: images/Datastructure.png Graphic file (type png)
 <use images/Datastructure.png>
-Package pdftex.def Info: images/Datastructure.png used on input line 298.
+Package pdftex.def Info: images/Datastructure.png used on input line 316.
 (pdftex.def)             Requested size: 153.64644pt x 306.94315pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 </Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png> </Users/Kevin/stac
-k/Master Thesis/Thesis/images/Datastructure.png>]
+[3 </Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 324.
-(/Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex) (/Users/Kevi
-n/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex)
-Underfull \hbox (badness 2351) in paragraph at lines 395--397
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 342.
+[4 </Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png>] (/Users/
+Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex) (/Users/Kevin/stack/
+Master Thesis/Thesis/tables/Collinearity-statistics.tex)
+Underfull \hbox (badness 2351) in paragraph at lines 414--416
 []\T1/ptm/m/n/10 (+20) Inspection of cor-re-la-tion co-ef-fi-cients (Ap-pendix 
 Mul-ti-
  []
 
-[4] (/Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex)
+
 (/Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.t
 ex
 Overfull \hbox (7.43486pt too wide) in paragraph at lines 4--19
  [][] 
  []
 
-) (/Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl [5] [6]) [7
-
-]
+) (/Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex) [5] (/Users/Kev
+in/stack/Master Thesis/Thesis/Thesis.bbl [6]) [7]
 (/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-sca
 tterplot.tex
 Package epstopdf Info: Source file: <images/linearity/ValMax.eps>
@@ -921,7 +952,7 @@ s-converted-to.pdf images/linearity/ValMax.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/linearity/ValMax-eps-converted-to.pdf, id=360, 200.75pt x 161.60374pt>
+<images/linearity/ValMax-eps-converted-to.pdf, id=382, 200.75pt x 161.60374pt>
 File: images/linearity/ValMax-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ValMax-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ValMax-eps-converted-to.pdf used on i
@@ -939,7 +970,7 @@ s-converted-to.pdf images/linearity/ValAvg.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/linearity/ValAvg-eps-converted-to.pdf, id=361, 200.75pt x 161.60374pt>
+<images/linearity/ValAvg-eps-converted-to.pdf, id=383, 200.75pt x 161.60374pt>
 File: images/linearity/ValAvg-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ValAvg-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ValAvg-eps-converted-to.pdf used on i
@@ -956,7 +987,7 @@ f>
 -converted-to.pdf images/linearity/ArMax.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<images/linearity/ArMax-eps-converted-to.pdf, id=362, 200.75pt x 161.60374pt>
+<images/linearity/ArMax-eps-converted-to.pdf, id=384, 200.75pt x 161.60374pt>
 File: images/linearity/ArMax-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ArMax-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ArMax-eps-converted-to.pdf used on in
@@ -973,7 +1004,7 @@ f>
 -converted-to.pdf images/linearity/ArAvg.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<images/linearity/ArAvg-eps-converted-to.pdf, id=363, 200.75pt x 161.60374pt>
+<images/linearity/ArAvg-eps-converted-to.pdf, id=385, 200.75pt x 161.60374pt>
 File: images/linearity/ArAvg-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ArAvg-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ArAvg-eps-converted-to.pdf used on in
@@ -1004,7 +1035,7 @@ ion/valence/ValMaxMax.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf, id=
-413, 199.74625pt x 159.59625pt>
+434, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1027,7 +1058,7 @@ sion/valence/ValMaxTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf, id
-=414, 199.74625pt x 159.59625pt>
+=435, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1051,7 +1082,7 @@ ion/valence/ValAvgAvg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf, id=
-415, 199.74625pt x 159.59625pt>
+436, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1074,7 +1105,7 @@ sion/valence/ValAvgTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf, id
-=416, 199.74625pt x 159.59625pt>
+=437, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1101,7 +1132,7 @@ on/arousal/ArMaxMax.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf, id=4
-17, 199.74625pt x 159.59625pt>
+38, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1124,7 +1155,7 @@ ion/arousal/ArMaxTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf, id=
-418, 199.74625pt x 159.59625pt>
+439, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1147,7 +1178,7 @@ on/arousal/ArAvgAvg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf, id=4
-19, 199.74625pt x 159.59625pt>
+40, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1170,7 +1201,7 @@ ion/arousal/ArAvgTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf, id=
-420, 199.74625pt x 159.59625pt>
+441, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1210,7 +1241,7 @@ stValMax-eps-converted-to.pdf images/normality/ValMax/HistValMax.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ValMax/HistValMax-eps-converted-to.pdf, id=465, 300.12125pt x
+<images/normality/ValMax/HistValMax-eps-converted-to.pdf, id=486, 300.12125pt x
  239.89626pt>
 File: images/normality/ValMax/HistValMax-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1230,7 +1261,7 @@ ValMax-eps-converted-to.pdf images/normality/ValMax/PPValMax.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ValMax/PPValMax-eps-converted-to.pdf, id=466, 300.12125pt x 2
+<images/normality/ValMax/PPValMax-eps-converted-to.pdf, id=487, 300.12125pt x 2
 39.89626pt>
 File: images/normality/ValMax/PPValMax-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1250,7 +1281,7 @@ stValAvg-eps-converted-to.pdf images/normality/valavg/HistValAvg.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/valavg/HistValAvg-eps-converted-to.pdf, id=467, 300.12125pt x
+<images/normality/valavg/HistValAvg-eps-converted-to.pdf, id=488, 300.12125pt x
  239.89626pt>
 File: images/normality/valavg/HistValAvg-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1270,7 +1301,7 @@ ValAvg-eps-converted-to.pdf images/normality/valavg/PPValAvg.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/valavg/PPValAvg-eps-converted-to.pdf, id=468, 300.12125pt x 2
+<images/normality/valavg/PPValAvg-eps-converted-to.pdf, id=489, 300.12125pt x 2
 39.89626pt>
 File: images/normality/valavg/PPValAvg-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1290,7 +1321,7 @@ tArMax-eps-converted-to.pdf images/normality/ArMax/HistArMax.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ArMax/HistArMax-eps-converted-to.pdf, id=469, 300.12125pt x 2
+<images/normality/ArMax/HistArMax-eps-converted-to.pdf, id=490, 300.12125pt x 2
 39.89626pt>
 File: images/normality/ArMax/HistArMax-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1310,7 +1341,7 @@ rMax-eps-converted-to.pdf images/normality/ArMax/PPArMax.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ArMax/PPArMax-eps-converted-to.pdf, id=470, 300.12125pt x 239
+<images/normality/ArMax/PPArMax-eps-converted-to.pdf, id=491, 300.12125pt x 239
 .89626pt>
 File: images/normality/ArMax/PPArMax-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1330,7 +1361,7 @@ tArAvg-eps-converted-to.pdf images/normality/aravg/HistArAvg.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/aravg/HistArAvg-eps-converted-to.pdf, id=471, 300.12125pt x 2
+<images/normality/aravg/HistArAvg-eps-converted-to.pdf, id=492, 300.12125pt x 2
 39.89626pt>
 File: images/normality/aravg/HistArAvg-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1350,7 +1381,7 @@ rAvg-eps-converted-to.pdf images/normality/aravg/PPArAvg.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/aravg/PPArAvg-eps-converted-to.pdf, id=472, 300.12125pt x 239
+<images/normality/aravg/PPArAvg-eps-converted-to.pdf, id=493, 300.12125pt x 239
 .89626pt>
 File: images/normality/aravg/PPArAvg-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1371,26 +1402,26 @@ nverted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax
 normality/aravg/HistArAvg-eps-converted-to.pdf> </Users/Kevin/stack/Master Thes
 is/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf>] (/Users/Kevin/s
 tack/Master Thesis/Thesis/tables/regression-coefficients.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
 [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 500.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
 (/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 500.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 500.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 525.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 633FF837553AEE2B3F86FE86DF501A43;2448.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 500.
+(rerunfilecheck)             Checksum: 22D2F64B1E76DF7B9DE1CC76321F9D03;2455.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
  ) 
 Here is how much of TeX's memory you used:
- 12104 strings out of 493014
- 188463 string characters out of 6133351
- 311162 words of memory out of 5000000
- 14984 multiletter control sequences out of 15000+600000
- 94943 words of font info for 253 fonts, out of 8000000 for 9000
+ 12172 strings out of 493014
+ 189544 string characters out of 6133351
+ 311719 words of memory out of 5000000
+ 15036 multiletter control sequences out of 15000+600000
+ 94848 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,1525b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,94p,1525b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
@@ -1402,10 +1433,10 @@ ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" (15 page
-s, 608667 bytes).
+s, 1058983 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
- 173 named destinations out of 1000 (max. 500000)
- 33684 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 184 named destinations out of 1000 (max. 500000)
+ 33689 words of extra memory for PDF output out of 35830 (max. 10000000)
 

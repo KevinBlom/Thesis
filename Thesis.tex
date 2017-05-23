@@ -62,6 +62,7 @@
 \usepackage{graphicx}
 \usepackage[toc,page]{appendix}
 \usepackage[inline]{enumitem}
+\usepackage{float}
 % \usepackage{tikz}
 %\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
@@ -99,11 +100,11 @@
 % Paper metadata (use plain text, for PDF inclusion and later
 % re-using, if desired).  Use \emtpyauthor when submitting for review
 % so you remain anonymous.
-\def\plaintitle{Tap pressure on touchscreens and the relationship to detection of emotion}
+\def\plaintitle{Tap pressure on pressure sensitive touch screens and the correlation with emotion}
 \def\plainauthor{First Author, Second Author, Third Author,
   Fourth Author, Fifth Author, Sixth Author}
 \def\emptyauthor{}
-\def\plainkeywords{Human centered multimedia; emotion; tap pressure}
+\def\plainkeywords{Human centered multimedia; emotion; tap pressure; motor expression}
 \def\plaingeneralterms{Documentation, Standardization}
 
 % llt: Define a global style for URLs, rather that the default one
@@ -173,8 +174,7 @@
   % to SIGCHI conferences before, as some format details have changed
   % relative to previous years. Abstracts should be about 150 words and
   % are required.
-
-
+The detection of emotion has been subject to research for a long time and is key to affective computing; computers that assist humans or have an enhanced decision ability based on the user. One of the areas that recently has become available is pressure sensitive touch screens. Touch screens are a widely accepted and used technology where users deliberatly interact with multiple times per day. Utilizing such a touch screen and an affective picture database, this study tries to predict emotion from tap pressure. Unfortunately, while literature does suggest a correlation, this study finds none. The discussion raises some weaknesses as to the cause and proposes several solutions for further investigation.
 \end{abstract}
 
 \category{H.5.2.}{Information Interfaces and Presentation}{User-centered design}
@@ -183,11 +183,11 @@
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-Affective computing as introduced by Picard\cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users\cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add another method to the field of emotion detection with smart devices.
+Affective computing as introduced by Picard \cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users \cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add a new method to the field of emotion detection with smart devices.
 
 \subsection{Models of emotion} % (fold)
 \label{sub:models_of_emotion}
-There exist several different models that try to classify emotions in their own ways. In 2000, Scherer\cite{scherer2000} presents four models to represent emotion:
+There exist several different models that try to classify emotions in their own ways. In 2000, Scherer \cite{scherer2000} presents four models to represent emotion:
 \begin{enumerate*}[label=(\alph*)]
   \item dimensional,
   \item discrete emotion,
@@ -203,9 +203,17 @@ Their focus lies respectively with subjective feeling, motor expression and adap
   \item subjective experiences, and
   \item emotion regulation.
 \end{enumerate*}
-More recently, Shah et al.\cite{Shah2015} prompt that in general there are two to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992} The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. 
 
-\begin{figure}[h]
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/PlutchikWheelOfEmotions.eps}
+    \caption{The discrete three dimensional model that R. Plutchik \protect\cite{Plutchik1980} introduced in 1980.}
+    \label{fig:wheel_of_emotions}
+\end{figure}
+
+More recently, Shah et al. \cite{Shah2015} state that there are in general two directions to represent emotion; discrete and continuous. The discrete model represent emotions that are measurable and physiologically distinct like angry, sad, happy, etc. \cite{Ekman1992}. A more detailed discrete model is the one proposed byPlutchik \cite{Plutchik1980}. The continuous model represents emotions on a two-dimensional scale, where one axis represents \textit{valence} and the other \textit{arousal} \cite{Posner2005} (Figure \ref{fig:circumplex_model}). Mauss et al. \cite{Mauss2009} suggest that using a dimensional framework is a better option when capturing emotion, relative to discrete frameworks. 
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.45\textwidth]{images/CircumplexModel.jpg}
     \caption{The two dimensional model as explained by Posner et al. Valence is expressed on the x-axis, arousal on the y-axis.}
@@ -215,23 +223,34 @@ More recently, Shah et al.\cite{Shah2015} prompt that in general there are two t
 
 \subsection{Measuring emotion} % (fold)
 \label{sub:measuring_emotion}
-Since, the measuring of emotion has been a subject of research and several different angles have been discovered to approach it.
-
-The measuring of emotion is a broad field. In general it can be classified into three domains:
+The models of emotion also create the necessity to measure emotion. The measuring of emotion is a broad field that, in general, can be classified into three domains:
 \begin{enumerate*}[label=(\alph*)]
-  \item physiological detection,
-  \item facial detection, and
-  \item posture/gesture detection.
+  \item physiological,
+  \item facial, and
+  \item posture/gesture.
 \end{enumerate*}
+
 
 \subsubsection{Physiological detection} % (fold)
 \label{sub:physiology}
-One angle uses physiological signals of the human body to measure and detect emotion. In a review by Wioleta\cite{Wioleta2013}, eight studies were collected that measure emotion using one or more physiological signals combined. These signals are \textit{EEG, skin conductance, blood volume pulse, temperature, heart rate, blood pressure, respiration, EMG,} and \textit{ECG}. Most of these physiological signals have the drawback that they need specialized sensors attached to the body, making unobtrusive measurements difficult. With the recent rise of smart wearables, heart rate is one of the signals that is more readily available to use in applications on smart devices.
+The first domain uses physiological signals of the human body to measure and detect emotion. In a review by Wioleta\cite{Wioleta2013}, eight studies were collected that measure emotion using one or more physiological signals combined. These signals are (in no particular order):
+\begin{enumerate*}[label=(\alph*)]
+  \item EEG,
+  \item skin conductance,
+  \item blood volume pulse,
+  \item temperature,
+  \item heart rate,
+  \item blood pressure,
+  \item respiration,
+  \item EMG, and
+  \item ECG.
+\end{enumerate*}
+Most of these physiological signals have the drawback that they need specialized sensors attached to the body, making unobtrusive measurements difficult. With the recent rise of smart wearables that include a heart rate monitor, heart rate is one of the signals that is more readily available to use in applications on smart devices.
 % subsection physiology (end)
 
 \subsubsection{Facial detection} % (fold)
 \label{sub:facial_detection}
-Facial detection of emotion incorporates the measurement of facial muscle movement, voice or speech \cite{Ververidis2004}, and furthermore includes the eye as point of detection, i.e. movement, blinking, and pupil dilation \cite{Soleymani2015}. While one can argue that these methods are also physiological, they are research to such detail and extent that they can be classifed seperately. By connecting facial muscle movement to visual display of emotions, Ekman et al. \cite{Ekman1969} conclude with a basic set of six mutually exclusive emotions that could be recognized. Expanding, De Silva et al. \cite{Silva1997} found that several emotions are expressed by either visual or auditory cues, or both, meaning that some emotions can be recognized by visual cues alone, auditory cues alone, or need a combination of both to be detected accurately.
+Facial detection of emotion incorporates the measurement of facial muscle movement, voice or speech \cite{Ververidis2004}, and furthermore includes the eye as point of detection, i.e. movement, blinking, and pupil dilation \cite{Soleymani2015}. While one can argue that these methods are also physiological, they are research to such detail and extent that they can be classifed seperately. By connecting facial muscle movement to visual display of emotions, Ekman et al. \cite{Ekman1969} conclude with a basic set of six mutually exclusive emotions that could be recognized. Furthermore, De Silva et al. \cite{Silva1997} found that several emotions are expressed by either visual or auditory cues, or both, meaning that some emotions can be recognized by visual cues alone, auditory cues alone, or need a combination of both to be detected accurately.
 % subsection facial_emotion_detection (end)
 
 \subsubsection{Posture/gestures emotion detection}
@@ -255,7 +274,7 @@ $H_0$: \textit{Pressure of taps on touch screens exhibit no correlation with moo
 \\\\and the alternative hypothesis:\\\\
 $H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with mood.}
 
-
+The next section will present how the study was conducted and before continuing to results.
 
 
 % \begin{itemize}
@@ -268,8 +287,7 @@ $H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with
 
 \section{Methods} % (fold)
 \label{sec:methods}
-In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response.
-Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background.
+In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response. 51 Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background.
 
 \subsection{Emotional elicitation} % (fold)
 \label{sub:emotional_elicitation}
@@ -379,11 +397,12 @@ All these assumptions are considered for every of the four seperate multiple lin
 This section starts with presenting the results of testing the assumptions. Subsequently, the model of the multiple linear regression is presented.
 
 \subsection{Assumptions}
+These are the results of checking each of the six assumptions. The section Methods explains the necessity of checking assumptions in more detail.
 \label{sub:assumptions}
-
 \subsubsection{Independence of observation}
-As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values do not violate acceptable limits for each seperate test, indicating no autocorrelation.
+As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values do not violate acceptable limits for each seperate test, indicating no autocorrelation. \\
 \input{tables/Durbin-Watson.tex}
+
 
 \subsubsection{Linear relationships}
 By visually inspecting scatter plots of the \textit{unstandardized predicted value} against \textit{studentized residuals} it can be assumed there is linearity. Furthermore, by looking at partial regression plots of each of the independent variables for every dependent variable, it is again apparent that there is an approximate linear relationship. See Appendix Linear Relationships and Homoscedasticity for the graphs used for inspection.
@@ -392,8 +411,9 @@ By visually inspecting scatter plots of the \textit{unstandardized predicted val
 Using the scatter plots of \textit{unstandardized predicted value} against \textit{studentized residuals} for inspection, the random spread of values indicate homoscedasticity of values. See Appendix Linear Relationships and Homoscedasticity for the graphs used for inspection.
 
 \subsubsection{Multicollinearity}
-Inspection of correlation coefficients (Appendix Multicollinearity for full tables) show none of the correlations $> 0.7$. In Table \ref{tab:collinearity_tolerance}, tolerance values are found. None of the tolerance values fall below the limit of $0.1$
+Inspection of correlation coefficients (Appendix Multicollinearity for full tables) show none of the correlations $> 0.7$. In Table \ref{tab:collinearity_tolerance}, tolerance values are found. None of the tolerance values fall below the limit of $0.1$.
 \input{tables/Collinearity-statistics}
+
 
 \subsubsection{Unusual data points} % (fold)
 \label{subsub:unusual_data_points}
@@ -407,10 +427,15 @@ Visual inspection of histograms and P-P plots for each seperate test show no sig
 
 \subsection{Findings} % (fold)
 \label{sub:findings}
-\input{tables/findings}
-A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary of each of the four multiple linear regression tests, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. Moreover, taking a look at Table \ref{tab:regression_significance}, it can be seen that none of the seperate independent variables significantly add to the prediction model. (See Appendix Regression Coefficients for detailed coefficient information)
 
+
+
+A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary of each of the four multiple linear regression tests, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. Moreover, taking a look at Table \ref{tab:regression_significance}, it can be seen that none of the seperate independent variables significantly add to the prediction model. (See Appendix Regression Coefficients for detailed coefficient information)
 \input{tables/regression-coefficients-short}
+\input{tables/findings}
+
+
+
 % subsection findings (end)
 
 \section{Discussion} % (fold)

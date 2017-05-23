@@ -123,6 +123,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
@@ -265,10 +267,16 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -285,16 +293,13 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
@@ -326,22 +331,28 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.tex
-INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
