@@ -23,18 +23,21 @@
 \BOOKMARK [3][-]{subsubsection.101}{Unusual data points}{subsection.89}% 23
 \BOOKMARK [3][-]{subsubsection.103}{Normal distribution of errors}{subsection.89}% 24
 \BOOKMARK [3][-]{subsubsection.105}{Findings}{subsection.89}% 25
-\BOOKMARK [2][-]{subsection.109}{Tap pressure and duration study}{section.87}% 26
-\BOOKMARK [1][-]{section.111}{Discussion}{}% 27
-\BOOKMARK [2][-]{subsection.113}{Evaluation of findings}{section.111}% 28
-\BOOKMARK [2][-]{subsection.115}{Weaknesses}{section.111}% 29
-\BOOKMARK [2][-]{subsection.117}{Recommendations}{section.111}% 30
-\BOOKMARK [2][-]{subsection.119}{Implications}{section.111}% 31
-\BOOKMARK [1][-]{section.121}{References }{}% 32
-\BOOKMARK [1][-]{appendix.124}{Collected data}{}% 33
-\BOOKMARK [1][-]{appendix.127}{Linear relationships and homoscedasticity}{}% 34
-\BOOKMARK [2][-]{subsection.129}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.127}% 35
-\BOOKMARK [2][-]{subsection.132}{Partial regression plots}{appendix.127}% 36
-\BOOKMARK [1][-]{appendix.138}{Multicollinearity}{}% 37
-\BOOKMARK [1][-]{appendix.144}{Unusual data points}{}% 38
-\BOOKMARK [1][-]{appendix.147}{Normality}{}% 39
-\BOOKMARK [1][-]{appendix.153}{Regression coefficients}{}% 40
+\BOOKMARK [2][-]{subsection.109}{Tap pressure and tap duration study}{section.87}% 26
+\BOOKMARK [3][-]{subsubsection.111}{Maximum tap pressure and tap duration}{subsection.109}% 27
+\BOOKMARK [3][-]{subsubsection.113}{Average tap pressure and tap duration}{subsection.109}% 28
+\BOOKMARK [3][-]{subsubsection.115}{Findings}{subsection.109}% 29
+\BOOKMARK [1][-]{section.117}{Discussion}{}% 30
+\BOOKMARK [2][-]{subsection.119}{Evaluation of findings}{section.117}% 31
+\BOOKMARK [2][-]{subsection.121}{Weaknesses}{section.117}% 32
+\BOOKMARK [2][-]{subsection.123}{Recommendations}{section.117}% 33
+\BOOKMARK [2][-]{subsection.125}{Implications}{section.117}% 34
+\BOOKMARK [1][-]{section.127}{References }{}% 35
+\BOOKMARK [1][-]{appendix.130}{Collected data}{}% 36
+\BOOKMARK [1][-]{appendix.133}{Linear relationships and homoscedasticity}{}% 37
+\BOOKMARK [2][-]{subsection.135}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.133}% 38
+\BOOKMARK [2][-]{subsection.138}{Partial regression plots}{appendix.133}% 39
+\BOOKMARK [1][-]{appendix.144}{Multicollinearity}{}% 40
+\BOOKMARK [1][-]{appendix.150}{Unusual data points}{}% 41
+\BOOKMARK [1][-]{appendix.153}{Normality}{}% 42
+\BOOKMARK [1][-]{appendix.159}{Regression coefficients}{}% 43

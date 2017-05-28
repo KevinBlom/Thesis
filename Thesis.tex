@@ -378,7 +378,7 @@ All these assumptions are considered for every of the four seperate multiple lin
 
 \subsection{Additional study} % (fold)
 \label{sub:additional_study}
-Since tap duration has been measured as well, another small study will be added. It will consider the relationship between tap pressure and duration. In stead of multiple linear regression, it entails a regular linear regression. There are again several assumptions that should be considered before it can be concluded a linear regression is in deed the correct method to analyse the collected data. These assumptions are the same as for multiple linear regression, with the exception of multicollinearity testing, which is unnecessary in a study that containt two variables.
+Since tap duration has been measured as well, another small study will be added. It will consider the relationship between tap pressure and duration. In stead of multiple linear regression, it entails a regular linear regression. There are again several assumptions that should be considered before it can be concluded a linear regression is in deed the correct method to analyse the collected data. These assumptions are the same as for multiple linear regression, with the exception of multicollinearity testing, which is unnecessary in a study that containt two variables, and unusual data point testing, which is only done using casewise diagnostics, and not cook's or leverage values.
 
 
 % subsection addendum (end)
@@ -449,8 +449,27 @@ A multiple regression was run to predict either valence or arousal from maximum 
 \input{tables/regression-coefficients-short}
 \input{tables/findings}
 
-\subsection{Tap pressure and duration study}
+\subsection{Tap pressure and tap duration study}
+Because this is a smaller study performed on the side of the main study, it will be described in less detail. First the assumptions for maximum tap pressure are presented. Secondly, the assumptions for average tap pressure are presented. And finally, the findings for both tests are presented.
 
+\subsubsection{Maximum tap pressure and tap duration}
+The relationship between maximum tap pressure and tap duration shows strong signs of linearity by visually inspecting a scatterplot of tap duration against maximum tap pressure.
+Residuals show independence as assess by a Durbin-Watson statistic of 2.223.
+There were no outliers greater than 3 SDs.
+Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values.
+A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
+
+\subsubsection{Average tap pressure and tap duration}
+Again, by visually inspecting a scatter plot of tap duration against average tap pressure, there is strong indication of linearity.
+The Durbin-Watson statistic of 2.275 shows no signs of autocorrelation.
+There were again no outliers outside 3 SDs.
+Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values.
+A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
+
+\subsubsection{Findings}
+Tap duration statistically significantly predicted maximum tap pressure, F(1, 58) = 18,495, $P < 0.0005$. Furthermore, the linear regression model shows that the tap duration coefficient is statistically significant in the model ($p < 0.0005$).
+
+Tap duration statistically significantly predicted average tap pressure, F(1, 58) = 21,715, $P < 0.0005$. Furthermore, the linear regression model shows that the tap duration coefficient is statistically significant in the model ($p < 0.0005$).
 
 % subsubsection findings (end)
 
@@ -461,6 +480,8 @@ The main purpose of this research is to discover a meaningful and significant re
 \subsection{Evaluation of findings} % (fold)
 \label{sub:evaluation_of_findings}
 Taking into regard hypothesis $H_0$, Table \ref{tab:findings} show us that none of the tests create a significant model, $p < .05$. This means that hypothesis $H_0$ is accepted, and conversely hypothesis $H_1$ is rejected. One of the indicators why the null hypothesis is accepted lies with the adjusted $R^2$. For valence tests $R^2$ values are negative, -.019 and -.015. This occurs when the model contains independent variables (\textit{tap pressure}, \textit{duration}) that do not contribute to a prediction of the dependent variable (\textit{valence}). For arousal tests $R^2$ is barely positive, .021 and .012. While this indicates that the independent values do contribute to a prediction (in contrast with negative $R^2$), it only does so very slightly. The values show that the independent variables (\textit{tap pressure}, \textit{duration}) only explain 2.1\% and 1.2\% of the variability of the dependent variable (\textit{arousal}). Interestingly, these findings are in direct opposition with the findings of Lv et al. \cite{H.R.LvZ.L.LinW.J.Yin2008} , where there is a a direct correlation between pressure and emotion. This leads to believe that there are some factors in the experiment set up are not taken into account or applied erroneously.
+
+The results from the study of a relationship between tap pressure and duration do show a significant relationship however. Both for the maximum tap pressure and average tap pressure, duration is a significant predictor in the linear regression model.
 
 \subsection{Weaknesses}
 One weakness in the experiment design that could influence the result is the random order of presentation of pictures. Every participant was shown 60 pictures in random order and the rationale behind that was to eliminate any unintentional side effect of several pictures eliciting the same emotion and in their turn strenghten or weaken the emotional response. However, this also means that none of the executed experiments were fully the same. Another possible weakness is again related to implementing randomness into the design. the grid overlay that was shown on every picture was also randomly generated in order to negate the effects of the position of the tap on the screen. This was decided for because with enough measurements the position of the tap starts to have less impact if the position is random. However, giving participants the same grids for the same photo might produce results that are signficant.
@@ -476,7 +497,7 @@ If one is to venture into further research for this topic, it would be a wise de
 
 \subsection{Implications} % (fold)
 \label{sub:implications}
-With the rejection of the $H_1$ hypothesis, there is not much to write about the implications of this study. However, the literature review still highlights the importance of emotion detection by computers, and argues that current methods do not yet suffice for deployment on larger scale. 
+With the rejection of the $H_1$ hypothesis, there is not much to write about the implications of this study. However, the literature review still highlights the importance of emotion detection by computers, and argues that current methods do not yet suffice for deployment on larger scale. That is part of the reason why the relationship between tap duration and tap pressure has been added as a study later on during the research. It shows that tap duration can significantly predict maximum and average tap pressure. Unfortunatly tap pressure does not tell us about emotional state, but more importantly, the results of the duration study show that timing is probably just as important as pressure. This suggest that in further research regular touch screens and tap duration should be subject of study rather than pressure sensitive touch screens.
 % subsection implications (end)
 
 % subsection recommendations (end)
