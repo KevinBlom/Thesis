@@ -13,24 +13,28 @@
 \BOOKMARK [2][-]{subsection.58}{Experiment setup}{section.46}% 13
 \BOOKMARK [2][-]{subsection.66}{Data analysis}{section.46}% 14
 \BOOKMARK [3][-]{subsubsection.77}{Multiple linear regression}{subsection.66}% 15
-\BOOKMARK [1][-]{section.85}{Results}{}% 16
-\BOOKMARK [2][-]{subsection.87}{Assumptions}{section.85}% 17
-\BOOKMARK [3][-]{subsubsection.89}{Independence of observation}{subsection.87}% 18
-\BOOKMARK [3][-]{subsubsection.92}{Linear relationships}{subsection.87}% 19
-\BOOKMARK [3][-]{subsubsection.94}{Homoscedasticity}{subsection.87}% 20
-\BOOKMARK [3][-]{subsubsection.96}{Multicollinearity}{subsection.87}% 21
-\BOOKMARK [3][-]{subsubsection.99}{Unusual data points}{subsection.87}% 22
-\BOOKMARK [3][-]{subsubsection.101}{Normal distribution of errors}{subsection.87}% 23
-\BOOKMARK [2][-]{subsection.103}{Findings}{section.85}% 24
-\BOOKMARK [1][-]{section.107}{Discussion}{}% 25
-\BOOKMARK [2][-]{subsection.109}{Evaluation of findings}{section.107}% 26
-\BOOKMARK [2][-]{subsection.111}{Weaknesses}{section.107}% 27
-\BOOKMARK [2][-]{subsection.113}{Recommendations}{section.107}% 28
-\BOOKMARK [1][-]{section.115}{References }{}% 29
-\BOOKMARK [1][-]{appendix.118}{Linear relationships and homoscedasticity}{}% 30
-\BOOKMARK [2][-]{subsection.120}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.118}% 31
-\BOOKMARK [2][-]{subsection.123}{Partial regression plots}{appendix.118}% 32
-\BOOKMARK [1][-]{appendix.129}{Multicollinearity}{}% 33
-\BOOKMARK [1][-]{appendix.135}{Unusual data points}{}% 34
-\BOOKMARK [1][-]{appendix.138}{Normality}{}% 35
-\BOOKMARK [1][-]{appendix.144}{Regression coefficients}{}% 36
+\BOOKMARK [2][-]{subsection.85}{Additional study}{section.46}% 16
+\BOOKMARK [1][-]{section.87}{Results}{}% 17
+\BOOKMARK [2][-]{subsection.89}{Tap pressure and emotion study}{section.87}% 18
+\BOOKMARK [3][-]{subsubsection.91}{Independence of observation}{subsection.89}% 19
+\BOOKMARK [3][-]{subsubsection.94}{Linear relationships}{subsection.89}% 20
+\BOOKMARK [3][-]{subsubsection.96}{Homoscedasticity}{subsection.89}% 21
+\BOOKMARK [3][-]{subsubsection.98}{Multicollinearity}{subsection.89}% 22
+\BOOKMARK [3][-]{subsubsection.101}{Unusual data points}{subsection.89}% 23
+\BOOKMARK [3][-]{subsubsection.103}{Normal distribution of errors}{subsection.89}% 24
+\BOOKMARK [3][-]{subsubsection.105}{Findings}{subsection.89}% 25
+\BOOKMARK [2][-]{subsection.109}{Tap pressure and duration study}{section.87}% 26
+\BOOKMARK [1][-]{section.111}{Discussion}{}% 27
+\BOOKMARK [2][-]{subsection.113}{Evaluation of findings}{section.111}% 28
+\BOOKMARK [2][-]{subsection.115}{Weaknesses}{section.111}% 29
+\BOOKMARK [2][-]{subsection.117}{Recommendations}{section.111}% 30
+\BOOKMARK [2][-]{subsection.119}{Implications}{section.111}% 31
+\BOOKMARK [1][-]{section.121}{References }{}% 32
+\BOOKMARK [1][-]{appendix.124}{Collected data}{}% 33
+\BOOKMARK [1][-]{appendix.127}{Linear relationships and homoscedasticity}{}% 34
+\BOOKMARK [2][-]{subsection.129}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.127}% 35
+\BOOKMARK [2][-]{subsection.132}{Partial regression plots}{appendix.127}% 36
+\BOOKMARK [1][-]{appendix.138}{Multicollinearity}{}% 37
+\BOOKMARK [1][-]{appendix.144}{Unusual data points}{}% 38
+\BOOKMARK [1][-]{appendix.147}{Normality}{}% 39
+\BOOKMARK [1][-]{appendix.153}{Regression coefficients}{}% 40

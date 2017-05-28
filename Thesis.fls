@@ -303,6 +303,15 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Grid.png
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
@@ -331,15 +340,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.png
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
@@ -356,6 +356,8 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Results-data.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Results-data.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-scatterplot.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax.eps
@@ -394,6 +396,8 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valence.tex

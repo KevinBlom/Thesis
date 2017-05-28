@@ -13,6 +13,7 @@ Warning--no journal in Fontaine2007
 Warning--no number and no volume in H.R.LvZ.L.LinW.J.Yin2008
 Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
+Warning--no number and no volume in Lindstrom2011
 Warning--no journal in Neuroscience2012
 Warning--unusual to have number, but no volume, for Picard1995
 Warning--unusual to have number, but no volume, for Plutchik1980
@@ -22,45 +23,45 @@ Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 23 entries,
+You've used 24 entries,
             5283 wiz_defined-function locations,
-            1442 strings with 20094 characters,
-and the built_in function-call counts, 23497 in all, are:
-= -- 3700
-> -- 658
+            1450 strings with 20278 characters,
+and the built_in function-call counts, 25346 in all, are:
+= -- 4006
+> -- 673
 < -- 1
-+ -- 195
-- -- 335
-* -- 1503
-:= -- 2291
-add.period$ -- 116
-call.type$ -- 23
-change.case$ -- 153
-chr.to.int$ -- 23
-cite$ -- 38
-duplicate$ -- 1733
-empty$ -- 1250
-format.name$ -- 276
-if$ -- 5950
++ -- 198
+- -- 418
+* -- 1616
+:= -- 2444
+add.period$ -- 121
+call.type$ -- 24
+change.case$ -- 158
+chr.to.int$ -- 24
+cite$ -- 40
+duplicate$ -- 1805
+empty$ -- 1301
+format.name$ -- 282
+if$ -- 6348
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 82
-newline$ -- 274
-num.names$ -- 138
-pop$ -- 528
+missing$ -- 86
+newline$ -- 284
+num.names$ -- 144
+pop$ -- 555
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 254
 quote$ -- 0
-skip$ -- 515
+skip$ -- 536
 stack$ -- 0
-substring$ -- 2272
-swap$ -- 193
-text.length$ -- 210
+substring$ -- 2633
+swap$ -- 201
+text.length$ -- 365
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 203
-warning$ -- 15
-while$ -- 164
+type$ -- 212
+warning$ -- 16
+while$ -- 172
 width$ -- 0
-write$ -- 411
-(There were 15 warnings)
+write$ -- 427
+(There were 16 warnings)

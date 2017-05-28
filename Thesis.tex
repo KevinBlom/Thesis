@@ -183,13 +183,15 @@ The detection of emotion has been subject to research for a long time and is key
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-I believe that emotion aware smart devices can provides users with a better experience, where better can be classified as an experience inline with how the user is feeling. Screens and information that present themselves in different ways, where the differences originate from current feelings of the user. This type of adaptation of user interfaces can tighten the social bond between user and smart devices making the devices feel more alive. Furthermore I believe the current state of technology, and in particular machine learning, capable of using the emotion of users in product designs that dynamically change. Picard \cite{Picard1995} states that computers that are emotion aware not only possess the ability to be of the users' assistance, but also let that computer make decisions that are influenced by those emotions that are expressed by the user. Reeves et al. \cite{Reeves1998} have shown that humans have the unconscious and undeliberate response to computers to act in a natural and social way. Why not make computers, and smart devices, respond in natural, social way as well?
+Reeves et al. \cite{Reeves1998} have shown that humans have the unconscious and undeliberate response to computers to act in a natural and social way. Lindstrom \cite{Lindstrom2011} used an MRI machine to show that the parts of the brain that are active when in love are the same parts that are active when someone hears their smart phone ring. It tells us that users literally love their smart phone. 
+
+I believe that emotion aware smart devices can provides users with a better experience, where better can be classified as an experience inline with how the user is feeling. Screens and information that present themselves in different ways, where the differences originate from current feelings of the user. Picard \cite{Picard1995} states that computers that are emotion aware not only possess the ability to be of the users' assistance, but also let that computer make decisions that are influenced by those emotions that are expressed by the user. This type of adaptation of user interfaces and information can tighten the social bond between user and smart devices making the devices feel more alive. Furthermore I believe the current state of technology, and in particular machine learning, capable of using the emotion of users in product designs that dynamically change. If users love the smart phones in their pockets, why not try to make those small computers respond in a natural, social way, making them feel more alive?
 
 However, as Zimmerman et al. \cite{Zimmermann2003} rightfully write in their conclusion: What are adequate emotional reactions of a system that knows how the user feel? One posibility could be that your telecom provider app or website can contact customer support in the background already when it notices the user is upset about their bill. Another interesting case would be music applications promoting new and exciting songs when the user is happy, but slowed down and calm songs when the user is relaxed. Or how about games that have characters that can be helpful and friendly when progression is stalling, but can also respond to aggresion and anger in a suitable way, mitigating frustration or escalation. As a final example, educational systems that can detect if the user is confused can provide extra examples, or when it notices boredom can provide more challenging excercises.
 
-Interestingly, most initiatives to measure emotion for use with computers either require intrusive sensors, or deliberate and willful interaction, as will be described in detail later. This study explores the use of pressure sensitive touch screens of smart devices as means for a less intrusive, more ubiquitous way of detecting emotion.
+Key to affective computing, i.e. computers that have the means to detect, respond, and express emotion is the detection of emotion. Interestingly, most initiatives to measure emotion for use with computers either require intrusive sensors, privacy invasion or deliberate and willful interaction, as will be described in detail later. This study explores the use of pressure sensitive touch screens of smart devices as means for a less intrusive, more ubiquitous way of detecting emotion.
 
-Key to affective computing, i.e. computers that have the means to detect, respond, and express emotion is the detection of emotion. Further explanation will be divided into two parts; models of emotion, and measuring of emotion. Models of emotion will help to grasp the different ways to approach and classify emotions, where as measuring of emotion will help understand how measuring is currently executed and how it can be improved. Subsequently, some practical applications are discussed and finally a research question and an hypothesis is presented.
+Further explanation will be divided into two parts; models of emotion, and measuring of emotion. Models of emotion will help to grasp the different ways to approach and classify emotions, where as measuring of emotion will help understand how measuring is currently executed and how it can be improved. Subsequently, some practical applications are discussed and finally a research question and an hypothesis is presented.
 
 % Affective computing as introduced by Picard \cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users \cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add a new method to the field of emotion detection with smart devices.
 
@@ -284,7 +286,6 @@ $H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with
 
 The next section will present how the study was conducted before continuing to results.
 
-
 % \begin{itemize}
 %   \item Description of background.
 %   \item Explanation of why research was necessary.
@@ -295,11 +296,11 @@ The next section will present how the study was conducted before continuing to r
 
 \section{Methods} % (fold)
 \label{sec:methods}
-In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response. 51 Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background.
+In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response. 51 Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background. Besides explaining the methods for the main study, this section also explains the methods of a smaller, second study that will explore a relationship between tap pressure and tap duration.
 
 \subsection{Emotional elicitation} % (fold)
 \label{sub:emotional_elicitation}
-Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion was set. The GAPED photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. The photo set counts 730 pictures and is divided into 6 categories: Animal, Human, Neutral, Positive, Snakes, Spiders. From each of the categories, 10 pictures were randomly selected, resulting in a set of 60 pictures used for the experiment. Each participant was presented with the same 60 pictures, but in random order in order to mitigate any side effects that might occur from presenting pictures in a particular order. Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures is often used for the International Affective Picture System photos. The GAPED photo set has been created because of two issues with the IAPS; extensive use decreases impact of the stimuli, and the limited number of pictures for specific themes. Both these issues are not exposure time related, so the choice of exposure time of the photo to the participant is 5 seconds.
+Using a standardized photo set that has been thoroughly researched for emotional response when showed to participants, a ground truth for emotion could be set. The GAPED photo set uses the continuous model of representing emotions, i.e. the two-dimensional valence and arousal model. The photo set counts 730 pictures and is divided into 6 categories: Animal, Human, Neutral, Positive, Snakes, Spiders. From each of the categories, 10 pictures were randomly selected, resulting in a set of 60 pictures used for the experiment. Each participant was presented with the same 60 pictures, but in random order in order to mitigate any side effects that might occur from presenting pictures in a particular order. Brown et al. \cite{Neuroscience2012} remark that 5 second exposure to pictures is often used for the International Affective Picture System photos. The GAPED photo set has been created because of two issues with the IAPS; extensive use decreases impact of the stimuli, and the limited number of pictures for specific themes. Both these issues are not exposure time related, so the choice of exposure time of the photo to the participant is 5 seconds.
 
 % subsection emotional_elicitation (end)
 
@@ -314,7 +315,7 @@ In order to collect a larger data set, 4 taps per photo were required to advance
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{images/Grid.png}
-    \caption{Three examples of the grid as presented over a picture. When a participant has pressed each of the grey squares (which disappear when pressed upon) the next picture is shown. After five seconds a new randomly generated grid is displayed on top of the picture. This process repeats 60 times.}~
+    \caption{Three examples of the grid as presented over a picture. When a participant has pressed each of the grey squares (which disappear when pressed upon) the next picture is shown. After five seconds a new randomly generated grid is displayed on top of the picture. This process repeats 60 times.}
     \label{fig:grid}
 \end{figure}
 
@@ -374,6 +375,14 @@ Before proceeding to the results, several assumptions needed to be considered be
 \end{enumerate}
 All these assumptions are considered for every of the four seperate multiple linear regression tests mentioned. Results of testing the assumptions are also presented in the next section.
 
+
+\subsection{Additional study} % (fold)
+\label{sub:additional_study}
+Since tap duration has been measured as well, another small study will be added. It will consider the relationship between tap pressure and duration. In stead of multiple linear regression, it entails a regular linear regression. There are again several assumptions that should be considered before it can be concluded a linear regression is in deed the correct method to analyse the collected data. These assumptions are the same as for multiple linear regression, with the exception of multicollinearity testing, which is unnecessary in a study that containt two variables.
+
+
+% subsection addendum (end)
+
 % \subsubsection{Maximum tap pressure}
 % \label{subsub:maximum_tap_pressure}
 % The first interpretation regards maximum tap pressure. For every tap, only the maximum pressure value was extracted and subsequently averaged for every photo. This resulted in two independent variables (valence, arousal) and one dependent  variable (average maximum tap force) per photo. A multiple regression was run to predict tap pressure from valence and arousal. An advantage of using the multiple regression for prediction is that during the process, any significant relationships arise.
@@ -402,11 +411,12 @@ All these assumptions are considered for every of the four seperate multiple lin
 %   \item Report of findings.
 %   \item Reference to any diagrams used.
 % \end{itemize}
-This section starts with presenting the results of testing the assumptions. Subsequently, the model of the multiple linear regression is presented.
+This section presents the result on the two studies: the relation between tap pressure and emotion, and the relation between tap pressure and tap duration. The data that has been collected during the experiment, and subsequently has been used for analysis can be found in Appenidix Collected Data.
 
-\subsection{Assumptions}
-These are the results of checking each of the six assumptions. The section Methods explains the necessity of checking assumptions in more detail.
+\subsection{Tap pressure and emotion study}
+First, the results of checking each of the six assumptions are presented. The section Methods explains the necessity of considering these assumptions. Second, the the multiple regression model is presented.
 \label{sub:assumptions}
+
 \subsubsection{Independence of observation}
 As can be seen in Table \ref{tab:durbin_watson}, the Durbin-Watson values do not violate acceptable limits for each seperate test, indicating no autocorrelation. \\
 \input{tables/Durbin-Watson.tex}
@@ -426,25 +436,23 @@ Inspection of correlation coefficients (Appendix Multicollinearity for full tabl
 \subsubsection{Unusual data points} % (fold)
 \label{subsub:unusual_data_points}
 For each seperate test, \textit{studentized residuals}, \textit{Cook's Distances} and \textit{Leverage values} were checked. There were no cases outside 3 Standard Deviations (SDs), no distances $> 1.0$ and no values $> 0.2$ respectively (Appendix Unusual Data Points for minimum and maximum values for each).
-% subsection unusual_data_points (end)
+% subsubsection unusual_data_points (end)
 
 \subsubsection{Normal distribution of errors} % (fold)
 \label{subsub:normal_distribution_of_errors}
 Visual inspection of histograms and P-P plots for each seperate test show no signs of significant violation of normality. (Appendix Normality for the inspected graphs and diagrams)
-% subsection normal_distribution_of_errors (end)
+% subsubsection normal_distribution_of_errors (end)
 
-\subsection{Findings} % (fold)
+\subsubsection{Findings} % (fold)
 \label{sub:findings}
-
-
-
 A multiple regression was run to predict either valence or arousal from maximum tap pressure and duration, or average tap pressure and duration. Table \ref{tab:findings} shows the model summary of each of the four multiple linear regression tests, indicating that no model allows for significant prediction of valence or arousal, $p > .05$. Moreover, taking a look at Table \ref{tab:regression_significance}, it can be seen that none of the seperate independent variables significantly add to the prediction model. (See Appendix Regression Coefficients for detailed coefficient information)
 \input{tables/regression-coefficients-short}
 \input{tables/findings}
 
+\subsection{Tap pressure and duration study}
 
 
-% subsection findings (end)
+% subsubsection findings (end)
 
 \section{Discussion} % (fold)
 \label{sec:discussion}
@@ -457,12 +465,19 @@ Taking into regard hypothesis $H_0$, Table \ref{tab:findings} show us that none 
 \subsection{Weaknesses}
 One weakness in the experiment design that could influence the result is the random order of presentation of pictures. Every participant was shown 60 pictures in random order and the rationale behind that was to eliminate any unintentional side effect of several pictures eliciting the same emotion and in their turn strenghten or weaken the emotional response. However, this also means that none of the executed experiments were fully the same. Another possible weakness is again related to implementing randomness into the design. the grid overlay that was shown on every picture was also randomly generated in order to negate the effects of the position of the tap on the screen. This was decided for because with enough measurements the position of the tap starts to have less impact if the position is random. However, giving participants the same grids for the same photo might produce results that are signficant.
 
-Furthermore, this research assumes that every individual has the same physical response to emotional elicitation. In other words, it assumes that every individual will exert a specifc amount of pressure on a touch screen. 
+Furthermore, this research assumes that every individual has the same physical response to emotional elicitation. In other words, it assumes that every individual will exert a specifc amount of pressure on a touch screen from a set baseline.
+
+Finally, there might be a problem with the pressure detection. The range of pressure that can be detected with the used pressure sensitive touch screen is 0.0 to 6.67. However, Appendix Collected Data shows that all the measured avaraged pressures do no exceed .5, meaning that the experiment only used a fraction of the measurable range possible.
 % subsection evaluation_of_findings (end)
 
 \subsection{Recommendations} % (fold)
 \label{sub:recommendations}
-If one is to venture into further research for this topic, it would be a wise decision to first try and repeat this experiment without the randomization that has been in place. Furthermore, rather than assuming every individual to respond the same to emotional elicitation and expecting a linear correlation, underlying patterns can be discovered. Especially looking for patterns specific to the participant rather than trying to find a pattern for the population. A suggestion to discover such patterns is the use of self-assessment as a methodology. Self-assessment by participants makes it possible to link tap pressure data to how the participant is feeling, rather then assuming a baseline set by visual stimuli.
+If one is to venture into further research for this topic, it would be a wise decision to first try and repeat this experiment without the randomization that has been in place. Furthermore, rather than assuming every individual to respond the same to emotional elicitation and expecting a linear correlation, underlying patterns can be discovered. Especially looking for patterns specific to the participant rather than trying to find a pattern for the population. A suggestion to discover such patterns is the use of self-assessment as a methodology. Self-assessment by participants makes it possible to link tap pressure data to how the participant is feeling, rather then assuming a baseline set by visual stimuli. But most importantly, the use of a pressure sensitive touch screen that has a range more in line with tap pressure (0.0 to 1.0 for example) and higher sensitivity (smallest change that can be detected) could significantly improve the results.
+
+\subsection{Implications} % (fold)
+\label{sub:implications}
+With the rejection of the $H_1$ hypothesis, there is not much to write about the implications of this study. However, the literature review still highlights the importance of emotion detection by computers, and argues that current methods do not yet suffice for deployment on larger scale. 
+% subsection implications (end)
 
 % subsection recommendations (end)
 
@@ -488,6 +503,11 @@ If one is to venture into further research for this topic, it would be a wise de
 
 % Start of appendices
 \appendix
+\section{Collected data} % (fold)
+\label{sec:collected_data}
+\input{tables/Results-data}
+% section collected_data (end)
+
 \section{Linear relationships and homoscedasticity}
 \label{app:linear_relationships}
 
