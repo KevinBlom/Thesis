@@ -32,6 +32,24 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
+\bibitem{macOSSierra}
+{Apple}. 2016.
+\newblock macOS Sierra.
+\newblock   (2016).
+\newblock
+\newblock
+\shownote{\url{https://www.apple.com/lae/macos/sierra/}.}
+
+
+\bibitem{SPSS}
+{IBM Corp.} 2016.
+\newblock SPSS Statistics.
+\newblock   (15 March 2016).
+\newblock
+\newblock
+\shownote{\url{https://www.ibm.com/analytics/us/en/technology/spss/}.}
+
+
 \bibitem{Coulson2004}
 {Mark Coulson}. 2004.
 \newblock \showarticletitle{{Attributing emotion to static body postures:
@@ -87,6 +105,15 @@
 \url{http://dx.doi.org/10.1111/j.1467-9280.2007.02024.x}}
 
 
+\bibitem{python}
+{Python~Software Foundation}. 2010.
+\newblock Python 2.7.
+\newblock   (3 July 2010).
+\newblock
+\newblock
+\shownote{\url{https://docs.python.org/2/}.}
+
+
 \bibitem{Gao2012}
 {Yuan Gao}, {Nadia Bianchi-Berthouze}, {and} {Hongying Meng}. 2012.
 \newblock \showarticletitle{{What Does Touch Tell Us about Emotions in
@@ -100,6 +127,15 @@
 \url{http://dx.doi.org/10.1145/2395131.2395138}}
 
 
+\bibitem{google:firebase}
+{Google}. 2017.
+\newblock Firebase.
+\newblock   (2017).
+\newblock
+\newblock
+\shownote{\url{http://firebase.google.com/}.}
+
+
 \bibitem{H.R.LvZ.L.LinW.J.Yin2008}
 {J.~Dong {H. R. Lv, Z. L. Lin, W. J. Yin}}. 2008.
 \newblock \showarticletitle{{Emotion recognition based on pressure sensor
@@ -110,6 +146,15 @@
 \showISBNx{978-1-4244-2570-9}
 \showDOI{%
 \url{http://dx.doi.org/10.1109/ICME.2008.4607628}}
+
+
+\bibitem{json}
+{ECMA International}. 1999.
+\newblock JSON (JavaScript Object Notation).
+\newblock   (1999).
+\newblock
+\newblock
+\shownote{\url{http://www.json.org}.}
 
 
 \bibitem{Lee2012}

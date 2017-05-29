@@ -189,11 +189,9 @@ I believe that emotion aware smart devices can provides users with a better expe
 
 However, as Zimmerman et al. \cite{Zimmermann2003} rightfully write in their conclusion: What are adequate emotional reactions of a system that knows how the user feel? One posibility could be that your telecom provider app or website can contact customer support in the background already when it notices the user is upset about their bill. Another interesting case would be music applications promoting new and exciting songs when the user is happy, but slowed down and calm songs when the user is relaxed. Or how about games that have characters that can be helpful and friendly when progression is stalling, but can also respond to aggresion and anger in a suitable way, mitigating frustration or escalation. As a final example, educational systems that can detect if the user is confused can provide extra examples, or when it notices boredom can provide more challenging excercises.
 
-Key to affective computing, i.e. computers that have the means to detect, respond, and express emotion is the detection of emotion. Interestingly, most initiatives to measure emotion for use with computers either require intrusive sensors, privacy invasion or deliberate and willful interaction, as will be described in detail later. This study explores the use of pressure sensitive touch screens of smart devices as means for a less intrusive, more ubiquitous way of detecting emotion.
+The field where this study fits in is called affective computing. It concerns itself with computers that have the means to detect, respond, and express emotion. The goal of this study is more specific, it will be within the field of emotion detection of computers and explores the use of pressure sensitive touch screens of smart devices as means for a less intrusive, more ubiquitous way of detecting emotion.
 
-Further explanation will be divided into two parts; models of emotion, and measuring of emotion. Models of emotion will help to grasp the different ways to approach and classify emotions, where as measuring of emotion will help understand how measuring is currently executed and how it can be improved. Subsequently, some practical applications are discussed and finally a research question and an hypothesis is presented.
-
-% Affective computing as introduced by Picard \cite{Picard1995} in 1995 lays a foundation for computers and technology to incorporate the recognition and expression of emotions. It can provide better performance when assisting humans or enhance the computers ability to make decisions. It does not have the goal of making computers more human-like, but it is more practical in nature; make computers function with intelligence and sensitivity towards its users \cite{Picard1997}. With the smart devices becoming generally availble to consumer there is an increasing interest in making these devices detect and respond to emotional states of the user \cite{Lee2012} \cite{Likamwa2013} \cite{Heni2015}. New methods of detecting emotion are continuously being invented and this study aims to add a new method to the field of emotion detection with smart devices.
+Further reading of this section will be divided into four parts; models of emotion, measuring of emotion, practical applications, and research questoin. Models of emotion will help to grasp the different ways to approach and classify emotions, where as measuring of emotion will help understand how measuring is currently executed and how it can be improved. Subsequently, some practical applications are discussed and finally, before moving on to the methods, a research question and an hypothesis is presented.
 
 \subsection{Models of emotion} % (fold)
 \label{sub:models_of_emotion}
@@ -204,7 +202,7 @@ There exist several different models of emotion that attempt to classify them in
   \item meaning, and
   \item componential.
 \end{enumerate*}
-Their focus lies respectively with subjective feeling, motor expression and adaptive behavior patterns, verbal descriptions of subjective feelings, and the link between emotion-antecedent evaluation and differentiated reaction patterns. The study tries to name often used elicitation mechanisms, however it fails to find specific mechanisms for all but the compenenetial model, where an appraisal mechanism is often used. Appraisal is one of the six components that Fontaine et al. \cite{Fontaine2007} incorporate in their model of emotions. The complete model consists of six components:
+Their focus lies respectively with subjective feeling, motor expression and adaptive behavior patterns, verbal descriptions of subjective feelings, and the link between emotion-antecedent evaluation and differentiated reaction patterns. The study tries to name often used elicitation mechanisms, however it fails to find specific mechanisms for all but the compenenetial model, where an appraisal mechanism is often used. Appraisal is one of the six components that Fontaine et al. \cite{Fontaine2007} incorporate in their model of emotions. The complete model that they present consists of six components:
 \begin{enumerate*}[label=(\alph*)]
   \item appraisals of events
   \item psychophysiological changes,
@@ -264,7 +262,7 @@ Facial detection of emotion incorporates the measurement of facial muscle moveme
 % subsection facial_emotion_detection (end)
 
 \subsubsection{Posture/gestures emotion detection}
-Other means of detection emotions involve the tracking and interpretation of posture and gesture. Wallbott et al. \cite{Wallbott1998} concluded in 1998 that there are, in some cases, distinctive patterns of movement and postural behavior that have a strong correlation to emotions. In other cases, they mention that in absence of patterns there are still distinctive features from which emotion could be inferred. Coulson et al. \cite{Coulson2004} researched static body postures and the recognition of emotions from these body postures by participants. It showed that disgust is a tough emotion to recognize but anger and sadness had over 90\% correct detection rates. Furthermore, happiness and surprise were two emotions that were often confused. 
+Other means of detection emotions involve the tracking and interpretation of posture and gesture. Wallbott et al. \cite{Wallbott1998} concluded in 1998 that there are, in some cases, distinctive patterns of movement and postural behavior that have a strong correlation to emotions. In other cases, they mention that in absence of patterns there are still distinctive features from which emotion could be inferred. Coulson et al. \cite{Coulson2004} researched static body postures and the recognition of emotions from these body postures by participants. It showed that disgust is a tough emotion to recognize but anger and sadness had over 90\% correct detection rates. Furthermore, they conclude that happiness and surprise were two emotions that were often confused. 
 % subsection measuring_emotion (end)
 
 \subsection{Practical applications} % (fold)
@@ -274,17 +272,17 @@ Looking at a more practical and applied side of emotion detection, Gao et al. \c
 % subsection practical_applications (end)
 
 \subsection{Research question and hypotheses}
-From the related work can be concluded that most types of detection of emotions are invasive, either requiring constant monitoring, possibly with sensors attached to the body, or by constant recording of audio and visual data. The practical applications show that measuring is often usecase dependent. However, the practical applications have on thing in common: a touch screen. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions and is independent of a usecase. Using touch screen presses as indicators for emotional state could be an unintrusive way of detecting emotion without the need for constant monitoring through other sensors. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available. Subsequently, this leads to the following research question:\\
+From the reviewed literature it can be concluded that measuring emotion often requires invasive sensors attached to the body to measure various physiological signals, invades privacy by constantly analyzing camera images or microphone signals, or requires the user to execute specific actions like playing a game or entering text. The practical applications show one thing in common: a touch screen. The touch screen is a technology a lot of people interact with every day, where they deliberately choose to participate in those interactions and is independent of a usecase if the user does not need to access a specific app or website. Using touch screen presses as indicators for emotional state could be an unintrusive way of detecting emotion without the need for constant monitoring through other sensors. With the introduction of pressure sensitive touchscreens in recent smart devices, an interesting new sensor is added to the plethora of sensors already available, which leads to the following research question:\\
 
 \textit{Can pressure sensitive touch screen devices be used to tell more about the emotional state of the user?}\\
 
-The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state of the user that performs the taps. The null hypothesis that springs from the research question is:
+The presented research question prompts thorough investigation of the connection between the pressure that a tap exerts on a touch screen and the emotional state of the user that performs the taps. It sets the scope of the study to motor expression analysis, one of the six components mentioned by Fontaine et al. \cite{Fontaine2007}. The null hypothesis that springs from the research question is:
 
 $H_0$: \textit{Pressure of taps on touch screens exhibit no correlation with mood.}
 \\\\and the alternative hypothesis:\\\\
 $H_1$: \textit{Pressure of taps on touch screens exhibit direct correlation with mood.}
 
-The next section will present how the study was conducted before continuing to results.
+Furthermore, the data that is collected during the experiment allows for a smaller study besides the main research question. It concerns the relationship of tap pressure and tap duration. Interest for this smaller study stems from the unavailability of pressure sensitive touch screens. They have become more common, but only one major smart phone manufacturer utilizes them. If tap pressure and tap duration show a relationship, it indicates that any touch screen can be used for predicting tap pressure rather than needing actual pressure sensitive touch screens. The next section will present how the study was conducted before it continues to present the results.
 
 % \begin{itemize}
 %   \item Description of background.
@@ -296,7 +294,7 @@ The next section will present how the study was conducted before continuing to r
 
 \section{Methods} % (fold)
 \label{sec:methods}
-In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response. 51 Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background. Besides explaining the methods for the main study, this section also explains the methods of a smaller, second study that will explore a relationship between tap pressure and tap duration.
+In order to test for the correlation between taps on a touch screen and emotion, there has to be a standardized way of eliciting different emotions. Fortunately, there exists a photo set that has been thoroughly tested for emotional response on a two dimensional scale that is called the Geneva Affective Picture Database (GAPED) \cite{Dan-glauser2011}. Utilizing the emotional responses of this photo set as a baseline, touch screen taps and their pressure can be compared to emotional response. 51 Participants were selected using a convience sampling process at an office. The participants varied in age, educational level, current line of work, and background. Besides explaining the methods for the main study, this section also explains the methods of the beforementioned smaller, second study that will explore a relationship between tap pressure and tap duration.
 
 \subsection{Emotional elicitation} % (fold)
 \label{sub:emotional_elicitation}
@@ -311,7 +309,7 @@ Taps were detected on an Apple iPhone 6s device with a 3D touch screen running i
 
 \subsection{Data collection} % (fold)
 \label{sub:data_collection}
-In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement. It uses a gray color because it is perceived as neutral. The buttons are random for every photo, and for every participant. In other words, no participant received the same grid for the same photo.
+In order to collect a larger data set, 4 taps per photo were required to advance to the next photo. These taps are directed with the use of gray colored buttons that are randomly shown on a 4 by 4 grid on the screen (Figure \ref{fig:grid}). The random pattern of the buttons ensures that the position of the tap on the screen does not matter for the pressure measurement once the tap pressures are averaged. It uses a gray color because it is perceived as neutral. The buttons are random for every photo, and for every participant. In other words, no participant received the same grid for the same photo.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{images/Grid.png}
@@ -319,11 +317,11 @@ In order to collect a larger data set, 4 taps per photo were required to advance
     \label{fig:grid}
 \end{figure}
 
-All the data that was collected was anonymously and securely sent realtime to a Firebase \footnote{\url{http://firebase.google.com/}} database. Firebase utilizes a JSON\footnote{\url{http://www.json.org}} tree structure that can be described as in Figure \ref{fig:datastructure}.
+All the data that was collected was anonymously and securely sent realtime to a Firebase \cite{google:firebase} database. Firebase utilizes a JSON \cite{json} tree structure that is described in Figure \ref{fig:datastructure}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.3\textwidth]{images/Datastructure.png}
-    \caption{The database structure shows that for every experiment entry, there are 60 photo entries. Each photo entry contains four tap entries, that contain zero to \textit{n} pressure measurements and a duration measurement}
+    \caption{The database structure shows that for every experiment entry, there are 60 photo entries. Each photo entry contains four tap entries, that contain zero to \textit{n} pressure measurements and a duration measurement.}
     \label{fig:datastructure}
 \end{figure}
 
@@ -331,22 +329,22 @@ All the data that was collected was anonymously and securely sent realtime to a 
 
 \subsection{Experiment setup} % (fold)
 \label{sub:experiment_setup}
-Firstly, participants were told what the expirement entailed and were presented with a consent form. Subsequently, the participants continued the experiment on the smart device with test application. The test application is structured as follows:
+Firstly, participants were told what the expirement entailed and were presented with a consent form. Subsequently, the participants continued the experiment on the smart device with test application. The entirety of the experiment was completed in a room that contained no screens, speakers or other distractions and ensured the participants would fully focus on the experiment. The test application is structured as follows:
 \begin{enumerate}
-  \item Participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
-  \item The participant is shown a picture.
+  \item The participant is presented with a screen that asks if they received and signed a consent form and if not, that they should contact the supervisor immediately. There is also a \textit{start} button to start the experiment.
+  \item If the participant pressed the \textit{start} button, the first picture is shown.
   \item After five seconds, four gray buttons are shown, overlaid on the picture in a random pattern (Figure \ref{fig:grid}).
   \item When the participant pressed all the 4 buttons, the next picture is presented.
   \item This process repeats untill al 60 pictures have been shown.
-  \item The participant is presented with a conclusive screen that has a thank you message and refers to the supervisor if there are questions.
+  \item The participant is presented with a conclusive screen that contains a thank you message and refers to the supervisor if there are questions.
 \end{enumerate}
 
-The entirety of the experiment was completed in a room that  contained no screens, speakers or other distractions and ensured the participants would fully focus on the experiment.
+When the experiment had concluded, participants were informed about the nature of the experiment (i.e. they were informed of the research question) and any questions they presented were answered.
 % subsection experiment_setup (end)
 
 \subsection{Data analysis}
 \label{sub:data_analysis}
-The collected data was exported as JSON from Firebase and subsequently mutated using Python\footnote{\url{https://www.python.org}} 2.7 on macOS\footnote{\url{https://www.apple.com/lae/macos/sierra/}} 10.12.4 in order to create an \textit{.csv} file that was readable by SPSS 20.0\footnote{\url{https://www.ibm.com/analytics/us/en/technology/spss/}}. Because of a suspiscion that either maximum exerted pressure or average exerted pressure of a tap might be of influence, these two variables were manually added using averaging. For maximum pressure, the maximum pressure value of each tap was extracted, and for each photo this was averaged. Regarding average tap pressure, the average pressure of a tap was calculated and subsequently all the average tap pressures were averaged again per photo. These averages make it possible to compare means. The result is six variables in SPSS; 
+The collected data was exported as JSON from Firebase and subsequently mutated using Python 2.7 \cite{python} on macOS 10.12.4 \cite{macOSSierra} in order to create an \textit{.csv} file that was readable by SPSS 24.0.0.0 \cite{SPSS}. Because of a suspiscion that either maximum exerted pressure or average exerted pressure of a tap might be of influence, these two variables were manually added using averaging. For maximum pressure, the maximum pressure value of each tap was extracted, and for each photo this was averaged. Regarding average tap pressure, the average pressure of a tap was calculated and subsequently all the average tap pressures were averaged again per photo. These averages make it possible to compare means. The result is six variables in SPSS; 
 \begin{enumerate}
   \item \textbf{Photo filename} - String, containing the photo filename for identification purposes.
   \item \textbf{Valence} - Numeric, decimal value on a scale from 0.0-100.0.
@@ -453,29 +451,23 @@ A multiple regression was run to predict either valence or arousal from maximum 
 Because this is a smaller study performed on the side of the main study, it will be described in less detail. First the assumptions for maximum tap pressure are presented. Secondly, the assumptions for average tap pressure are presented. And finally, the findings for both tests are presented.
 
 \subsubsection{Maximum tap pressure and tap duration}
-The relationship between maximum tap pressure and tap duration shows strong signs of linearity by visually inspecting a scatterplot of tap duration against maximum tap pressure.
-Residuals show independence as assess by a Durbin-Watson statistic of 2.223.
-There were no outliers greater than 3 SDs.
-Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values.
-A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
+The relationship between maximum tap pressure and tap duration shows strong signs of linearity by visually inspecting a scatterplot of tap duration against maximum tap pressure. Residuals show independence as assessed by a Durbin-Watson statistic of 2.223. There were no outliers observed outside 3 SDs. Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values. A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
 
 \subsubsection{Average tap pressure and tap duration}
-Again, by visually inspecting a scatter plot of tap duration against average tap pressure, there is strong indication of linearity.
-The Durbin-Watson statistic of 2.275 shows no signs of autocorrelation.
-There were again no outliers outside 3 SDs.
-Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values.
-A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
+Again, by visually inspecting a scatter plot of tap duration against average tap pressure, there is strong indication of linearity. The Durbin-Watson statistic of 2.275 shows no signs of autocorrelation. There were again no outliers outside 3 SDs. Homoscedasticity was established as was inspected visually with a scatterplot of standardized residuals against standardized predicted values. A histogram of standardized residuals shows an approximate normal distribution, as is further proved with visual inspection of the P-P plot.
 
 \subsubsection{Findings}
 Tap duration statistically significantly predicted maximum tap pressure, F(1, 58) = 18,495, $P < 0.0005$. Furthermore, the linear regression model shows that the tap duration coefficient is statistically significant in the model ($p < 0.0005$).
 
 Tap duration statistically significantly predicted average tap pressure, F(1, 58) = 21,715, $P < 0.0005$. Furthermore, the linear regression model shows that the tap duration coefficient is statistically significant in the model ($p < 0.0005$).
 
+\[average\ tap\ pressure = -.082 + (4.274*10^{-9} * tap\ duration) \]
+
 % subsubsection findings (end)
 
 \section{Discussion} % (fold)
 \label{sec:discussion}
-The main purpose of this research is to discover a meaningful and significant relationship between tap pressure on a touch screen and emotion. Using a quantitative approach with a sample size of 51 and multiple linear regression to explore this possible relationship, first results interestingly indicate no significant relationship.
+The main purpose of this research is to discover a meaningful and significant relationship between tap pressure on a touch screen and emotion. Using a quantitative approach with a sample size of 51 and multiple linear regression to explore this possible relationship, first results interestingly indicate no significant relationship. The secondary objective was to explore a relationship between tap pressure and tap duration, which is indeed the case; there is a significant relationship between tap duration and both maximum tap pressure and average tap pressure. 
 
 \subsection{Evaluation of findings} % (fold)
 \label{sub:evaluation_of_findings}
