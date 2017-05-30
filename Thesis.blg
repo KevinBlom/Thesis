@@ -9,7 +9,9 @@ Database file #2: Alternative.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no journal in Dan-glauser2011
 Warning--no number and no volume in Dan-glauser2011
+Warning--unusual to have number, but no volume, for Essl2010
 Warning--no journal in Fontaine2007
+Warning--no number and no volume in Goel2012
 Warning--no number and no volume in H.R.LvZ.L.LinW.J.Yin2008
 Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
@@ -23,45 +25,45 @@ Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 29 entries,
+You've used 33 entries,
             5283 wiz_defined-function locations,
-            1477 strings with 20686 characters,
-and the built_in function-call counts, 27921 in all, are:
-= -- 4270
-> -- 748
+            1515 strings with 22266 characters,
+and the built_in function-call counts, 33639 in all, are:
+= -- 5195
+> -- 932
 < -- 1
-+ -- 213
-- -- 448
-* -- 1757
-:= -- 2784
-add.period$ -- 151
-call.type$ -- 29
-change.case$ -- 183
-chr.to.int$ -- 29
-cite$ -- 45
-duplicate$ -- 2045
-empty$ -- 1486
-format.name$ -- 312
-if$ -- 6903
++ -- 273
+- -- 597
+* -- 2173
+:= -- 3324
+add.period$ -- 171
+call.type$ -- 33
+change.case$ -- 219
+chr.to.int$ -- 33
+cite$ -- 51
+duplicate$ -- 2364
+empty$ -- 1713
+format.name$ -- 384
+if$ -- 8292
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 86
-newline$ -- 329
-num.names$ -- 174
-pop$ -- 646
+missing$ -- 102
+newline$ -- 370
+num.names$ -- 198
+pop$ -- 752
 preamble$ -- 1
-purify$ -- 299
+purify$ -- 351
 quote$ -- 0
-skip$ -- 596
+skip$ -- 692
 stack$ -- 0
-substring$ -- 2832
-swap$ -- 211
-text.length$ -- 365
+substring$ -- 3519
+swap$ -- 251
+text.length$ -- 544
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 257
-warning$ -- 16
-while$ -- 202
+type$ -- 293
+warning$ -- 18
+while$ -- 225
 width$ -- 0
-write$ -- 502
-(There were 16 warnings)
+write$ -- 567
+(There were 18 warnings)

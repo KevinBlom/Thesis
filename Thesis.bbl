@@ -94,6 +94,17 @@
 \url{http://dx.doi.org/10.1126/science.164.3875.86}}
 
 
+\bibitem{Essl2010}
+{Georg Essl}, {Michael Rohs}, {and} {Sven Kratz}. 2010.
+\newblock \showarticletitle{{Use the Force (or something)-Pressure and
+  Pressure-Like Input for Mobile Music Performance}}.
+\newblock {\em NIME 2010 Proceedings of the International Conference on New
+  Interfaces for Musical Expression\/} Nime (2010), 182--185.
+\newblock
+\showURL{%
+\url{http://141.84.8.93/pubdb/publications/pub/essl2010pressuremusic/essl2010pressuremusic.pdf}}
+
+
 \bibitem{Fontaine2007}
 {Johnny R~J Fontaine}, {Klaus~R Scherer}, {Etienne~B Roesch}, {C Phoebe},
   {Johnny R~J Fontaine}, {Klaus~R Scherer}, {Etienne~B Roesch}, {and} {Phoebe~C
@@ -127,6 +138,17 @@
 \url{http://dx.doi.org/10.1145/2395131.2395138}}
 
 
+\bibitem{Goel2012}
+{Mayank Goel}, {Jacob~O Wobbrock}, {and} {Shwetak~N Patel}. 2012.
+\newblock \showarticletitle{{GripSense}}.
+\newblock {\em Proceedings of the 25th annual ACM symposium on User interface
+  software and technology - UIST '12\/} (2012), 545.
+\newblock
+\showISBNx{9781450315807}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/2380116.2380184}}
+
+
 \bibitem{google:firebase}
 {Google}. 2017.
 \newblock Firebase.
@@ -134,6 +156,21 @@
 \newblock
 \newblock
 \shownote{\url{http://firebase.google.com/}.}
+
+
+\bibitem{Grunerbl2015}
+{Agnes Gr{\"{u}}nerbl}, {Amir Muaremi}, {Venet Osmani}, {Gernot Bahle}, {Stefan
+  {\"{O}}hler}, {Gerard Tr{\"{o}}ster}, {Oscar Mayora}, {Christian Haring},
+  {and} {Paul Lukowicz}. 2015.
+\newblock \showarticletitle{{Smart-Phone Based Recognition of States and State
+  Changes in Bipolar Disorder Patients}}.
+\newblock {\em IEEE Journal of Biomedical and Health Informatics\/} {19}, 1
+  (2015), 140--148.
+\newblock
+\showISBNx{2168-2194 VO - 19}
+\showISSN{2168-2208}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/JBHI.2014.2343154}}
 
 
 \bibitem{H.R.LvZ.L.LinW.J.Yin2008}
@@ -146,6 +183,18 @@
 \showISBNx{978-1-4244-2570-9}
 \showDOI{%
 \url{http://dx.doi.org/10.1109/ICME.2008.4607628}}
+
+
+\bibitem{Hertenstein2006}
+{Matthew~J. Hertenstein}, {Dacher Keltner}, {Betsy App}, {Brittany~A. Bulleit},
+  {and} {Ariane~R. Jaskolka}. 2006.
+\newblock \showarticletitle{{Touch communicates distinct emotions.}}
+\newblock {\em Emotion\/} {6}, 3 (2006), 528--533.
+\newblock
+\showISBNx{1528-3542 (Print)$\backslash$r1528-3542 (Linking)}
+\showISSN{1931-1516}
+\showDOI{%
+\url{http://dx.doi.org/10.1037/1528-3542.6.3.528}}
 
 
 \bibitem{json}

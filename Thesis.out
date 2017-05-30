@@ -4,7 +4,7 @@
 \BOOKMARK [3][-]{subsubsection.27}{Physiological detection}{subsection.22}% 4
 \BOOKMARK [3][-]{subsubsection.38}{Facial detection}{subsection.22}% 5
 \BOOKMARK [3][-]{subsubsection.40}{Posture/gestures emotion detection}{subsection.22}% 6
-\BOOKMARK [2][-]{subsection.42}{Practical applications}{section.6}% 7
+\BOOKMARK [2][-]{subsection.42}{Applied emotion and pressure detection}{section.6}% 7
 \BOOKMARK [2][-]{subsection.44}{Research question and hypotheses}{section.6}% 8
 \BOOKMARK [1][-]{section.46}{Methods}{}% 9
 \BOOKMARK [2][-]{subsection.48}{Emotional elicitation}{section.46}% 10
@@ -27,17 +27,18 @@
 \BOOKMARK [3][-]{subsubsection.106}{Maximum tap pressure and tap duration}{subsection.104}% 27
 \BOOKMARK [3][-]{subsubsection.108}{Average tap pressure and tap duration}{subsection.104}% 28
 \BOOKMARK [3][-]{subsubsection.110}{Findings}{subsection.104}% 29
-\BOOKMARK [1][-]{section.112}{Discussion}{}% 30
-\BOOKMARK [2][-]{subsection.114}{Evaluation of findings}{section.112}% 31
-\BOOKMARK [2][-]{subsection.116}{Weaknesses}{section.112}% 32
-\BOOKMARK [2][-]{subsection.118}{Recommendations}{section.112}% 33
-\BOOKMARK [2][-]{subsection.120}{Implications}{section.112}% 34
-\BOOKMARK [1][-]{section.122}{References }{}% 35
-\BOOKMARK [1][-]{appendix.125}{Collected data}{}% 36
-\BOOKMARK [1][-]{appendix.128}{Linear relationships and homoscedasticity}{}% 37
-\BOOKMARK [2][-]{subsection.130}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.128}% 38
-\BOOKMARK [2][-]{subsection.133}{Partial regression plots}{appendix.128}% 39
-\BOOKMARK [1][-]{appendix.139}{Multicollinearity}{}% 40
-\BOOKMARK [1][-]{appendix.145}{Unusual data points}{}% 41
-\BOOKMARK [1][-]{appendix.148}{Normality}{}% 42
-\BOOKMARK [1][-]{appendix.154}{Regression coefficients}{}% 43
+\BOOKMARK [1][-]{section.115}{Discussion}{}% 30
+\BOOKMARK [2][-]{subsection.117}{Evaluation of findings}{section.115}% 31
+\BOOKMARK [2][-]{subsection.119}{Weaknesses}{section.115}% 32
+\BOOKMARK [2][-]{subsection.121}{Recommendations}{section.115}% 33
+\BOOKMARK [2][-]{subsection.123}{Implications}{section.115}% 34
+\BOOKMARK [1][-]{section.125}{References }{}% 35
+\BOOKMARK [1][-]{appendix.128}{Collected data}{}% 36
+\BOOKMARK [1][-]{appendix.131}{Linear relationships and homoscedasticity}{}% 37
+\BOOKMARK [2][-]{subsection.133}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.131}% 38
+\BOOKMARK [2][-]{subsection.136}{Partial regression plots}{appendix.131}% 39
+\BOOKMARK [1][-]{appendix.142}{Multicollinearity}{}% 40
+\BOOKMARK [1][-]{appendix.148}{Unusual data points}{}% 41
+\BOOKMARK [1][-]{appendix.151}{Normality}{}% 42
+\BOOKMARK [1][-]{appendix.157}{Regression coefficients}{}% 43
+\BOOKMARK [1][-]{appendix.160}{Secondary study results}{}% 44
