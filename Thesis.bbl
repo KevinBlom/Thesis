@@ -206,6 +206,19 @@
 \shownote{\url{http://www.json.org}.}
 
 
+\bibitem{Lang1997}
+{P.J. Lang}, {M.M. Bradley}, {and} {B.N. Cuthbert}. 1997.
+\newblock \showarticletitle{{International Affective Picture System (IAPS):
+  Technical Manual and Affective Ratings}}.
+\newblock {\em NIMH Center for the Study of Emotion and Attention\/} (1997),
+  39--58.
+\newblock
+\showISBNx{Technical Report A-4}
+\showISSN{0269-8803}
+\showDOI{%
+\url{http://dx.doi.org/10.1027/0269-8803/a000147}}
+
+
 \bibitem{Lee2012}
 {Hosub Lee}, {Young~Sang Choi}, {Sunjae Lee}, {and} {I.~P. Park}. 2012.
 \newblock \showarticletitle{{Towards unobtrusive emotion recognition for

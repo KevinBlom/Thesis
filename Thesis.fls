@@ -125,6 +125,14 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
@@ -267,6 +275,7 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -278,10 +287,20 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
@@ -292,16 +311,11 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions.eps
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-converted-to.pdf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexModel.jpg
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
@@ -324,10 +338,9 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure.eps
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure-eps-converted-to.pdf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex
@@ -338,7 +351,6 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-sho
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/secondary-findings.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/secondary-findings.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
@@ -387,10 +399,6 @@ INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg.eps
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ArAvg-eps-converted-to.pdf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valence.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valence.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valence/ValMaxMax.eps
@@ -551,6 +559,64 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-linearity.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-linearity.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgLinearity-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-normality.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-normality.tex
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgHistogram-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P.eps
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf
+INPUT /Users/Kevin/stack/Master Thesis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/secondary-coefficients.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/tables/secondary-coefficients.tex
 INPUT /Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux
