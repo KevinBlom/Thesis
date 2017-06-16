@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.11)  31 MAY 2017 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.14)  14 JUN 2017 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex"
-(/Users/Kevin/stack/Master Thesis/Thesis/Thesis.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/Users/Kevin/stack/Master Thesis/Thesis/sigchi.cls (/usr/local/texlive/2016/te
-xmf-dist/tex/latex/graphics/epsfig.sty
+**/Users/kevin/Documents/GitHub/Thesis/Thesis.tex
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/Users/kevin/Documents/GitHub/Thesis/sigchi.cls (/usr/local/texlive/2017/texmf
+-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package graphics Info: Driver file: pdftex.def on input line 99.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
@@ -36,46 +36,46 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/10 v2.15b AMS math features
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip41
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen106
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen107
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count80
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count81
 \leftroot@=\count82
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count83
 \DOTSCASE@=\count84
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count85
 \c@MaxMatrixCols=\count86
 \dotsspace@=\muskip10
@@ -96,8 +96,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip42
 \multlinetaggap=\skip43
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 
 Document Class SIGCHI
@@ -136,7 +136,7 @@ Excerpts were taken from (Journal Style) 'esub2acm.cls'.
 \titleboxnotes=\toks23
 \titleboxnoteflag=\count100
 Document Class: sigchi 2011/06/06 - V0.16
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -165,15 +165,15 @@ Using 'Abbrev' bibliography style
 \copyrtyr=\toks32
 \acmcopyr=\toks33
 \boilerplate=\toks34
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/Users/Kevin/stack/Master Thesis/Thesis/acmcopyright.sty
+) (/Users/kevin/Documents/GitHub/Thesis/acmcopyright.sty
 Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
-/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
+/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
@@ -181,18 +181,18 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \copyrightetc=\toks37
-(/usr/local/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 Excluding comment 'comment') Excluding comment 'CCSXML') (/usr/local/texlive/20
-16/texmf-dist/tex/latex/preprint/balance.sty
+17/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen123
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/txfonts.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -276,7 +276,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathptmx.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -315,12 +315,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/txr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -330,7 +330,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -338,7 +338,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -356,48 +356,48 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen124
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count112
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index ON on input line 4454.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count113
-LaTeX Info: Redefining \url on input line 5044.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen125
 \Fld@menulength=\count114
 \Field@Width=\dimen126
 \Fld@charsize=\dimen127
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index ON on input line 6306.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring OFF on input line 6318.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Warning: Option `pdfpagelabels' is turned off
 (hyperref)                because \thepage is undefined.
@@ -408,26 +408,26 @@ Package hyperref Warning: Option `pdfpagelabels' is turned off
 
 Package hyperref Message: Driver: hpdftex.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package color Info: Driver file: pdftex.def on input line 147.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen128
 \extrarowheight=\dimen129
 \NC@list=\toks38
@@ -441,7 +441,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@delta=\dimen134
 \TX@cols=\count119
 \TX@ftn=\toks39
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen135
 \lightrulewidth=\dimen136
@@ -460,8 +460,8 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count122
 \@lastruleclass=\count123
 \@thisrulewidth=\dimen147
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -474,7 +474,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -540,12 +540,12 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen148
 \captionmargin@=\dimen149
@@ -573,29 +573,29 @@ Package caption Info: hyperref package is loaded.
 )
 \c@subfigure=\count125
 \c@subtable=\count126
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count127
 \c@@ppsavesec=\count128
 \c@@ppsaveapp=\count129
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip51
 \enit@outerparindent=\dimen155
 \enit@toks=\toks40
 \enit@inbox=\box29
 \enitdp@description=\count130
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count131
 \float@exts=\toks41
 \float@box=\box30
 \@float@everytoks=\toks42
 \@floatcapt=\box31
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count132
 )
 \csq@reset=\count133
@@ -605,14 +605,14 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \csq@maxlvl=\count137
 \csq@tshold=\count138
 \csq@ltx@everypar=\toks43
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks44
 \MT@count=\count139
@@ -620,7 +620,7 @@ LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen156
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count140
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
@@ -628,17 +628,17 @@ LaTeX Info: Redefining \lslig on input line 916.
 \MT@outer@space=\skip52
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/ccicons/ccicons.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks45
 \minrowclearance=\skip53
@@ -655,7 +655,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box32
 )
@@ -668,13 +668,13 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 137.
 Package hyperref Info: Option `hypertexnames' set `false' on input line 137.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-(/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux)
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 143.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 143
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omltxmi.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 143.
@@ -685,21 +685,21 @@ LaTeX Font Info:    ... okay on input line 143.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 143.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 143
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omstxsy.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 143.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 143.
 LaTeX Font Info:    Try loading font information for OMX+txex on input line 143
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/omxtxex.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 143.
 LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 143.
 LaTeX Font Info:    Try loading font information for U+txexa on input line 143.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxexa.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 143.
@@ -708,14 +708,14 @@ LaTeX Font Info:    ... okay on input line 143.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 143.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 143.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 143.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count142
 \scratchdimen=\dimen157
@@ -728,24 +728,26 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \MPnumerator=\count146
 \makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks47
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 143.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
@@ -753,8 +755,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 143.
 LaTeX Info: Redefining \pageref on input line 143.
 LaTeX Info: Redefining \nameref on input line 143.
-(/Users/Kevin/stack/Master Thesis/Thesis/Thesis.out) (/Users/Kevin/stack/Master
- Thesis/Thesis/Thesis.out)
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.out) (/Users/kevin/Documents/GitHu
+b/Thesis/Thesis.out)
 \@outlinefile=\write4
 \openout4 = `Thesis.out'.
 
@@ -772,12 +774,12 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic settings for font family
@@ -786,46 +788,46 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for U+txsya on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsya.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for U+txsyb on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyb.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 155.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Try loading font information for U+txmia on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for U+txsyc on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -841,14 +843,14 @@ Overfull \hbox (5.79999pt too wide) in paragraph at lines 155--155
 
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 155.
 LaTeX Font Info:    Try loading font information for T1+txtt on input line 155.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 Package microtype Info: Loading generic settings for font family
@@ -862,17 +864,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 Non-PDF special ignored!
 
 ]
 Package epstopdf Info: Source file: <images/PlutchikWheelOfEmotions.eps>
-(epstopdf)                    date: 2017-05-22 14:19:31
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 493234 bytes
 (epstopdf)             Output file: <images/PlutchikWheelOfEmotions-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-05-22 14:21:47
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 450583 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/PlutchikWheelOfEmot
 ions-eps-converted-to.pdf images/PlutchikWheelOfEmotions.eps>
@@ -895,9 +897,9 @@ Package pdftex.def Info: images/CircumplexModel.jpg used on input line 231.
 
 Underfull \vbox (badness 5245) has occurred while \output is active []
 
-[2 </Users/Kevin/stack/Master Thesis/Thesis/images/PlutchikWheelOfEmotions-eps-
-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/CircumplexMod
-el.jpg>]
+[2 </Users/kevin/Documents/GitHub/Thesis/images/PlutchikWheelOfEmotions-eps-con
+verted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/CircumplexModel.jpg
+>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -934,10 +936,10 @@ f taps on touch-screens ex-hibit di-rect
 
 [3]
 Package epstopdf Info: Source file: <images/Grid.eps>
-(epstopdf)                    date: 2017-05-30 20:38:32
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 776561 bytes
 (epstopdf)             Output file: <images/Grid-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-30 20:39:05
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 264260 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Grid-eps-converted-
 to.pdf images/Grid.eps>
@@ -950,11 +952,11 @@ Package pdftex.def Info: images/Grid-eps-converted-to.pdf used on input line 30
 9.
 (pdftex.def)             Requested size: 235.59224pt x 131.7308pt.
 Package epstopdf Info: Source file: <images/Datastructure.eps>
-(epstopdf)                    date: 2017-05-30 21:12:58
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 110366 bytes
 (epstopdf)             Output file: <images/Datastructure-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-05-30 21:13:33
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 24969 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Datastructure-eps-c
 onverted-to.pdf images/Datastructure.eps>
@@ -969,26 +971,24 @@ t line 317.
 
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
-[4 </Users/Kevin/stack/Master Thesis/Thesis/images/Grid-eps-converted-to.pdf>]
+[4 </Users/kevin/Documents/GitHub/Thesis/images/Grid-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 343.
-[5 </Users/Kevin/stack/Master Thesis/Thesis/images/Datastructure-eps-converted-
-to.pdf>] (/Users/Kevin/stack/Master Thesis/Thesis/tables/Durbin-Watson.tex) (/U
-sers/Kevin/stack/Master Thesis/Thesis/tables/Collinearity-statistics.tex)
+[5 </Users/kevin/Documents/GitHub/Thesis/images/Datastructure-eps-converted-to.
+pdf>] (/Users/kevin/Documents/GitHub/Thesis/tables/Durbin-Watson.tex) (/Users/k
+evin/Documents/GitHub/Thesis/tables/Collinearity-statistics.tex)
 Underfull \hbox (badness 2351) in paragraph at lines 425--427
 []\T1/ptm/m/n/10 (+20) Inspection of cor-re-la-tion co-ef-fi-cients (Ap-pendix 
 Mul-ti-
  []
 
-
-(/Users/Kevin/stack/Master Thesis/Thesis/tables/regression-coefficients-short.t
-ex
+(/Users/kevin/Documents/GitHub/Thesis/tables/regression-coefficients-short.tex
 Overfull \hbox (7.43486pt too wide) in paragraph at lines 4--19
  [][] 
  []
 
-) (/Users/Kevin/stack/Master Thesis/Thesis/tables/findings.tex) [6] (/Users/Kev
-in/stack/Master Thesis/Thesis/tables/secondary-findings.tex)
+) (/Users/kevin/Documents/GitHub/Thesis/tables/findings.tex) [6] (/Users/kevin/
+Documents/GitHub/Thesis/tables/secondary-findings.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
@@ -1009,17 +1009,17 @@ it/10 P < \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 0005$\T1/ptm
 [7]
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
-(/Users/Kevin/stack/Master Thesis/Thesis/Thesis.bbl [8] [9]) [10
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.bbl [8] [9]) [10
 
-] (/Users/Kevin/stack/Master Thesis/Thesis/tables/Results-data.tex)
-(/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/linearrelationships-sca
-tterplot.tex
+] (/Users/kevin/Documents/GitHub/Thesis/tables/Results-data.tex)
+(/Users/kevin/Documents/GitHub/Thesis/complexfigures/linearrelationships-scatte
+rplot.tex
 Package epstopdf Info: Source file: <images/linearity/ValMax.eps>
-(epstopdf)                    date: 2017-05-11 15:13:40
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 77809 bytes
 (epstopdf)             Output file: <images/linearity/ValMax-eps-converted-to.p
 df>
-(epstopdf)                    date: 2017-05-11 15:14:17
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 25129 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/ValMax-ep
 s-converted-to.pdf images/linearity/ValMax.eps>
@@ -1033,11 +1033,11 @@ Package pdftex.def Info: images/linearity/ValMax-eps-converted-to.pdf used on i
 nput line 6.
 (pdftex.def)             Requested size: 230.46574pt x 185.5371pt.
 Package epstopdf Info: Source file: <images/linearity/ValAvg.eps>
-(epstopdf)                    date: 2017-05-11 15:13:40
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 77795 bytes
 (epstopdf)             Output file: <images/linearity/ValAvg-eps-converted-to.p
 df>
-(epstopdf)                    date: 2017-05-11 15:14:55
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 25127 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/ValAvg-ep
 s-converted-to.pdf images/linearity/ValAvg.eps>
@@ -1051,11 +1051,11 @@ Package pdftex.def Info: images/linearity/ValAvg-eps-converted-to.pdf used on i
 nput line 13.
 (pdftex.def)             Requested size: 230.46574pt x 185.5371pt.
 Package epstopdf Info: Source file: <images/linearity/ArMax.eps>
-(epstopdf)                    date: 2017-05-11 15:13:40
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 78946 bytes
 (epstopdf)             Output file: <images/linearity/ArMax-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-11 15:15:28
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 26429 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/ArMax-eps
 -converted-to.pdf images/linearity/ArMax.eps>
@@ -1068,11 +1068,11 @@ Package pdftex.def Info: images/linearity/ArMax-eps-converted-to.pdf used on in
 put line 21.
 (pdftex.def)             Requested size: 230.46574pt x 185.5371pt.
 Package epstopdf Info: Source file: <images/linearity/ArAvg.eps>
-(epstopdf)                    date: 2017-05-11 15:13:40
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 77811 bytes
 (epstopdf)             Output file: <images/linearity/ArAvg-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-11 15:15:28
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 25148 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/ArAvg-eps
 -converted-to.pdf images/linearity/ArAvg.eps>
@@ -1090,20 +1090,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [11
 
 
-] [12 </Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValMax-eps-conv
-erted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/linearity/ValAvg-
-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/linearity
-/ArMax-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/li
-nearity/ArAvg-eps-converted-to.pdf>]
-(/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-valen
-ce.tex
+] [12 </Users/kevin/Documents/GitHub/Thesis/images/linearity/ValMax-eps-convert
+ed-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity/ValAvg-eps-co
+nverted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity/ArMax-ep
+s-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity/ArAv
+g-eps-converted-to.pdf>]
+(/Users/kevin/Documents/GitHub/Thesis/complexfigures/partialregression-valence.
+tex
 Package epstopdf Info: Source file: <images/linearity/partialregression/valence
 /ValMaxMax.eps>
-(epstopdf)                    date: 2017-05-12 11:04:35
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 235594 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/valence
 /ValMaxMax-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:23:51
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 22265 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/valence/ValMaxMax-eps-converted-to.pdf images/linearity/partialregress
@@ -1122,11 +1122,11 @@ ps-converted-to.pdf used on input line 6.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/valence
 /ValMaxTime.eps>
-(epstopdf)                    date: 2017-05-12 11:04:06
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 223638 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/valence
 /ValMaxTime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:23:51
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 18838 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/valence/ValMaxTime-eps-converted-to.pdf images/linearity/partialregres
@@ -1146,11 +1146,11 @@ eps-converted-to.pdf used on input line 12.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/valence
 /ValAvgAvg.eps>
-(epstopdf)                    date: 2017-05-12 11:08:43
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 233274 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/valence
 /ValAvgAvg-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:30:44
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 21766 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/valence/ValAvgAvg-eps-converted-to.pdf images/linearity/partialregress
@@ -1169,11 +1169,11 @@ ps-converted-to.pdf used on input line 22.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/valence
 /ValAvgTime.eps>
-(epstopdf)                    date: 2017-05-12 11:08:20
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 223591 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/valence
 /ValAvgTime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:30:45
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 18799 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/valence/ValAvgTime-eps-converted-to.pdf images/linearity/partialregres
@@ -1192,15 +1192,15 @@ Package pdftex.def Info: images/linearity/partialregression/valence/ValAvgTime-
 eps-converted-to.pdf used on input line 28.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 )
-(/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/partialregression-arous
-al.tex
+(/Users/kevin/Documents/GitHub/Thesis/complexfigures/partialregression-arousal.
+tex
 Package epstopdf Info: Source file: <images/linearity/partialregression/arousal
 /ArMaxMax.eps>
-(epstopdf)                    date: 2017-05-12 11:17:33
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 235116 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/arousal
 /ArMaxMax-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:36:02
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 21943 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/arousal/ArMaxMax-eps-converted-to.pdf images/linearity/partialregressi
@@ -1219,11 +1219,11 @@ s-converted-to.pdf used on input line 6.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/arousal
 /ArMaxTime.eps>
-(epstopdf)                    date: 2017-05-12 11:17:22
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 223161 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/arousal
 /ArMaxTime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:36:03
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 18533 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/arousal/ArMaxTime-eps-converted-to.pdf images/linearity/partialregress
@@ -1242,11 +1242,11 @@ ps-converted-to.pdf used on input line 12.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/arousal
 /ArAvgAvg.eps>
-(epstopdf)                    date: 2017-05-12 11:18:57
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 232794 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/arousal
 /ArAvgAvg-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:36:03
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 21467 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/arousal/ArAvgAvg-eps-converted-to.pdf images/linearity/partialregressi
@@ -1265,11 +1265,11 @@ s-converted-to.pdf used on input line 22.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/linearity/partialregression/arousal
 /ArAvgTime.eps>
-(epstopdf)                    date: 2017-05-12 11:18:35
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 223087 bytes
 (epstopdf)             Output file: <images/linearity/partialregression/arousal
 /ArAvgTime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:36:03
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 18526 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/linearity/partialre
 gression/arousal/ArAvgTime-eps-converted-to.pdf images/linearity/partialregress
@@ -1288,30 +1288,30 @@ ps-converted-to.pdf used on input line 28.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 ) [13
 
- </Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/va
-lence/ValMaxMax-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/
-images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf> </U
-sers/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/valenc
-e/ValAvgAvg-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/imag
-es/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf>] [14 </
-Users/Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arous
-al/ArMaxMax-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/imag
-es/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf> </Users/
-Kevin/stack/Master Thesis/Thesis/images/linearity/partialregression/arousal/ArA
-vgAvg-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/lin
-earity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf>] (/Users/Kevin
-/stack/Master Thesis/Thesis/tables/Collinearity-correlations.tex) [15
+ </Users/kevin/Documents/GitHub/Thesis/images/linearity/partialregression/valen
+ce/ValMaxMax-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images
+/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf> </Users/k
+evin/Documents/GitHub/Thesis/images/linearity/partialregression/valence/ValAvgA
+vg-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity
+/partialregression/valence/ValAvgTime-eps-converted-to.pdf>] [14 </Users/kevin/
+Documents/GitHub/Thesis/images/linearity/partialregression/arousal/ArMaxMax-eps
+-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity/parti
+alregression/arousal/ArMaxTime-eps-converted-to.pdf> </Users/kevin/Documents/Gi
+tHub/Thesis/images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-t
+o.pdf> </Users/kevin/Documents/GitHub/Thesis/images/linearity/partialregression
+/arousal/ArAvgTime-eps-converted-to.pdf>] (/Users/kevin/Documents/GitHub/Thesis
+/tables/Collinearity-correlations.tex) [15
 
-] (/Users/Kevin/stack/Master Thesis/Thesis/tables/unusualdatapoints-values.tex)
-[16
+] (/Users/kevin/Documents/GitHub/Thesis/tables/unusualdatapoints-values.tex) [1
+6
 
-] (/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/normality.tex
+] (/Users/kevin/Documents/GitHub/Thesis/complexfigures/normality.tex
 Package epstopdf Info: Source file: <images/normality/ValMax/HistValMax.eps>
-(epstopdf)                    date: 2017-05-17 08:17:30
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 442606 bytes
 (epstopdf)             Output file: <images/normality/ValMax/HistValMax-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2017-05-17 08:45:34
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 19746 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/ValMax/Hi
 stValMax-eps-converted-to.pdf images/normality/ValMax/HistValMax.eps>
@@ -1327,11 +1327,11 @@ Package pdftex.def Info: images/normality/ValMax/HistValMax-eps-converted-to.pd
 f used on input line 6.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/ValMax/PPValMax.eps>
-(epstopdf)                    date: 2017-05-17 08:17:39
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 433925 bytes
 (epstopdf)             Output file: <images/normality/ValMax/PPValMax-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-05-17 08:45:34
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 17224 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/ValMax/PP
 ValMax-eps-converted-to.pdf images/normality/ValMax/PPValMax.eps>
@@ -1347,11 +1347,11 @@ Package pdftex.def Info: images/normality/ValMax/PPValMax-eps-converted-to.pdf
 used on input line 13.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/valavg/HistValAvg.eps>
-(epstopdf)                    date: 2017-05-17 08:21:00
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 444348 bytes
 (epstopdf)             Output file: <images/normality/valavg/HistValAvg-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:34:04
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 20338 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/valavg/Hi
 stValAvg-eps-converted-to.pdf images/normality/valavg/HistValAvg.eps>
@@ -1367,11 +1367,11 @@ Package pdftex.def Info: images/normality/valavg/HistValAvg-eps-converted-to.pd
 f used on input line 25.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/valavg/PPValAvg.eps>
-(epstopdf)                    date: 2017-05-17 08:21:10
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 433916 bytes
 (epstopdf)             Output file: <images/normality/valavg/PPValAvg-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:34:05
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 17264 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/valavg/PP
 ValAvg-eps-converted-to.pdf images/normality/valavg/PPValAvg.eps>
@@ -1387,11 +1387,11 @@ Package pdftex.def Info: images/normality/valavg/PPValAvg-eps-converted-to.pdf
 used on input line 32.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/ArMax/HistArMax.eps>
-(epstopdf)                    date: 2017-05-17 08:23:35
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 441904 bytes
 (epstopdf)             Output file: <images/normality/ArMax/HistArMax-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:35:26
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 19580 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/ArMax/His
 tArMax-eps-converted-to.pdf images/normality/ArMax/HistArMax.eps>
@@ -1407,11 +1407,11 @@ Package pdftex.def Info: images/normality/ArMax/HistArMax-eps-converted-to.pdf
 used on input line 44.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/ArMax/PPArMax.eps>
-(epstopdf)                    date: 2017-05-17 08:23:23
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 433850 bytes
 (epstopdf)             Output file: <images/normality/ArMax/PPArMax-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:35:58
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 17251 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/ArMax/PPA
 rMax-eps-converted-to.pdf images/normality/ArMax/PPArMax.eps>
@@ -1427,11 +1427,11 @@ Package pdftex.def Info: images/normality/ArMax/PPArMax-eps-converted-to.pdf us
 ed on input line 51.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/aravg/HistArAvg.eps>
-(epstopdf)                    date: 2017-05-17 08:25:42
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 443045 bytes
 (epstopdf)             Output file: <images/normality/aravg/HistArAvg-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:37:23
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 19935 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/aravg/His
 tArAvg-eps-converted-to.pdf images/normality/aravg/HistArAvg.eps>
@@ -1447,11 +1447,11 @@ Package pdftex.def Info: images/normality/aravg/HistArAvg-eps-converted-to.pdf
 used on input line 63.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 Package epstopdf Info: Source file: <images/normality/aravg/PPArAvg.eps>
-(epstopdf)                    date: 2017-05-17 08:25:53
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 433807 bytes
 (epstopdf)             Output file: <images/normality/aravg/PPArAvg-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-05-17 09:37:23
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 17277 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/normality/aravg/PPA
 rAvg-eps-converted-to.pdf images/normality/aravg/PPArAvg.eps>
@@ -1468,26 +1468,25 @@ ed on input line 70.
 (pdftex.def)             Requested size: 230.46574pt x 184.22284pt.
 ) [17
 
- </Users/Kevin/stack/Master Thesis/Thesis/images/normality/ValMax/HistValMax-ep
-s-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/normality/V
-alMax/PPValMax-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/i
-mages/normality/valavg/HistValAvg-eps-converted-to.pdf> </Users/Kevin/stack/Mas
-ter Thesis/Thesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf>] [18 <
-/Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax/HistArMax-eps-co
-nverted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/normality/ArMax
-/PPArMax-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/
-normality/aravg/HistArAvg-eps-converted-to.pdf> </Users/Kevin/stack/Master Thes
-is/Thesis/images/normality/aravg/PPArAvg-eps-converted-to.pdf>] (/Users/Kevin/s
-tack/Master Thesis/Thesis/tables/regression-coefficients.tex) [19
+ </Users/kevin/Documents/GitHub/Thesis/images/normality/ValMax/HistValMax-eps-c
+onverted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/normality/ValMax/
+PPValMax-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/nor
+mality/valavg/HistValAvg-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/T
+hesis/images/normality/valavg/PPValAvg-eps-converted-to.pdf>] [18 </Users/kevin
+/Documents/GitHub/Thesis/images/normality/ArMax/HistArMax-eps-converted-to.pdf>
+ </Users/kevin/Documents/GitHub/Thesis/images/normality/ArMax/PPArMax-eps-conve
+rted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/normality/aravg/HistA
+rAvg-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/normali
+ty/aravg/PPArAvg-eps-converted-to.pdf>] (/Users/kevin/Documents/GitHub/Thesis/t
+ables/regression-coefficients.tex) [19
 
-]
-(/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-linearity.tex
+] (/Users/kevin/Documents/GitHub/Thesis/complexfigures/secondary-linearity.tex
 Package epstopdf Info: Source file: <images/secondary/max/MaxLinearity.eps>
-(epstopdf)                    date: 2017-05-29 23:01:02
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 231563 bytes
 (epstopdf)             Output file: <images/secondary/max/MaxLinearity-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-05-31 11:15:31
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 21178 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/max/MaxLi
 nearity-eps-converted-to.pdf images/secondary/max/MaxLinearity.eps>
@@ -1503,11 +1502,11 @@ Package pdftex.def Info: images/secondary/max/MaxLinearity-eps-converted-to.pdf
  used on input line 6.
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 Package epstopdf Info: Source file: <images/secondary/avg/AvgLinearity.eps>
-(epstopdf)                    date: 2017-05-29 23:03:33
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 229274 bytes
 (epstopdf)             Output file: <images/secondary/avg/AvgLinearity-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-05-31 11:15:47
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 20637 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/avg/AvgLi
 nearity-eps-converted-to.pdf images/secondary/avg/AvgLinearity.eps>
@@ -1524,16 +1523,16 @@ Package pdftex.def Info: images/secondary/avg/AvgLinearity-eps-converted-to.pdf
 (pdftex.def)             Requested size: 230.46574pt x 184.15034pt.
 ) [20
 
- </Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxLinearity-eps
--converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/secondary/av
-g/AvgLinearity-eps-converted-to.pdf>]
-(/Users/Kevin/stack/Master Thesis/Thesis/complexfigures/secondary-normality.tex
+ </Users/kevin/Documents/GitHub/Thesis/images/secondary/max/MaxLinearity-eps-co
+nverted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/secondary/avg/AvgL
+inearity-eps-converted-to.pdf>] (/Users/kevin/Documents/GitHub/Thesis/complexfi
+gures/secondary-normality.tex
 Package epstopdf Info: Source file: <images/secondary/max/MaxHistogram.eps>
-(epstopdf)                    date: 2017-05-30 09:45:13
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 1003869 bytes
 (epstopdf)             Output file: <images/secondary/max/MaxHistogram-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-05-31 11:06:49
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 22724 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/max/MaxHi
 stogram-eps-converted-to.pdf images/secondary/max/MaxHistogram.eps>
@@ -1549,11 +1548,11 @@ Package pdftex.def Info: images/secondary/max/MaxHistogram-eps-converted-to.pdf
  used on input line 6.
 (pdftex.def)             Requested size: 230.46574pt x 184.17223pt.
 Package epstopdf Info: Source file: <images/secondary/max/MaxP-P.eps>
-(epstopdf)                    date: 2017-05-30 09:45:22
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 990208 bytes
 (epstopdf)             Output file: <images/secondary/max/MaxP-P-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2017-05-31 11:06:50
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 18251 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/max/MaxP-
 P-eps-converted-to.pdf images/secondary/max/MaxP-P.eps>
@@ -1568,11 +1567,11 @@ Package pdftex.def Info: images/secondary/max/MaxP-P-eps-converted-to.pdf used
 on input line 13.
 (pdftex.def)             Requested size: 230.46574pt x 184.17223pt.
 Package epstopdf Info: Source file: <images/secondary/avg/AvgHistogram.eps>
-(epstopdf)                    date: 2017-05-30 09:48:22
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 1006319 bytes
 (epstopdf)             Output file: <images/secondary/avg/AvgHistogram-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-05-31 11:06:50
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 23225 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/avg/AvgHi
 stogram-eps-converted-to.pdf images/secondary/avg/AvgHistogram.eps>
@@ -1588,11 +1587,11 @@ Package pdftex.def Info: images/secondary/avg/AvgHistogram-eps-converted-to.pdf
  used on input line 24.
 (pdftex.def)             Requested size: 230.46574pt x 184.17223pt.
 Package epstopdf Info: Source file: <images/secondary/avg/AvgP-P.eps>
-(epstopdf)                    date: 2017-05-30 09:48:34
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 982591 bytes
 (epstopdf)             Output file: <images/secondary/avg/AvgP-P-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2017-05-31 11:06:51
+(epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 15960 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/secondary/avg/AvgP-
 P-eps-converted-to.pdf images/secondary/avg/AvgP-P.eps>
@@ -1608,12 +1607,12 @@ on input line 31.
 (pdftex.def)             Requested size: 230.46574pt x 184.17223pt.
 ) [21
 
- </Users/Kevin/stack/Master Thesis/Thesis/images/secondary/max/MaxHistogram-eps
--converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/secondary/ma
-x/MaxP-P-eps-converted-to.pdf> </Users/Kevin/stack/Master Thesis/Thesis/images/
-secondary/avg/AvgHistogram-eps-converted-to.pdf> </Users/Kevin/stack/Master The
-sis/Thesis/images/secondary/avg/AvgP-P-eps-converted-to.pdf>] (/Users/Kevin/sta
-ck/Master Thesis/Thesis/tables/secondary-coefficients.tex
+ </Users/kevin/Documents/GitHub/Thesis/images/secondary/max/MaxHistogram-eps-co
+nverted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/secondary/max/MaxP
+-P-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/secondary
+/avg/AvgHistogram-eps-converted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/i
+mages/secondary/avg/AvgP-P-eps-converted-to.pdf>] (/Users/kevin/Documents/GitHu
+b/Thesis/tables/secondary-coefficients.tex
 Overfull \hbox (3.92361pt too wide) in paragraph at lines 10--10
  []|\T1/ptm/m/it/10 (-20) Significance|
  []
@@ -1623,7 +1622,7 @@ Overfull \hbox (3.92361pt too wide) in paragraph at lines 10--10
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
-(/Users/Kevin/stack/Master Thesis/Thesis/Thesis.aux)
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 601.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 601.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
@@ -1631,26 +1630,26 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 601.
  ) 
 Here is how much of TeX's memory you used:
- 13071 strings out of 493014
- 204183 string characters out of 6133351
- 389012 words of memory out of 5000000
- 15845 multiletter control sequences out of 15000+600000
+ 13110 strings out of 492995
+ 204673 string characters out of 6132704
+ 391500 words of memory out of 5000000
+ 15894 multiletter control sequences out of 15000+600000
  86332 words of font info for 241 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,2886b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf" (22 page
-s, 1428702 bytes).
+ 59i,14n,94p,2881b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/kevin/Documents/GitHub/Thesis/Thesis.pdf (22 pages, 14
+28537 bytes).
 PDF statistics:
  782 PDF objects out of 1000 (max. 8388607)
  674 compressed objects within 7 object streams
