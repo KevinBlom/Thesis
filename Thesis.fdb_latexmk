@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex Thesis"] 1497775893 "Thesis.aux" "Thesis.bbl" "Thesis" 1497775895
+["bibtex Thesis"] 1497792849 "Thesis.aux" "Thesis.bbl" "Thesis" 1497793462
   "./SIGCHI-Reference-Format.bst" 1497441393 94555 5415fad3411fceb9e67a35e073eed7c1 ""
   "Alternative.bib" 1497441393 1484 11adbe585a3ee299b62992cb042f4828 ""
-  "Thesis.aux" 1497775894 29837 d9976eb2a9223756986c683507b5f947 ""
+  "Thesis.aux" 1497793462 30085 ef63df784a9352fcd0892ce8204b831d ""
   "library.bib" 1497441393 47417 87d986064b3debdb366b575eced4f8ca ""
   (generated)
-  "Thesis.blg"
   "Thesis.bbl"
-["pdflatex"] 1497775894 "/Users/kevin/Documents/GitHub/Thesis/Thesis.tex" "/Users/kevin/Documents/GitHub/Thesis/Thesis.pdf" "Thesis" 1497775895
-  "/Users/kevin/Documents/GitHub/Thesis/Thesis.aux" 1497775894 29837 d9976eb2a9223756986c683507b5f947 ""
-  "/Users/kevin/Documents/GitHub/Thesis/Thesis.tex" 1497775890 49297 ed6154b7d8099567f6515a64feb74bb9 ""
+  "Thesis.blg"
+["pdflatex"] 1497793461 "/Users/kevin/Documents/GitHub/Thesis/Thesis.tex" "/Users/kevin/Documents/GitHub/Thesis/Thesis.pdf" "Thesis" 1497793462
+  "/Users/kevin/Documents/GitHub/Thesis/Thesis.aux" 1497793462 30085 ef63df784a9352fcd0892ce8204b831d ""
+  "/Users/kevin/Documents/GitHub/Thesis/Thesis.tex" 1497793459 49577 9797bb885ff5b0ec6bd565f4d327ea38 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -162,10 +162,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1497433492 4129592 8f947f7493e5e45b0b01301f8fc82776 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "Thesis.aux" 1497775894 29837 d9976eb2a9223756986c683507b5f947 ""
-  "Thesis.bbl" 1497775894 13024 272f0c4cc0230af639a6f7f897a8e96e "bibtex Thesis"
-  "Thesis.out" 1497775894 3209 08f74e144ed7c95cd1259fb21228a7ad ""
-  "Thesis.tex" 1497775890 49297 ed6154b7d8099567f6515a64feb74bb9 ""
+  "Thesis.aux" 1497793462 30085 ef63df784a9352fcd0892ce8204b831d ""
+  "Thesis.bbl" 1497792849 13024 272f0c4cc0230af639a6f7f897a8e96e "bibtex Thesis"
+  "Thesis.out" 1497793462 3209 08f74e144ed7c95cd1259fb21228a7ad ""
+  "Thesis.tex" 1497793459 49577 9797bb885ff5b0ec6bd565f4d327ea38 ""
   "acmcopyright.sty" 1497441393 9626 03a22ffcc9f51aaef67ac6ed43847230 ""
   "complexfigures/linearrelationships-scatterplot.tex" 1497441393 1347 cd982f29d82a076ada55b1e7118aac26 ""
   "complexfigures/normality.tex" 1497441393 2979 646c5d12df69673cded13ccebbe9be6d ""
@@ -215,11 +215,11 @@
   "tables/secondary-findings.tex" 1497441393 709 751cae00ae77fbd4b4e8df1773eb8a0a ""
   "tables/unusualdatapoints-values.tex" 1497441393 1868 0b9c610b3041d555bb1fe5f8cf0a5e54 ""
   (generated)
-  "Thesis.log"
-  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.log"
-  "Thesis.aux"
   "Thesis.out"
+  "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.log"
+  "/Users/kevin/Documents/GitHub/Thesis/Thesis.log"
+  "Thesis.aux"
   "/Users/Kevin/stack/Master Thesis/Thesis/Thesis.pdf"
+  "Thesis.log"
   "Thesis.pdf"
   "/Users/kevin/Documents/GitHub/Thesis/Thesis.pdf"
-  "/Users/kevin/Documents/GitHub/Thesis/Thesis.log"
