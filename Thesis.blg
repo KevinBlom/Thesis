@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: SIGCHI-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -16,7 +16,6 @@ Warning--no number and no volume in H.R.LvZ.L.LinW.J.Yin2008
 Warning--no number and no volume in Lang1997
 Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
-Warning--no number and no volume in Lindstrom2011
 Warning--no journal in Neuroscience2012
 Warning--unusual to have number, but no volume, for Picard1995
 Warning--unusual to have number, but no volume, for Plutchik1980
@@ -26,45 +25,45 @@ Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 34 entries,
+You've used 33 entries,
             5283 wiz_defined-function locations,
-            1525 strings with 22647 characters,
-and the built_in function-call counts, 34662 in all, are:
-= -- 5373
-> -- 962
+            1517 strings with 22463 characters,
+and the built_in function-call counts, 32813 in all, are:
+= -- 5067
+> -- 947
 < -- 1
-+ -- 282
-- -- 606
-* -- 2238
-:= -- 3418
-add.period$ -- 176
-call.type$ -- 34
-change.case$ -- 226
-chr.to.int$ -- 34
-cite$ -- 53
-duplicate$ -- 2440
-empty$ -- 1768
-format.name$ -- 396
-if$ -- 8572
++ -- 279
+- -- 523
+* -- 2125
+:= -- 3265
+add.period$ -- 171
+call.type$ -- 33
+change.case$ -- 221
+chr.to.int$ -- 33
+cite$ -- 51
+duplicate$ -- 2368
+empty$ -- 1717
+format.name$ -- 390
+if$ -- 8174
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 106
-newline$ -- 381
-num.names$ -- 204
-pop$ -- 776
+missing$ -- 102
+newline$ -- 371
+num.names$ -- 198
+pop$ -- 749
 preamble$ -- 1
-purify$ -- 362
+purify$ -- 353
 quote$ -- 0
-skip$ -- 714
+skip$ -- 693
 stack$ -- 0
-substring$ -- 3599
-swap$ -- 259
-text.length$ -- 544
+substring$ -- 3238
+swap$ -- 251
+text.length$ -- 389
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 302
-warning$ -- 19
-while$ -- 231
+type$ -- 293
+warning$ -- 18
+while$ -- 223
 width$ -- 0
-write$ -- 584
-(There were 19 warnings)
+write$ -- 568
+(There were 18 warnings)
