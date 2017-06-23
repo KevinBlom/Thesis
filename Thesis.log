@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.14)  18 JUN 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.14)  23 JUN 2017 08:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,6 +861,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 Non-PDF special ignored!
@@ -878,7 +881,7 @@ ions-eps-converted-to.pdf images/PlutchikWheelOfEmotions.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/PlutchikWheelOfEmotions-eps-converted-to.pdf, id=220, 499.8675pt x 489.
+<images/PlutchikWheelOfEmotions-eps-converted-to.pdf, id=218, 499.8675pt x 489.
 83pt>
 File: images/PlutchikWheelOfEmotions-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -886,17 +889,20 @@ f)
 Package pdftex.def Info: images/PlutchikWheelOfEmotions-eps-converted-to.pdf us
 ed on input line 217.
 (pdftex.def)             Requested size: 230.46574pt x 225.84024pt.
-<images/CircumplexModel.jpg, id=229, 385.44pt x 296.7888pt>
+<images/CircumplexModel.jpg, id=227, 385.44pt x 296.7888pt>
 File: images/CircumplexModel.jpg Graphic file (type jpg)
 <use images/CircumplexModel.jpg>
 Package pdftex.def Info: images/CircumplexModel.jpg used on input line 226.
 (pdftex.def)             Requested size: 230.46574pt x 177.45876pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2253) has occurred while \output is active []
 
 [2 </Users/kevin/Documents/GitHub/Thesis/images/PlutchikWheelOfEmotions-eps-con
 verted-to.pdf> </Users/kevin/Documents/GitHub/Thesis/images/CircumplexModel.jpg
 >]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1412) in paragraph at lines 264--265
 []\T1/ptm/m/n/10 (+20) From the re-viewed lit-er-a-ture it can be con-cluded th
 at
@@ -929,6 +935,12 @@ f taps on touch-screens ex-hibit di-rect
  []
 
 [3]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 290.
+
+LaTeX Warning: Citation `Lang1997' on page \thepage  undefined on input line 29
+0.
+
 Package epstopdf Info: Source file: <images/Grid.eps>
 (epstopdf)                    date: 2017-06-14 13:56:33
 (epstopdf)                    size: 776561 bytes
@@ -939,7 +951,7 @@ Package epstopdf Info: Source file: <images/Grid.eps>
 to.pdf images/Grid.eps>
 (epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
-<images/Grid-eps-converted-to.pdf, id=310, 1204.5pt x 673.51625pt>
+<images/Grid-eps-converted-to.pdf, id=311, 1204.5pt x 673.51625pt>
 File: images/Grid-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Grid-eps-converted-to.pdf>
 Package pdftex.def Info: images/Grid-eps-converted-to.pdf used on input line 30
@@ -956,18 +968,19 @@ Package epstopdf Info: Source file: <images/Datastructure.eps>
 onverted-to.pdf images/Datastructure.eps>
 (epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
-<images/Datastructure-eps-converted-to.pdf, id=314, 223.83624pt x 435.6275pt>
+<images/Datastructure-eps-converted-to.pdf, id=315, 223.83624pt x 435.6275pt>
 File: images/Datastructure-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Datastructure-eps-converted-to.pdf>
 Package pdftex.def Info: images/Datastructure-eps-converted-to.pdf used on inpu
 t line 312.
 (pdftex.def)             Requested size: 128.0374pt x 249.18767pt.
-[4 </Users/kevin/Documents/GitHub/Thesis/images/Grid-eps-converted-to.pdf> </Us
-ers/kevin/Documents/GitHub/Thesis/images/Datastructure-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 338.
-(/Users/kevin/Documents/GitHub/Thesis/tables/Durbin-Watson.tex) [5] (/Users/kev
-in/Documents/GitHub/Thesis/tables/Collinearity-statistics.tex)
+
+Underfull \vbox (badness 4454) has occurred while \output is active []
+
+[4 </Users/kevin/Documents/GitHub/Thesis/images/Grid-eps-converted-to.pdf>] [5 
+</Users/kevin/Documents/GitHub/Thesis/images/Datastructure-eps-converted-to.pdf
+>] (/Users/kevin/Documents/GitHub/Thesis/tables/Durbin-Watson.tex) (/Users/kevi
+n/Documents/GitHub/Thesis/tables/Collinearity-statistics.tex)
 Underfull \hbox (badness 2351) in paragraph at lines 420--422
 []\T1/ptm/m/n/10 (+20) Inspection of cor-re-la-tion co-ef-fi-cients (Ap-pendix 
 Mul-ti-
@@ -997,7 +1010,10 @@ it/10 P < \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 0005$\T1/ptm
 /m/n/10 (+20) .
  []
 
-[7] (/Users/kevin/Documents/GitHub/Thesis/Thesis.bbl [8] [9]) [10
+[7]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+(/Users/kevin/Documents/GitHub/Thesis/Thesis.bbl [8] [9]) [10
 
 ] (/Users/kevin/Documents/GitHub/Thesis/tables/Results-data.tex)
 (/Users/kevin/Documents/GitHub/Thesis/complexfigures/linearrelationships-scatte
@@ -1014,7 +1030,7 @@ s-converted-to.pdf images/linearity/ValMax.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/linearity/ValMax-eps-converted-to.pdf, id=496, 200.75pt x 161.60374pt>
+<images/linearity/ValMax-eps-converted-to.pdf, id=500, 200.75pt x 161.60374pt>
 File: images/linearity/ValMax-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ValMax-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ValMax-eps-converted-to.pdf used on i
@@ -1032,7 +1048,7 @@ s-converted-to.pdf images/linearity/ValAvg.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/linearity/ValAvg-eps-converted-to.pdf, id=497, 200.75pt x 161.60374pt>
+<images/linearity/ValAvg-eps-converted-to.pdf, id=501, 200.75pt x 161.60374pt>
 File: images/linearity/ValAvg-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ValAvg-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ValAvg-eps-converted-to.pdf used on i
@@ -1049,7 +1065,7 @@ f>
 -converted-to.pdf images/linearity/ArMax.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<images/linearity/ArMax-eps-converted-to.pdf, id=498, 200.75pt x 161.60374pt>
+<images/linearity/ArMax-eps-converted-to.pdf, id=502, 200.75pt x 161.60374pt>
 File: images/linearity/ArMax-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ArMax-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ArMax-eps-converted-to.pdf used on in
@@ -1066,7 +1082,7 @@ f>
 -converted-to.pdf images/linearity/ArAvg.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<images/linearity/ArAvg-eps-converted-to.pdf, id=499, 200.75pt x 161.60374pt>
+<images/linearity/ArAvg-eps-converted-to.pdf, id=503, 200.75pt x 161.60374pt>
 File: images/linearity/ArAvg-eps-converted-to.pdf Graphic file (type pdf)
 <use images/linearity/ArAvg-eps-converted-to.pdf>
 Package pdftex.def Info: images/linearity/ArAvg-eps-converted-to.pdf used on in
@@ -1100,7 +1116,7 @@ ion/valence/ValMaxMax.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf, id=
-555, 199.74625pt x 159.59625pt>
+559, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValMaxMax-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1123,7 +1139,7 @@ sion/valence/ValMaxTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pdf, id
-=556, 199.74625pt x 159.59625pt>
+=560, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValMaxTime-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1147,7 +1163,7 @@ ion/valence/ValAvgAvg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf, id=
-557, 199.74625pt x 159.59625pt>
+561, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValAvgAvg-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1170,7 +1186,7 @@ sion/valence/ValAvgTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pdf, id
-=558, 199.74625pt x 159.59625pt>
+=562, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/valence/ValAvgTime-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1197,7 +1213,7 @@ on/arousal/ArMaxMax.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf, id=5
-59, 199.74625pt x 159.59625pt>
+63, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArMaxMax-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1220,7 +1236,7 @@ ion/arousal/ArMaxTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf, id=
-560, 199.74625pt x 159.59625pt>
+564, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArMaxTime-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1243,7 +1259,7 @@ on/arousal/ArAvgAvg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf, id=5
-61, 199.74625pt x 159.59625pt>
+65, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArAvgAvg-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1266,7 +1282,7 @@ ion/arousal/ArAvgTime.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf, id=
-562, 199.74625pt x 159.59625pt>
+566, 199.74625pt x 159.59625pt>
 File: images/linearity/partialregression/arousal/ArAvgTime-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1306,7 +1322,7 @@ stValMax-eps-converted-to.pdf images/normality/ValMax/HistValMax.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ValMax/HistValMax-eps-converted-to.pdf, id=608, 300.12125pt x
+<images/normality/ValMax/HistValMax-eps-converted-to.pdf, id=612, 300.12125pt x
  239.89626pt>
 File: images/normality/ValMax/HistValMax-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1326,7 +1342,7 @@ ValMax-eps-converted-to.pdf images/normality/ValMax/PPValMax.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ValMax/PPValMax-eps-converted-to.pdf, id=609, 300.12125pt x 2
+<images/normality/ValMax/PPValMax-eps-converted-to.pdf, id=613, 300.12125pt x 2
 39.89626pt>
 File: images/normality/ValMax/PPValMax-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1346,7 +1362,7 @@ stValAvg-eps-converted-to.pdf images/normality/valavg/HistValAvg.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/valavg/HistValAvg-eps-converted-to.pdf, id=610, 300.12125pt x
+<images/normality/valavg/HistValAvg-eps-converted-to.pdf, id=614, 300.12125pt x
  239.89626pt>
 File: images/normality/valavg/HistValAvg-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1366,7 +1382,7 @@ ValAvg-eps-converted-to.pdf images/normality/valavg/PPValAvg.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/valavg/PPValAvg-eps-converted-to.pdf, id=611, 300.12125pt x 2
+<images/normality/valavg/PPValAvg-eps-converted-to.pdf, id=615, 300.12125pt x 2
 39.89626pt>
 File: images/normality/valavg/PPValAvg-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1386,7 +1402,7 @@ tArMax-eps-converted-to.pdf images/normality/ArMax/HistArMax.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ArMax/HistArMax-eps-converted-to.pdf, id=612, 300.12125pt x 2
+<images/normality/ArMax/HistArMax-eps-converted-to.pdf, id=616, 300.12125pt x 2
 39.89626pt>
 File: images/normality/ArMax/HistArMax-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1406,7 +1422,7 @@ rMax-eps-converted-to.pdf images/normality/ArMax/PPArMax.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/ArMax/PPArMax-eps-converted-to.pdf, id=613, 300.12125pt x 239
+<images/normality/ArMax/PPArMax-eps-converted-to.pdf, id=617, 300.12125pt x 239
 .89626pt>
 File: images/normality/ArMax/PPArMax-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1426,7 +1442,7 @@ tArAvg-eps-converted-to.pdf images/normality/aravg/HistArAvg.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/aravg/HistArAvg-eps-converted-to.pdf, id=614, 300.12125pt x 2
+<images/normality/aravg/HistArAvg-eps-converted-to.pdf, id=618, 300.12125pt x 2
 39.89626pt>
 File: images/normality/aravg/HistArAvg-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1446,7 +1462,7 @@ rAvg-eps-converted-to.pdf images/normality/aravg/PPArAvg.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/normality/aravg/PPArAvg-eps-converted-to.pdf, id=615, 300.12125pt x 239
+<images/normality/aravg/PPArAvg-eps-converted-to.pdf, id=619, 300.12125pt x 239
 .89626pt>
 File: images/normality/aravg/PPArAvg-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1481,7 +1497,7 @@ nearity-eps-converted-to.pdf images/secondary/max/MaxLinearity.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/max/MaxLinearity-eps-converted-to.pdf, id=654, 199.74625pt x 
+<images/secondary/max/MaxLinearity-eps-converted-to.pdf, id=658, 199.74625pt x 
 159.59625pt>
 File: images/secondary/max/MaxLinearity-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1501,7 +1517,7 @@ nearity-eps-converted-to.pdf images/secondary/avg/AvgLinearity.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/avg/AvgLinearity-eps-converted-to.pdf, id=655, 199.74625pt x 
+<images/secondary/avg/AvgLinearity-eps-converted-to.pdf, id=659, 199.74625pt x 
 159.59625pt>
 File: images/secondary/avg/AvgLinearity-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1527,7 +1543,7 @@ stogram-eps-converted-to.pdf images/secondary/max/MaxHistogram.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/max/MaxHistogram-eps-converted-to.pdf, id=666, 469.755pt x 37
+<images/secondary/max/MaxHistogram-eps-converted-to.pdf, id=670, 469.755pt x 37
 5.4025pt>
 File: images/secondary/max/MaxHistogram-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1547,7 +1563,7 @@ P-eps-converted-to.pdf images/secondary/max/MaxP-P.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/max/MaxP-P-eps-converted-to.pdf, id=667, 469.755pt x 375.4025
+<images/secondary/max/MaxP-P-eps-converted-to.pdf, id=671, 469.755pt x 375.4025
 pt>
 File: images/secondary/max/MaxP-P-eps-converted-to.pdf Graphic file (type pdf)
 <use images/secondary/max/MaxP-P-eps-converted-to.pdf>
@@ -1566,7 +1582,7 @@ stogram-eps-converted-to.pdf images/secondary/avg/AvgHistogram.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/avg/AvgHistogram-eps-converted-to.pdf, id=668, 469.755pt x 37
+<images/secondary/avg/AvgHistogram-eps-converted-to.pdf, id=672, 469.755pt x 37
 5.4025pt>
 File: images/secondary/avg/AvgHistogram-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1586,7 +1602,7 @@ P-eps-converted-to.pdf images/secondary/avg/AvgP-P.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/secondary/avg/AvgP-P-eps-converted-to.pdf, id=669, 469.755pt x 375.4025
+<images/secondary/avg/AvgP-P-eps-converted-to.pdf, id=673, 469.755pt x 375.4025
 pt>
 File: images/secondary/avg/AvgP-P-eps-converted-to.pdf Graphic file (type pdf)
 <use images/secondary/avg/AvgP-P-eps-converted-to.pdf>
@@ -1618,10 +1634,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
  ) 
 Here is how much of TeX's memory you used:
- 13105 strings out of 492995
- 204613 string characters out of 6132704
- 391612 words of memory out of 5000000
- 15893 multiletter control sequences out of 15000+600000
+ 13108 strings out of 492995
+ 204662 string characters out of 6132704
+ 391651 words of memory out of 5000000
+ 15895 multiletter control sequences out of 15000+600000
  86107 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,94p,2881b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1637,10 +1653,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist
 times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/kevin/Documents/GitHub/Thesis/Thesis.pdf (22 pages, 14
-28676 bytes).
+30206 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 670 compressed objects within 7 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 782 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 222 named destinations out of 1000 (max. 500000)
  30727 words of extra memory for PDF output out of 35830 (max. 10000000)
 

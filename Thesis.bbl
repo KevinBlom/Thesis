@@ -206,19 +206,6 @@
 \shownote{\url{http://www.json.org}.}
 
 
-\bibitem{Lang1997}
-{P.J. Lang}, {M.M. Bradley}, {and} {B.N. Cuthbert}. 1997.
-\newblock \showarticletitle{{International Affective Picture System (IAPS):
-  Technical Manual and Affective Ratings}}.
-\newblock {\em NIMH Center for the Study of Emotion and Attention\/} (1997),
-  39--58.
-\newblock
-\showISBNx{Technical Report A-4}
-\showISSN{0269-8803}
-\showDOI{%
-\url{http://dx.doi.org/10.1027/0269-8803/a000147}}
-
-
 \bibitem{Lee2012}
 {Hosub Lee}, {Young~Sang Choi}, {Sunjae Lee}, {and} {I.~P. Park}. 2012.
 \newblock \showarticletitle{{Towards unobtrusive emotion recognition for
@@ -242,6 +229,16 @@
 \showISBNx{9781450316729}
 \showDOI{%
 \url{http://dx.doi.org/10.1145/2462456.2464449}}
+
+
+\bibitem{Lindstrom2011}
+{Martin Lindstrom}. 2011.
+\newblock \showarticletitle{{You Love Your iPhone. Literally.}}
+\newblock {\em The New York Times\/} (2011), 21A.
+\newblock
+\showISSN{0362-4331}
+\showURL{%
+\url{http://www.nytimes.com/2011/10/01/opinion/you-love-your-iphone-literally.html}}
 
 
 \bibitem{Mauss2009}
@@ -391,6 +388,19 @@
 \showISSN{2158-2246}
 \showDOI{%
 \url{http://dx.doi.org/10.1109/HSI.2013.6577880}}
+
+
+\bibitem{Yarkoni2011}
+{Tal Yarkoni}, {Russell~A Poldrack}, {Thomas~E Nichols}, {David~C {Van Essen}},
+  {and} {Tor~D Wager}. 2011.
+\newblock \showarticletitle{{Large-scale automated synthesis of human
+  functional neuroimaging data}}.
+\newblock {\em Nature Methods\/} {8}, 8 (2011), 665--670.
+\newblock
+\showISBNx{1662-5196}
+\showISSN{1548-7091}
+\showDOI{%
+\url{http://dx.doi.org/10.1038/nmeth.1635}}
 
 
 \bibitem{Zimmermann2003}

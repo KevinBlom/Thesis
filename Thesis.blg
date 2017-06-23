@@ -6,6 +6,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: library.bib
 Database file #2: Alternative.bib
+Warning--I didn't find a database entry for "Lang1997"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no journal in Dan-glauser2011
 Warning--no number and no volume in Dan-glauser2011
@@ -13,9 +14,9 @@ Warning--unusual to have number, but no volume, for Essl2010
 Warning--no journal in Fontaine2007
 Warning--no number and no volume in Goel2012
 Warning--no number and no volume in H.R.LvZ.L.LinW.J.Yin2008
-Warning--no number and no volume in Lang1997
 Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
+Warning--no number and no volume in Lindstrom2011
 Warning--no journal in Neuroscience2012
 Warning--unusual to have number, but no volume, for Picard1995
 Warning--unusual to have number, but no volume, for Plutchik1980
@@ -25,45 +26,45 @@ Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 33 entries,
+You've used 34 entries,
             5283 wiz_defined-function locations,
-            1517 strings with 22463 characters,
-and the built_in function-call counts, 32813 in all, are:
-= -- 5067
-> -- 947
+            1527 strings with 22583 characters,
+and the built_in function-call counts, 34820 in all, are:
+= -- 5390
+> -- 978
 < -- 1
-+ -- 279
-- -- 523
-* -- 2125
-:= -- 3265
-add.period$ -- 171
-call.type$ -- 33
-change.case$ -- 221
-chr.to.int$ -- 33
-cite$ -- 51
-duplicate$ -- 2368
-empty$ -- 1717
-format.name$ -- 390
-if$ -- 8174
++ -- 288
+- -- 612
+* -- 2260
+:= -- 3439
+add.period$ -- 176
+call.type$ -- 34
+change.case$ -- 228
+chr.to.int$ -- 34
+cite$ -- 52
+duplicate$ -- 2447
+empty$ -- 1772
+format.name$ -- 402
+if$ -- 8603
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 102
-newline$ -- 371
-num.names$ -- 198
-pop$ -- 749
+missing$ -- 106
+newline$ -- 381
+num.names$ -- 204
+pop$ -- 776
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 364
 quote$ -- 0
-skip$ -- 693
+skip$ -- 717
 stack$ -- 0
-substring$ -- 3238
-swap$ -- 251
-text.length$ -- 389
+substring$ -- 3613
+swap$ -- 262
+text.length$ -- 544
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 293
+type$ -- 302
 warning$ -- 18
-while$ -- 223
+while$ -- 231
 width$ -- 0
-write$ -- 568
-(There were 18 warnings)
+write$ -- 584
+(There were 19 warnings)
