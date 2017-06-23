@@ -1,46 +1,47 @@
 \BOOKMARK [1][-]{section.6}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.8}{Models of emotion}{section.6}% 2
-\BOOKMARK [3][-]{subsubsection.22}{Physiological detection}{subsection.8}% 3
-\BOOKMARK [3][-]{subsubsection.33}{Facial detection}{subsection.8}% 4
-\BOOKMARK [3][-]{subsubsection.35}{Posture/gestures emotion detection}{subsection.8}% 5
-\BOOKMARK [2][-]{subsection.37}{Applied emotion and pressure detection}{section.6}% 6
-\BOOKMARK [2][-]{subsection.39}{Research question and hypotheses}{section.6}% 7
-\BOOKMARK [1][-]{section.41}{Methods}{}% 8
-\BOOKMARK [2][-]{subsection.43}{Emotional elicitation}{section.41}% 9
-\BOOKMARK [2][-]{subsection.45}{Pressure detection}{section.41}% 10
-\BOOKMARK [2][-]{subsection.47}{Data collection}{section.41}% 11
-\BOOKMARK [2][-]{subsection.51}{Experiment setup}{section.41}% 12
-\BOOKMARK [2][-]{subsection.59}{Data analysis}{section.41}% 13
-\BOOKMARK [3][-]{subsubsection.67}{Multiple linear regression}{subsection.59}% 14
-\BOOKMARK [2][-]{subsection.75}{Additional study}{section.41}% 15
-\BOOKMARK [1][-]{section.77}{Results}{}% 16
-\BOOKMARK [2][-]{subsection.79}{Tap pressure and emotion study}{section.77}% 17
-\BOOKMARK [3][-]{subsubsection.81}{Independence of observation}{subsection.79}% 18
-\BOOKMARK [3][-]{subsubsection.84}{Linear relationships}{subsection.79}% 19
-\BOOKMARK [3][-]{subsubsection.86}{Homoscedasticity}{subsection.79}% 20
-\BOOKMARK [3][-]{subsubsection.88}{Multicollinearity}{subsection.79}% 21
-\BOOKMARK [3][-]{subsubsection.91}{Unusual data points}{subsection.79}% 22
-\BOOKMARK [3][-]{subsubsection.93}{Normal distribution of errors}{subsection.79}% 23
-\BOOKMARK [3][-]{subsubsection.95}{Findings}{subsection.79}% 24
-\BOOKMARK [2][-]{subsection.99}{Tap pressure and tap duration study}{section.77}% 25
-\BOOKMARK [3][-]{subsubsection.101}{Maximum tap pressure and tap duration}{subsection.99}% 26
-\BOOKMARK [3][-]{subsubsection.103}{Average tap pressure and tap duration}{subsection.99}% 27
-\BOOKMARK [3][-]{subsubsection.105}{Findings}{subsection.99}% 28
-\BOOKMARK [1][-]{section.110}{Discussion}{}% 29
-\BOOKMARK [2][-]{subsection.112}{Evaluation of findings}{section.110}% 30
-\BOOKMARK [2][-]{subsection.114}{Weaknesses}{section.110}% 31
-\BOOKMARK [2][-]{subsection.116}{Recommendations}{section.110}% 32
-\BOOKMARK [2][-]{subsection.118}{Conclusion}{section.110}% 33
-\BOOKMARK [1][-]{section.120}{Acknowledgments}{}% 34
-\BOOKMARK [1][-]{section.122}{References }{}% 35
-\BOOKMARK [1][-]{appendix.125}{Collected data}{}% 36
-\BOOKMARK [1][-]{appendix.128}{Linear relationships and homoscedasticity}{}% 37
-\BOOKMARK [2][-]{subsection.130}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.128}% 38
-\BOOKMARK [2][-]{subsection.133}{Partial regression plots}{appendix.128}% 39
-\BOOKMARK [1][-]{appendix.139}{Multicollinearity}{}% 40
-\BOOKMARK [1][-]{appendix.145}{Unusual data points}{}% 41
-\BOOKMARK [1][-]{appendix.148}{Normality}{}% 42
-\BOOKMARK [1][-]{appendix.154}{Regression coefficients}{}% 43
-\BOOKMARK [1][-]{appendix.157}{Secondary study - Linearity}{}% 44
-\BOOKMARK [1][-]{appendix.160}{Secondary study - Normality}{}% 45
-\BOOKMARK [1][-]{appendix.164}{Secondary study - Regression coefficients}{}% 46
+\BOOKMARK [2][-]{subsection.22}{Measuring of emotion}{section.6}% 3
+\BOOKMARK [3][-]{subsubsection.24}{Physiological detection}{subsection.22}% 4
+\BOOKMARK [3][-]{subsubsection.35}{Facial detection}{subsection.22}% 5
+\BOOKMARK [3][-]{subsubsection.37}{Posture/gestures emotion detection}{subsection.22}% 6
+\BOOKMARK [2][-]{subsection.39}{Applied emotion and pressure detection}{section.6}% 7
+\BOOKMARK [2][-]{subsection.41}{Research question and hypotheses}{section.6}% 8
+\BOOKMARK [1][-]{section.43}{Methods}{}% 9
+\BOOKMARK [2][-]{subsection.45}{Emotional elicitation}{section.43}% 10
+\BOOKMARK [2][-]{subsection.47}{Pressure detection}{section.43}% 11
+\BOOKMARK [2][-]{subsection.49}{Data collection}{section.43}% 12
+\BOOKMARK [2][-]{subsection.53}{Experiment setup}{section.43}% 13
+\BOOKMARK [2][-]{subsection.61}{Data analysis}{section.43}% 14
+\BOOKMARK [3][-]{subsubsection.69}{Multiple linear regression}{subsection.61}% 15
+\BOOKMARK [2][-]{subsection.77}{Additional study}{section.43}% 16
+\BOOKMARK [1][-]{section.79}{Results}{}% 17
+\BOOKMARK [2][-]{subsection.81}{Tap pressure and emotion study}{section.79}% 18
+\BOOKMARK [3][-]{subsubsection.83}{Independence of observation}{subsection.81}% 19
+\BOOKMARK [3][-]{subsubsection.86}{Linear relationships}{subsection.81}% 20
+\BOOKMARK [3][-]{subsubsection.88}{Homoscedasticity}{subsection.81}% 21
+\BOOKMARK [3][-]{subsubsection.90}{Multicollinearity}{subsection.81}% 22
+\BOOKMARK [3][-]{subsubsection.93}{Unusual data points}{subsection.81}% 23
+\BOOKMARK [3][-]{subsubsection.95}{Normal distribution of errors}{subsection.81}% 24
+\BOOKMARK [3][-]{subsubsection.97}{Findings}{subsection.81}% 25
+\BOOKMARK [2][-]{subsection.101}{Tap pressure and tap duration study}{section.79}% 26
+\BOOKMARK [3][-]{subsubsection.103}{Maximum tap pressure and tap duration}{subsection.101}% 27
+\BOOKMARK [3][-]{subsubsection.105}{Average tap pressure and tap duration}{subsection.101}% 28
+\BOOKMARK [3][-]{subsubsection.107}{Findings}{subsection.101}% 29
+\BOOKMARK [1][-]{section.112}{Discussion}{}% 30
+\BOOKMARK [2][-]{subsection.114}{Evaluation of findings}{section.112}% 31
+\BOOKMARK [2][-]{subsection.116}{Weaknesses}{section.112}% 32
+\BOOKMARK [2][-]{subsection.118}{Recommendations}{section.112}% 33
+\BOOKMARK [2][-]{subsection.120}{Conclusion}{section.112}% 34
+\BOOKMARK [1][-]{section.122}{Acknowledgments}{}% 35
+\BOOKMARK [1][-]{section.124}{References }{}% 36
+\BOOKMARK [1][-]{appendix.127}{Collected data}{}% 37
+\BOOKMARK [1][-]{appendix.130}{Linear relationships and homoscedasticity}{}% 38
+\BOOKMARK [2][-]{subsection.132}{Scatter plot: unstandardized predicted value vs. studentized residuals}{appendix.130}% 39
+\BOOKMARK [2][-]{subsection.135}{Partial regression plots}{appendix.130}% 40
+\BOOKMARK [1][-]{appendix.141}{Multicollinearity}{}% 41
+\BOOKMARK [1][-]{appendix.147}{Unusual data points}{}% 42
+\BOOKMARK [1][-]{appendix.150}{Normality}{}% 43
+\BOOKMARK [1][-]{appendix.156}{Regression coefficients}{}% 44
+\BOOKMARK [1][-]{appendix.159}{Secondary study - Linearity}{}% 45
+\BOOKMARK [1][-]{appendix.162}{Secondary study - Normality}{}% 46
+\BOOKMARK [1][-]{appendix.166}{Secondary study - Regression coefficients}{}% 47

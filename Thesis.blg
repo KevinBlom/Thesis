@@ -6,7 +6,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: library.bib
 Database file #2: Alternative.bib
-Warning--I didn't find a database entry for "Lang1997"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no journal in Dan-glauser2011
 Warning--no number and no volume in Dan-glauser2011
@@ -14,6 +13,7 @@ Warning--unusual to have number, but no volume, for Essl2010
 Warning--no journal in Fontaine2007
 Warning--no number and no volume in Goel2012
 Warning--no number and no volume in H.R.LvZ.L.LinW.J.Yin2008
+Warning--no number and no volume in Lang1997
 Warning--no number and no volume in Lee2012
 Warning--unusual to have number, but no volume, for Likamwa2013
 Warning--no number and no volume in Lindstrom2011
@@ -26,45 +26,45 @@ Warning--no journal in Silva1997
 Warning--unusual to have number, but no volume, for Silva1997
 Warning--no number and no volume in Ververidis2004
 Warning--no number and no volume in Wioleta2013
-You've used 34 entries,
+You've used 35 entries,
             5283 wiz_defined-function locations,
-            1527 strings with 22583 characters,
-and the built_in function-call counts, 34820 in all, are:
-= -- 5390
-> -- 978
+            1535 strings with 22948 characters,
+and the built_in function-call counts, 35843 in all, are:
+= -- 5568
+> -- 1008
 < -- 1
-+ -- 288
-- -- 612
-* -- 2260
-:= -- 3439
-add.period$ -- 176
-call.type$ -- 34
-change.case$ -- 228
-chr.to.int$ -- 34
-cite$ -- 52
-duplicate$ -- 2447
-empty$ -- 1772
-format.name$ -- 402
-if$ -- 8603
++ -- 297
+- -- 621
+* -- 2325
+:= -- 3533
+add.period$ -- 181
+call.type$ -- 35
+change.case$ -- 235
+chr.to.int$ -- 35
+cite$ -- 54
+duplicate$ -- 2523
+empty$ -- 1827
+format.name$ -- 414
+if$ -- 8883
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 106
-newline$ -- 381
-num.names$ -- 204
-pop$ -- 776
+missing$ -- 110
+newline$ -- 392
+num.names$ -- 210
+pop$ -- 800
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 375
 quote$ -- 0
-skip$ -- 717
+skip$ -- 739
 stack$ -- 0
-substring$ -- 3613
-swap$ -- 262
+substring$ -- 3693
+swap$ -- 270
 text.length$ -- 544
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 302
-warning$ -- 18
-while$ -- 231
+type$ -- 311
+warning$ -- 19
+while$ -- 237
 width$ -- 0
-write$ -- 584
+write$ -- 601
 (There were 19 warnings)
